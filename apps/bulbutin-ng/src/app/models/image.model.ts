@@ -8,6 +8,7 @@ export interface ImageModel {
   latitude: number;
   longitude: number;
   geoName: string;
+  formattedName?: string;
   countryCode: string;
   countryName: string;
   flag: string;
