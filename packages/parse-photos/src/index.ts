@@ -5,6 +5,7 @@ import fs from "node:fs/promises";
 import geocoder from "local-reverse-geocoder";
 import emojiFlags from "emoji-flags";
 
+const homeCoordinates = [-77.01011939679307, 38.8898568078552] as const;
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const imagesDir = path.resolve(__dirname, "../images");
 const outputFilename = path.resolve(__dirname, "../images.json");
@@ -32,8 +33,9 @@ interface ImageMetadata {
   countryName: string;
   flag: string;
   adminName1: string;
-  adminName2: string;
+  adminName2?: string;
   geoDistance: number;
+  distance: number;
 }
 
 interface ImageResult extends ImageMetadata {
@@ -103,6 +105,44 @@ const geocode = async (
   });
 };
 
+/**
+ * Uses the haversine formula (great-circle distance on a sphere)
+ * to Calculate the great-circle (“as the crow flies”) distance between two lat/lon pairs.
+ * a = sin²(Δφ/2) + cos φ1 * cos φ2 * sin²(Δλ/2)
+ * c = 2 * atan2(√a, √(1−a))
+ * d = R * c
+ *
+ * @param lon1 Longitude of first point in decimal degrees
+ * @param lat1 Latitude of first point in decimal degrees
+ * @param lon2 Longitude of second point in decimal degrees
+ * @param lat2 Latitude of second point in decimal degrees
+ * @returns Distance in mile
+ */
+function haversineDistance(
+  lon1: number,
+  lat1: number,
+  lon2: number,
+  lat2: number,
+): number {
+  const toRadians = (deg: number) => (deg * Math.PI) / 180;
+  const kmsToMiles = (km: number) => Math.round(km * 0.621371);
+
+  const R = 6371; // Earth radius in km
+  const φ1 = toRadians(lat1);
+  const φ2 = toRadians(lat2);
+  const Δφ = toRadians(lat2 - lat1);
+  const Δλ = toRadians(lon2 - lon1);
+
+  const a =
+    Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+    Math.cos(φ1) * Math.cos(φ2) * Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
+
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+  const d = R * c;
+  return kmsToMiles(d);
+}
+
 const extractMetadata = async (imagePath: string): Promise<ImageMetadata> => {
   const metadata = await exifr.parse(imagePath);
 
@@ -118,6 +158,8 @@ const extractMetadata = async (imagePath: string): Promise<ImageMetadata> => {
     Make,
     Model,
   } = metadata;
+
+  const distance = haversineDistance(longitude, latitude, ...homeCoordinates);
 
   const {
     name: geoName,
@@ -144,6 +186,7 @@ const extractMetadata = async (imagePath: string): Promise<ImageMetadata> => {
     adminName1,
     adminName2,
     geoDistance,
+    distance,
   };
 };
 
@@ -197,6 +240,14 @@ processImages(imagesDir)
   .then((results) => {
     const totalCountries = calcTotalCountries(results);
     const totalStates = calcTotalUSStates(results);
+    // Example usage:
+    // const distKm = haversineDistance(
+    //   -111.68191068929804,
+    //   33.4663351671049,
+    //   ...homeCoordinates,
+    // );
+    // console.log(`Distance: ${distKm.toFixed(2)} miles`);
+
     console.log("Final Results:", totalCountries, totalStates);
     return fs.writeFile(outputFilename, JSON.stringify(results, null, 2));
   })
