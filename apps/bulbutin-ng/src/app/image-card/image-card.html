@@ -1,4 +1,13 @@
-<p>image-card works!</p>
 <div class="image-card">
-  <img [src]="image().image" />
+  <img class="image" [src]="image().image" />
+  <div class="info">
+    <div class="country-info">
+      <span class="flag" [innerHTML]="image().flag"></span>
+      <span [innerHTML]="image().formattedName"></span>
+    </div>
+    <div class="timestamp">
+      <span class="date" [innerHTML]="image().timestamp"></span>
+    </div>
+  </div>
+
 </div>
