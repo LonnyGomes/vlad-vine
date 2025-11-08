@@ -2,3 +2,5 @@ node_modules
 images
 .DS_Store
 geocoder-dump
+dist
+*.tsbuildinfo

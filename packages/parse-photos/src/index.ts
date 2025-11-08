@@ -9,7 +9,44 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const imagesDir = path.resolve(__dirname, "../images");
 const outputFilename = path.resolve(__dirname, "../images.json");
 
-const initGeocoder = () => {
+interface GeocodeResult {
+  name: string;
+  countryCode: string;
+  countryName: string;
+  adminName1: string;
+  adminName2?: string;
+  flag: string;
+  distance: number;
+}
+
+interface ImageMetadata {
+  altitude: number;
+  timestamp: Date;
+  speed: number;
+  make: string;
+  model: string;
+  latitude: number;
+  longitude: number;
+  geoName: string;
+  countryCode: string;
+  countryName: string;
+  flag: string;
+  adminName1: string;
+  adminName2: string;
+  geoDistance: number;
+}
+
+interface ImageResult extends ImageMetadata {
+  image: string;
+}
+
+interface CountryInfo {
+  countryCode: string;
+  countryName: string;
+  flag: string;
+}
+
+const initGeocoder = (): Promise<void> => {
   console.log("Initializing geocoder...");
   return new Promise((resolve, reject) => {
     geocoder.init(
@@ -22,7 +59,7 @@ const initGeocoder = () => {
           alternateNames: false,
         },
       },
-      (err) => {
+      (err: Error | null) => {
         if (err) {
           reject(err);
           return;
@@ -34,7 +71,10 @@ const initGeocoder = () => {
   });
 };
 
-const geocode = async (longitude, latitude) => {
+const geocode = async (
+  longitude: number,
+  latitude: number,
+): Promise<GeocodeResult> => {
   return new Promise((resolve, reject) => {
     const coords = [{ latitude, longitude }];
     geocoder.lookUp(coords, (err, res) => {
@@ -63,10 +103,10 @@ const geocode = async (longitude, latitude) => {
   });
 };
 
-const extractMetadata = async (imagePath) => {
+const extractMetadata = async (imagePath: string): Promise<ImageMetadata> => {
   const metadata = await exifr.parse(imagePath);
 
-  const kmhToMph = (kmh) => {
+  const kmhToMph = (kmh: number): number => {
     return kmh * 0.621371;
   };
   const {
@@ -107,27 +147,57 @@ const extractMetadata = async (imagePath) => {
   };
 };
 
-const processImages = async (basePath) => {
+const processImages = async (basePath: string): Promise<ImageResult[]> => {
   await initGeocoder();
   const files = await fs.readdir(basePath);
   const extentions = [".jpg", ".jpeg", ".png", ".tiff", ".heic"];
   const images = files.filter((file) =>
     extentions.includes(path.extname(file).toLowerCase()),
   );
-  const results = await images
-    .map(async (image) => {
-      const imagePath = path.join(basePath, image);
-      const metadata = await extractMetadata(imagePath);
-      return { image, ...metadata };
-    })
-    .sort((a, b) => b.timestamp - a.timestamp);
+  const promises = images.map(async (image) => {
+    const imagePath = path.join(basePath, image);
+    const metadata = await extractMetadata(imagePath);
+    return { image, ...metadata };
+  });
 
-  return Promise.all(results);
+  const results = await Promise.all(promises);
+  return results.sort((a, b) => b.timestamp.getTime() - a.timestamp.getTime());
+};
+
+const calcTotalCountries = (images: ImageResult[]): CountryInfo[] => {
+  const totalCountries = images.reduce(
+    (countryHash, curImage) => {
+      const { countryCode, flag, countryName } = curImage;
+
+      if (!countryHash[countryCode]) {
+        countryHash[countryCode] = {
+          countryCode,
+          countryName,
+          flag,
+        };
+      }
+
+      return countryHash;
+    },
+    {} as Record<string, CountryInfo>,
+  );
+
+  return Object.values(totalCountries);
+};
+
+const calcTotalUSStates = (images: ImageResult[]): string[] => {
+  const totalStates = images
+    .filter((curImage) => curImage.countryCode === "US")
+    .map((curImage) => curImage.adminName1);
+
+  return [...new Set(totalStates)];
 };
 
 processImages(imagesDir)
   .then((results) => {
-    console.log("Final Results:", results);
+    const totalCountries = calcTotalCountries(results);
+    const totalStates = calcTotalUSStates(results);
+    console.log("Final Results:", totalCountries, totalStates);
     return fs.writeFile(outputFilename, JSON.stringify(results, null, 2));
   })
   .catch((error) => {
