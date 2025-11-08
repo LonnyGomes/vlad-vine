@@ -3,9 +3,11 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 import fs from "node:fs/promises";
 import geocoder from "local-reverse-geocoder";
+import emojiFlags from "emoji-flags";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const imagesDir = path.resolve(__dirname, "../images");
+const outputFilename = path.resolve(__dirname, "../images.json");
 
 const initGeocoder = () => {
   console.log("Initializing geocoder...");
@@ -41,14 +43,20 @@ const geocode = async (longitude, latitude) => {
         return;
       }
 
+      // retreive reverse geolookup
       const [nearest] = res[0];
       const { name, countryCode, admin1Code, admin2Code, distance } = nearest;
+
+      const { emoji: flag, name: countryName } =
+        emojiFlags.countryCode(countryCode);
 
       resolve({
         name,
         countryCode,
+        countryName,
         adminName1: admin1Code ? admin1Code.name : "",
         adminName2: admin2Code ? admin2Code.name : "",
+        flag,
         distance,
       });
     });
@@ -74,8 +82,10 @@ const extractMetadata = async (imagePath) => {
   const {
     name: geoName,
     countryCode,
+    countryName,
     adminName1,
     adminName2,
+    flag,
     distance: geoDistance,
   } = await geocode(longitude, latitude);
 
@@ -89,6 +99,8 @@ const extractMetadata = async (imagePath) => {
     longitude,
     geoName,
     countryCode,
+    countryName,
+    flag,
     adminName1,
     adminName2,
     geoDistance,
@@ -102,11 +114,13 @@ const processImages = async (basePath) => {
   const images = files.filter((file) =>
     extentions.includes(path.extname(file).toLowerCase()),
   );
-  const results = await images.map(async (image) => {
-    const imagePath = path.join(basePath, image);
-    const metadata = await extractMetadata(imagePath);
-    return { image, ...metadata };
-  });
+  const results = await images
+    .map(async (image) => {
+      const imagePath = path.join(basePath, image);
+      const metadata = await extractMetadata(imagePath);
+      return { image, ...metadata };
+    })
+    .sort((a, b) => b.timestamp - a.timestamp);
 
   return Promise.all(results);
 };
@@ -114,6 +128,7 @@ const processImages = async (basePath) => {
 processImages(imagesDir)
   .then((results) => {
     console.log("Final Results:", results);
+    return fs.writeFile(outputFilename, JSON.stringify(results, null, 2));
   })
   .catch((error) => {
     console.error("Error processing images:", error);
