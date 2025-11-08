@@ -1,0 +1,9 @@
+.layout {
+  display: grid;
+  grid-template-rows: 60px 1fr 120px;
+  height: 100vh;
+}
+
+.content {
+  overflow-y: auto;
+}
