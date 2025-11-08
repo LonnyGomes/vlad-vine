@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @use 'theme';
 
+/* Mapbox GL CSS */
+@import 'mapbox-gl/dist/mapbox-gl.css';
+
 :root {
   --toolbar-bg: var(--primary-color);
   --navbar-bg: var(--primary-color);

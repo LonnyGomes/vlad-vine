@@ -1,5 +1,6 @@
 import { Injectable, signal } from '@angular/core';
 import { ImageModel } from '../models/image.model';
+import { FeatureCollection, Feature } from 'geojson';
 import imageData from '../../../public/assets/data/images.json';
 
 @Injectable({
@@ -16,5 +17,20 @@ export class ImageFeed {
         : `${curImg.geoName}, ${curImg.countryName}`,
   }));
 
+  private geoJsonPoints: FeatureCollection = {
+    type: 'FeatureCollection',
+    features: this.rawImages.map((img) => ({
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [img.longitude, img.latitude],
+      },
+      properties: {
+        title: img.formattedName,
+      },
+    })),
+  };
+
   readonly images = signal<ImageModel[]>(this.rawImages);
+  readonly imagePoints = signal<FeatureCollection>(this.geoJsonPoints);
 }
