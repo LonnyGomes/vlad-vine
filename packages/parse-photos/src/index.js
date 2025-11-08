@@ -2,9 +2,58 @@ import exifr from "exifr";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 import fs from "node:fs/promises";
+import geocoder from "local-reverse-geocoder";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const imagesDir = path.resolve(__dirname, "../images");
+
+const initGeocoder = () => {
+  console.log("Initializing geocoder...");
+  return new Promise((resolve, reject) => {
+    geocoder.init(
+      {
+        load: {
+          dumpDirectory: path.resolve(__dirname, "..", "geocoder-dump"),
+          admin1: true,
+          admin2: true,
+          admin2And4: false,
+          alternateNames: false,
+        },
+      },
+      (err) => {
+        if (err) {
+          reject(err);
+          return;
+        }
+        console.log("Geocoder initialized");
+        resolve();
+      },
+    );
+  });
+};
+
+const geocode = async (longitude, latitude) => {
+  return new Promise((resolve, reject) => {
+    const coords = [{ latitude, longitude }];
+    geocoder.lookUp(coords, (err, res) => {
+      if (err) {
+        reject(err);
+        return;
+      }
+
+      const [nearest] = res[0];
+      const { name, countryCode, admin1Code, admin2Code, distance } = nearest;
+
+      resolve({
+        name,
+        countryCode,
+        adminName1: admin1Code ? admin1Code.name : "",
+        adminName2: admin2Code ? admin2Code.name : "",
+        distance,
+      });
+    });
+  });
+};
 
 const extractMetadata = async (imagePath) => {
   const metadata = await exifr.parse(imagePath);
@@ -22,6 +71,14 @@ const extractMetadata = async (imagePath) => {
     Model,
   } = metadata;
 
+  const {
+    name: geoName,
+    countryCode,
+    adminName1,
+    adminName2,
+    distance: geoDistance,
+  } = await geocode(longitude, latitude);
+
   return {
     altitude: GPSAltitude,
     timestamp: DateTimeOriginal,
@@ -30,10 +87,16 @@ const extractMetadata = async (imagePath) => {
     model: Model,
     latitude,
     longitude,
+    geoName,
+    countryCode,
+    adminName1,
+    adminName2,
+    geoDistance,
   };
 };
 
 const processImages = async (basePath) => {
+  await initGeocoder();
   const files = await fs.readdir(basePath);
   const extentions = [".jpg", ".jpeg", ".png", ".tiff", ".heic"];
   const images = files.filter((file) =>
