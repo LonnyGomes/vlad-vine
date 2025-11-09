@@ -21,7 +21,7 @@ interface GeocodeResult {
 }
 
 interface ImageMetadata {
-  altitude: number;
+  altitude?: number;
   timestamp: Date;
   speed: number;
   make: string;
@@ -145,10 +145,11 @@ function haversineDistance(
 
 const extractMetadata = async (imagePath: string): Promise<ImageMetadata> => {
   const metadata = await exifr.parse(imagePath);
-
+  const metersToFeet = (meters: number): number => Math.round(meters * 3.28084);
   const kmhToMph = (kmh: number): number => {
     return kmh * 0.621371;
   };
+
   const {
     GPSSpeed,
     GPSAltitude,
@@ -172,7 +173,7 @@ const extractMetadata = async (imagePath: string): Promise<ImageMetadata> => {
   } = await geocode(longitude, latitude);
 
   return {
-    altitude: GPSAltitude,
+    altitude: GPSAltitude ? metersToFeet(GPSAltitude) : undefined,
     timestamp: DateTimeOriginal,
     speed: GPSSpeed ? kmhToMph(GPSSpeed) : 0,
     make: Make,
@@ -236,6 +237,37 @@ const calcTotalUSStates = (images: ImageResult[]): string[] => {
   return [...new Set(totalStates)];
 };
 
+const calcAltitudes = (images: ImageResult[]) => {
+  const altitudeStats = {
+    min: Number.POSITIVE_INFINITY,
+    max: Number.NEGATIVE_INFINITY,
+    total: 0,
+    count: 0,
+  };
+
+  images.reduce((stats, curImage) => {
+    const { altitude } = curImage;
+    if (altitude !== undefined) {
+      stats.count += 1;
+      stats.total += altitude;
+      stats.min = Math.min(stats.min, altitude);
+      stats.max = Math.max(stats.max, altitude);
+    }
+    return stats;
+  }, altitudeStats);
+
+  const average =
+    altitudeStats.count > 0
+      ? Math.round(altitudeStats.total / altitudeStats.count)
+      : 0;
+
+  return {
+    min: altitudeStats.min,
+    max: altitudeStats.max,
+    average,
+  };
+};
+
 processImages(imagesDir)
   .then((results) => {
     const totalCountries = calcTotalCountries(results);
@@ -248,6 +280,8 @@ processImages(imagesDir)
     // );
     // console.log(`Distance: ${distKm.toFixed(2)} miles`);
 
+    const altitudeStats = calcAltitudes(results);
+    console.log("Altitude Stats:", altitudeStats);
     console.log("Final Results:", totalCountries, totalStates);
     return fs.writeFile(outputFilename, JSON.stringify(results, null, 2));
   })
