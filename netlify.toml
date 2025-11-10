@@ -11,6 +11,11 @@
 [build.environment]
   # Node version
   NODE_VERSION = "22"
+  # Mapbox public tokens (pk.*) are designed to be used in client-side code
+  # They are domain-restricted and have limited permissions
+  # It's safe and expected for them to be in the bundled JavaScript
+  # Disable secrets scanning for MAPBOX_ACCESS_TOKEN since it's a public token
+  SECRETS_SCAN_OMIT_KEYS = "MAPBOX_ACCESS_TOKEN"
 
 # Make environment variables available to Angular at build time
 # Note: You still need to set MAPBOX_ACCESS_TOKEN in Netlify's dashboard

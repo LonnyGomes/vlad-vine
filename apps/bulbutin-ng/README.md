@@ -2,12 +2,16 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.9.
 
+## Environment Setup
+
+**First time setup**: See [ENVIRONMENT_SETUP.md](./ENVIRONMENT_SETUP.md) for instructions on setting up your Mapbox access token for local development and Netlify deployment.
+
 ## Development server
 
 To start a local development server, run:
 
 ```bash
-ng serve
+npm start
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
@@ -28,13 +32,19 @@ ng generate --help
 
 ## Building
 
-To build the project run:
+To build the project for production:
 
 ```bash
-ng build
+npm run build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+This will compile your project and store the build artifacts in the `dist/` directory. The custom build script injects environment variables at build time.
+
+For local production builds with a custom token:
+
+```bash
+MAPBOX_ACCESS_TOKEN="pk.your-token" npm run build
+```
 
 ## Running unit tests
 
