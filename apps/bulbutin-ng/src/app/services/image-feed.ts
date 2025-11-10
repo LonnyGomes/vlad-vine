@@ -3,7 +3,7 @@ import { ImageModel } from '../models/image.model';
 import { FeatureCollection } from 'geojson';
 // Import directly from parse-photos static JSON export
 import { imageDataResultsJSON, genGeoJSONPoints } from 'parse-photos/shared';
-import { ImageDataResults } from 'parse-photos/types';
+import { ImageDataResults, Stats } from 'parse-photos/types';
 
 @Injectable({
   providedIn: 'root',
@@ -14,14 +14,21 @@ export class ImageFeed {
     type: 'FeatureCollection',
     features: [],
   });
+  readonly stats = signal<Stats>({
+    altitude: { min: 0, max: 0, average: 0 },
+    totals: { images: 0, countries: 0, us: 0 },
+    countries: [],
+    states: [],
+  });
 
   constructor() {
-    this.loadImages();
+    this.loadData();
   }
 
-  private loadImages() {
+  private loadData() {
     // Access the images array from the ImageDataResults structure
-    const rawImages = (imageDataResultsJSON as ImageDataResults).images;
+    const jsonResults = imageDataResultsJSON as ImageDataResults;
+    const rawImages = jsonResults.images;
 
     const processedImages = rawImages.map((curImg: any) => ({
       ...curImg,
@@ -32,6 +39,25 @@ export class ImageFeed {
     const imagesPoints = genGeoJSONPoints(rawImages);
     this.images.set(processedImages);
     this.imagePoints.set(imagesPoints);
+
+    const stats: Stats = {
+      altitude: {
+        min: jsonResults.altitudeStats.min,
+        max: jsonResults.altitudeStats.max,
+        average: jsonResults.altitudeStats.average,
+      },
+      totals: {
+        images: rawImages.length,
+        countries: jsonResults.countryTotals.length,
+        us: jsonResults.usTotals.length,
+      },
+      countries: jsonResults.countryTotals,
+      states: jsonResults.usTotals,
+    };
+
+    this.stats.set(stats);
+
+    console.log('Image stats:', stats);
 
     // const geoJsonPoints: FeatureCollection = {
     //   type: 'FeatureCollection',
