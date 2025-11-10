@@ -43,4 +43,3 @@ __screenshots__/
 Thumbs.db
 
 # Environment files with secrets
-src/environments/environment.local.ts
