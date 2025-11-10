@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "node scripts/build.js",
+    "build:dev": "ng build --configuration development",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "postinstall": "./scripts/setup-env.sh"
