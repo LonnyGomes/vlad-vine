@@ -1,0 +1,2157 @@
+{
+  "altitudeStats": {
+    "min": 2,
+    "max": 5293,
+    "average": 354
+  },
+  "countryTotals": [
+    {
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸"
+    },
+    {
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "flag": "🇬🇧"
+    },
+    {
+      "countryCode": "IE",
+      "countryName": "Ireland",
+      "flag": "🇮🇪"
+    },
+    {
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷"
+    },
+    {
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "flag": "🇧🇪"
+    }
+  ],
+  "images": [
+    {
+      "image": "IMG_0143.JPG",
+      "altitude": 152,
+      "timestamp": "2024-08-11T02:03:07.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 15 Pro",
+      "latitude": 38.91678611111111,
+      "longitude": -77.0035861111111,
+      "geoName": "Bloomingdale",
+      "formattedName": "Bloomingdale, District of Columbia",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "District of Columbia",
+      "geoDistance": 0.6734330843349562,
+      "distance": 2
+    },
+    {
+      "image": "IMG_9666.JPG",
+      "altitude": 23,
+      "timestamp": "2024-06-21T19:25:22.000Z",
+      "speed": 0.07280961314966393,
+      "make": "Apple",
+      "model": "iPhone 15 Pro",
+      "latitude": 51.49648611111111,
+      "longitude": -0.10852777777777778,
+      "geoName": "Lambeth",
+      "formattedName": "Lambeth, United Kingdom",
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "flag": "🇬🇧",
+      "adminName1": "England",
+      "adminName2": "Greater London",
+      "geoDistance": 0.20769149182623833,
+      "distance": 3665
+    },
+    {
+      "image": "IMG_9661.JPG",
+      "altitude": 15,
+      "timestamp": "2024-06-21T19:23:48.000Z",
+      "speed": 0.05222961195345697,
+      "make": "Apple",
+      "model": "iPhone 15 Pro",
+      "latitude": 51.496922222222224,
+      "longitude": -0.10856388888888889,
+      "geoName": "Lambeth",
+      "formattedName": "Lambeth, United Kingdom",
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "flag": "🇬🇧",
+      "adminName1": "England",
+      "adminName2": "Greater London",
+      "geoDistance": 0.21430227510923586,
+      "distance": 3665
+    },
+    {
+      "image": "IMG_9658.JPG",
+      "altitude": 19,
+      "timestamp": "2024-06-21T19:06:07.000Z",
+      "speed": 1.6236811847003076,
+      "make": "Apple",
+      "model": "iPhone 15 Pro",
+      "latitude": 51.483019444444444,
+      "longitude": -0.13316111111111112,
+      "geoName": "Pimlico",
+      "formattedName": "Pimlico, United Kingdom",
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "flag": "🇬🇧",
+      "adminName1": "England",
+      "adminName2": "Greater London",
+      "geoDistance": 0.7128094659110394,
+      "distance": 3665
+    },
+    {
+      "image": "IMG_9653.JPG",
+      "altitude": 22,
+      "timestamp": "2024-06-21T18:41:13.000Z",
+      "speed": 0.9171406034690346,
+      "make": "Apple",
+      "model": "iPhone 15 Pro",
+      "latitude": 51.48356944444445,
+      "longitude": -0.14628611111111112,
+      "geoName": "Pimlico",
+      "formattedName": "Pimlico, United Kingdom",
+      "countryCode": "GB",
+      "countryName": "United Kingdom",
+      "flag": "🇬🇧",
+      "adminName1": "England",
+      "adminName2": "Greater London",
+      "geoDistance": 0.8803039488537604,
+      "distance": 3664
+    },
+    {
+      "image": "IMG_8679.JPG",
+      "altitude": 132,
+      "timestamp": "2024-05-07T19:29:39.000Z",
+      "speed": 0.2982467772078217,
+      "make": "Apple",
+      "model": "iPhone 15 Pro",
+      "latitude": 33.723075,
+      "longitude": -116.32588888888888,
+      "geoName": "Indian Wells",
+      "formattedName": "Indian Wells, California",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "California",
+      "adminName2": "Riverside County",
+      "geoDistance": 1.693112864592228,
+      "distance": 2201
+    },
+    {
+      "image": "IMG_0884.jpeg",
+      "timestamp": "2023-11-24T15:30:24.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 12 Pro",
+      "latitude": 53.345775,
+      "longitude": -6.256986111111111,
+      "geoName": "Dublin",
+      "formattedName": "Dublin, Ireland",
+      "countryCode": "IE",
+      "countryName": "Ireland",
+      "flag": "🇮🇪",
+      "adminName1": "Leinster",
+      "adminName2": "Dublin City",
+      "geoDistance": 1.5125719466522427,
+      "distance": 3381
+    },
+    {
+      "image": "IMG_0858.jpeg",
+      "timestamp": "2023-11-22T18:19:22.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 12 Pro",
+      "latitude": 53.34335,
+      "longitude": -6.297341666666666,
+      "geoName": "Rialto",
+      "formattedName": "Rialto, Ireland",
+      "countryCode": "IE",
+      "countryName": "Ireland",
+      "flag": "🇮🇪",
+      "adminName1": "Leinster",
+      "adminName2": "Dublin City",
+      "geoDistance": 0.7895569358795745,
+      "distance": 3380
+    },
+    {
+      "image": "IMG_0835.jpeg",
+      "timestamp": "2023-11-22T17:30:06.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 12 Pro",
+      "latitude": 53.345775,
+      "longitude": -6.256986111111111,
+      "geoName": "Dublin",
+      "formattedName": "Dublin, Ireland",
+      "countryCode": "IE",
+      "countryName": "Ireland",
+      "flag": "🇮🇪",
+      "adminName1": "Leinster",
+      "adminName2": "Dublin City",
+      "geoDistance": 1.5125719466522427,
+      "distance": 3381
+    },
+    {
+      "image": "IMG_3486.jpeg",
+      "altitude": 370,
+      "timestamp": "2023-09-23T14:53:04.000Z",
+      "speed": 0.21636226678883147,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 34.26573055555556,
+      "longitude": -114.13169722222221,
+      "geoName": "Cienega Springs",
+      "formattedName": "Cienega Springs, Arizona",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Arizona",
+      "adminName2": "La Paz County",
+      "geoDistance": 12.106299475764942,
+      "distance": 2070
+    },
+    {
+      "image": "IMG_3275.jpeg",
+      "altitude": 4530,
+      "timestamp": "2023-09-21T22:01:41.000Z",
+      "speed": 0.03671089106247364,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 37.29731666666667,
+      "longitude": -112.94751111111111,
+      "geoName": "Toquerville",
+      "formattedName": "Toquerville, Utah",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Utah",
+      "adminName2": "Washington County",
+      "geoDistance": 30.2308267324381,
+      "distance": 1945
+    },
+    {
+      "image": "IMG_3196.jpeg",
+      "altitude": 5293,
+      "timestamp": "2023-09-21T17:42:47.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 37.21351111111112,
+      "longitude": -112.94615277777778,
+      "geoName": "Hildale",
+      "formattedName": "Hildale, Utah",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Utah",
+      "adminName2": "Washington County",
+      "geoDistance": 23.413308181172336,
+      "distance": 1946
+    },
+    {
+      "image": "IMG_2982.jpeg",
+      "altitude": 1253,
+      "timestamp": "2023-09-20T20:27:34.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 36.01607222222222,
+      "longitude": -114.73927222222223,
+      "geoName": "Boulder City",
+      "formattedName": "Boulder City, Nevada",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Nevada",
+      "adminName2": "Clark County",
+      "geoDistance": 9.364625187291994,
+      "distance": 2064
+    },
+    {
+      "image": "IMG_2973.jpeg",
+      "altitude": 1284,
+      "timestamp": "2023-09-20T20:23:03.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 36.01595555555556,
+      "longitude": -114.73941111111111,
+      "geoName": "Boulder City",
+      "formattedName": "Boulder City, Nevada",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Nevada",
+      "adminName2": "Clark County",
+      "geoDistance": 9.34767005627262,
+      "distance": 2064
+    },
+    {
+      "image": "IMG_2521.jpeg",
+      "altitude": 407,
+      "timestamp": "2023-09-16T20:41:36.000Z",
+      "speed": 0.033695559531921694,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.80799444444444,
+      "longitude": 2.121025,
+      "geoName": "Versailles",
+      "formattedName": "Versailles, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Yvelines",
+      "geoDistance": 1.0846571538677476,
+      "distance": 3822
+    },
+    {
+      "image": "IMG_2484.jpeg",
+      "altitude": 379,
+      "timestamp": "2023-09-16T19:49:57.000Z",
+      "speed": 0.1242742,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.80705555555555,
+      "longitude": 2.111580555555556,
+      "geoName": "Versailles",
+      "formattedName": "Versailles, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Yvelines",
+      "geoDistance": 1.703622602020235,
+      "distance": 3821
+    },
+    {
+      "image": "IMG_2458.jpeg",
+      "altitude": 422,
+      "timestamp": "2023-09-16T19:11:50.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.80513333333333,
+      "longitude": 2.1163611111111114,
+      "geoName": "Versailles",
+      "formattedName": "Versailles, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Yvelines",
+      "geoDistance": 1.3205861951139277,
+      "distance": 3822
+    },
+    {
+      "image": "IMG_1944.jpeg",
+      "altitude": 242,
+      "timestamp": "2023-09-14T14:36:32.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.84626111111111,
+      "longitude": 2.346088888888889,
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 0.8192982806689924,
+      "distance": 3830
+    },
+    {
+      "image": "IMG_1889.jpeg",
+      "altitude": 96,
+      "timestamp": "2023-09-14T01:16:35.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.86318611111111,
+      "longitude": 2.296358333333333,
+      "geoName": "Neuilly-sur-Seine",
+      "formattedName": "Neuilly-sur-Seine, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Hauts-de-Seine",
+      "geoDistance": 3.0797960916331486,
+      "distance": 3828
+    },
+    {
+      "image": "IMG_1712.jpeg",
+      "altitude": 190,
+      "timestamp": "2023-09-13T20:54:15.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.835483333333336,
+      "longitude": 2.329597222222222,
+      "geoName": "Maison Blanche",
+      "formattedName": "Maison Blanche, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 1.8851408920380557,
+      "distance": 3830
+    },
+    {
+      "image": "IMG_1663.jpeg",
+      "altitude": 190,
+      "timestamp": "2023-09-13T20:21:14.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.835483333333336,
+      "longitude": 2.329597222222222,
+      "geoName": "Maison Blanche",
+      "formattedName": "Maison Blanche, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 1.8851408920380557,
+      "distance": 3830
+    },
+    {
+      "image": "IMG_1658.jpeg",
+      "timestamp": "2023-09-13T20:17:12.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.83792777777778,
+      "longitude": 2.327363888888889,
+      "geoName": "Maison Blanche",
+      "formattedName": "Maison Blanche, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 2.177924802397366,
+      "distance": 3830
+    },
+    {
+      "image": "IMG_1655.jpeg",
+      "altitude": 190,
+      "timestamp": "2023-09-13T20:13:47.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.835483333333336,
+      "longitude": 2.329597222222222,
+      "geoName": "Maison Blanche",
+      "formattedName": "Maison Blanche, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 1.8851408920380557,
+      "distance": 3830
+    },
+    {
+      "image": "IMG_1200.jpeg",
+      "altitude": 108,
+      "timestamp": "2023-09-10T14:07:38.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.86526111111111,
+      "longitude": 2.327036111111111,
+      "geoName": "Porte Saint-Denis",
+      "formattedName": "Porte Saint-Denis, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 2.047403568864434,
+      "distance": 3829
+    },
+    {
+      "image": "IMG_1196.jpeg",
+      "altitude": 121,
+      "timestamp": "2023-09-10T14:01:20.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.86306388888889,
+      "longitude": 2.3277416666666664,
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 1.8776894934005897,
+      "distance": 3829
+    },
+    {
+      "image": "IMG_1929.JPG",
+      "altitude": 389,
+      "timestamp": "2023-09-09T23:32:29.000Z",
+      "speed": 0.017057978870654543,
+      "make": "Apple",
+      "model": "iPhone 14 Pro",
+      "latitude": 48.886005555555556,
+      "longitude": 2.3429833333333336,
+      "geoName": "Saint-Vincent de Paul",
+      "formattedName": "Saint-Vincent de Paul, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 1.063189745237004,
+      "distance": 3829
+    },
+    {
+      "image": "IMG_1155.jpeg",
+      "altitude": 157,
+      "timestamp": "2023-09-09T19:50:21.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.846775,
+      "longitude": 2.3369416666666667,
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 1.1389338740621784,
+      "distance": 3830
+    },
+    {
+      "image": "IMG_1149.jpeg",
+      "altitude": 156,
+      "timestamp": "2023-09-09T19:46:16.000Z",
+      "speed": 0.025711895695076675,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.845730555555555,
+      "longitude": 2.3367666666666667,
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 1.226550223260814,
+      "distance": 3830
+    },
+    {
+      "image": "IMG_0947.jpeg",
+      "altitude": 343,
+      "timestamp": "2023-09-07T23:32:27.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.87374166666667,
+      "longitude": 2.2948749999999998,
+      "geoName": "Neuilly-sur-Seine",
+      "formattedName": "Neuilly-sur-Seine, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Hauts-de-Seine",
+      "geoDistance": 2.2046478411020263,
+      "distance": 3827
+    },
+    {
+      "image": "IMG_0829.jpeg",
+      "altitude": 113,
+      "timestamp": "2023-09-07T13:59:42.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.853430555555555,
+      "longitude": 2.3479444444444444,
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 0.06263834305962362,
+      "distance": 3830
+    },
+    {
+      "image": "IMG_0819.jpeg",
+      "altitude": 84,
+      "timestamp": "2023-09-07T13:52:58.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.85369166666667,
+      "longitude": 2.3450694444444444,
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 0.2747360429387955,
+      "distance": 3830
+    },
+    {
+      "image": "IMG_0781.jpeg",
+      "altitude": 98,
+      "timestamp": "2023-09-06T22:49:25.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.87356666666667,
+      "longitude": 2.332058333333333,
+      "geoName": "Porte Saint-Denis",
+      "formattedName": "Porte Saint-Denis, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 1.4562646444420873,
+      "distance": 3829
+    },
+    {
+      "image": "IMG_0717.jpeg",
+      "altitude": 105,
+      "timestamp": "2023-09-06T21:54:55.000Z",
+      "speed": 0.039331989501085594,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.86409722222222,
+      "longitude": 2.3371583333333334,
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 1.462037534391048,
+      "distance": 3829
+    },
+    {
+      "image": "IMG_0713.jpeg",
+      "altitude": 108,
+      "timestamp": "2023-09-06T21:53:39.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.86438888888889,
+      "longitude": 2.3372611111111112,
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 1.484227886893011,
+      "distance": 3829
+    },
+    {
+      "image": "IMG_0703.jpeg",
+      "altitude": 107,
+      "timestamp": "2023-09-06T21:28:57.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.86426111111111,
+      "longitude": 2.3374194444444445,
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 1.465954854743235,
+      "distance": 3829
+    },
+    {
+      "image": "IMG_0552.jpeg",
+      "altitude": 119,
+      "timestamp": "2023-09-04T21:09:50.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.86570277777778,
+      "longitude": 2.366888888888889,
+      "geoName": "Folie Méricourt",
+      "formattedName": "Folie Méricourt, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 0.33697438672556435,
+      "distance": 3831
+    },
+    {
+      "image": "IMG_0546.jpeg",
+      "altitude": 96,
+      "timestamp": "2023-09-04T19:10:28.000Z",
+      "speed": 2.6470406022340995,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.85959722222222,
+      "longitude": 2.333711111111111,
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 1.3007466777649621,
+      "distance": 3829
+    },
+    {
+      "image": "IMG_0528.jpeg",
+      "altitude": 97,
+      "timestamp": "2023-09-04T18:44:04.000Z",
+      "speed": 2.249362948832042,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.86089444444445,
+      "longitude": 2.3268138888888887,
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 1.8110370673681377,
+      "distance": 3829
+    },
+    {
+      "image": "IMG_0524.jpeg",
+      "altitude": 94,
+      "timestamp": "2023-09-04T18:41:09.000Z",
+      "speed": 2.2617905051863545,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.863086111111116,
+      "longitude": 2.318961111111111,
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Paris",
+      "geoDistance": 2.4337006403608146,
+      "distance": 3829
+    },
+    {
+      "image": "IMG_0516.jpeg",
+      "altitude": 79,
+      "timestamp": "2023-09-04T18:04:08.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 48.860475,
+      "longitude": 2.294083333333333,
+      "geoName": "Neuilly-sur-Seine",
+      "formattedName": "Neuilly-sur-Seine, France",
+      "countryCode": "FR",
+      "countryName": "France",
+      "flag": "🇫🇷",
+      "adminName1": "Île-de-France",
+      "adminName2": "Hauts-de-Seine",
+      "geoDistance": 3.223277477357061,
+      "distance": 3828
+    },
+    {
+      "image": "IMG_0489.jpeg",
+      "altitude": 269,
+      "timestamp": "2023-09-04T10:54:51.000Z",
+      "speed": 32.13730887850952,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 50.70080555555556,
+      "longitude": 4.185194444444445,
+      "geoName": "Tubize",
+      "formattedName": "Tubize, Belgium",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "flag": "🇧🇪",
+      "adminName1": "Wallonia",
+      "adminName2": "Province du Brabant Wallon",
+      "geoDistance": 1.5855727697795492,
+      "distance": 3859
+    },
+    {
+      "image": "IMG_0332.jpeg",
+      "altitude": 62,
+      "timestamp": "2023-09-02T21:16:10.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 50.84519166666667,
+      "longitude": 4.349911111111111,
+      "geoName": "Brussels",
+      "formattedName": "Brussels, Belgium",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "flag": "🇧🇪",
+      "adminName1": "Brussels Capital",
+      "adminName2": "Bruxelles-Capitale",
+      "geoDistance": 0.5900679974576426,
+      "distance": 3862
+    },
+    {
+      "image": "IMG_0328.jpeg",
+      "altitude": 63,
+      "timestamp": "2023-09-02T21:09:44.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 50.84615277777778,
+      "longitude": 4.349983333333333,
+      "geoName": "Brussels",
+      "formattedName": "Brussels, Belgium",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "flag": "🇧🇪",
+      "adminName1": "Brussels Capital",
+      "adminName2": "Bruxelles-Capitale",
+      "geoDistance": 0.4852400250551876,
+      "distance": 3862
+    },
+    {
+      "image": "IMG_0325.jpeg",
+      "altitude": 60,
+      "timestamp": "2023-09-02T21:06:11.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 50.8455,
+      "longitude": 4.348694444444444,
+      "geoName": "Brussels",
+      "formattedName": "Brussels, Belgium",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "flag": "🇧🇪",
+      "adminName1": "Brussels Capital",
+      "adminName2": "Bruxelles-Capitale",
+      "geoDistance": 0.5504476598153634,
+      "distance": 3862
+    },
+    {
+      "image": "IMG_0303.jpeg",
+      "altitude": 60,
+      "timestamp": "2023-09-02T20:09:01.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 50.84634722222223,
+      "longitude": 4.349794444444444,
+      "geoName": "Brussels",
+      "formattedName": "Brussels, Belgium",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "flag": "🇧🇪",
+      "adminName1": "Brussels Capital",
+      "adminName2": "Bruxelles-Capitale",
+      "geoDistance": 0.46173374927953703,
+      "distance": 3862
+    },
+    {
+      "image": "IMG_0287.jpeg",
+      "altitude": 75,
+      "timestamp": "2023-09-02T19:18:20.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 50.84792222222222,
+      "longitude": 4.3551111111111105,
+      "geoName": "Brussels",
+      "formattedName": "Brussels, Belgium",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "flag": "🇧🇪",
+      "adminName1": "Brussels Capital",
+      "adminName2": "Bruxelles-Capitale",
+      "geoDistance": 0.5258890395028631,
+      "distance": 3862
+    },
+    {
+      "image": "IMG_0278.jpeg",
+      "altitude": 74,
+      "timestamp": "2023-09-02T18:57:52.000Z",
+      "speed": 0.04536053511542532,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 50.84879166666667,
+      "longitude": 4.354991666666666,
+      "geoName": "Brussels",
+      "formattedName": "Brussels, Belgium",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "flag": "🇧🇪",
+      "adminName1": "Brussels Capital",
+      "adminName2": "Bruxelles-Capitale",
+      "geoDistance": 0.4734667305521574,
+      "distance": 3862
+    },
+    {
+      "image": "IMG_0271.jpeg",
+      "altitude": 51,
+      "timestamp": "2023-09-02T18:51:33.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 50.84985833333334,
+      "longitude": 4.356230555555555,
+      "geoName": "Brussels",
+      "formattedName": "Brussels, Belgium",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "flag": "🇧🇪",
+      "adminName1": "Brussels Capital",
+      "adminName2": "Bruxelles-Capitale",
+      "geoDistance": 0.5271726954850595,
+      "distance": 3862
+    },
+    {
+      "image": "IMG_0262.jpeg",
+      "altitude": 138,
+      "timestamp": "2023-09-02T17:42:28.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 50.84767222222222,
+      "longitude": 4.359822222222222,
+      "geoName": "Brussels",
+      "formattedName": "Brussels, Belgium",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "flag": "🇧🇪",
+      "adminName1": "Brussels Capital",
+      "adminName2": "Bruxelles-Capitale",
+      "geoDistance": 0.8344832615910254,
+      "distance": 3862
+    },
+    {
+      "image": "IMG_0225.jpeg",
+      "altitude": 164,
+      "timestamp": "2023-09-02T16:43:24.000Z",
+      "speed": 0.08250781540158116,
+      "make": "Apple",
+      "model": "iPhone 13 Pro",
+      "latitude": 50.84376944444445,
+      "longitude": 4.358486111111111,
+      "geoName": "Brussels",
+      "formattedName": "Brussels, Belgium",
+      "countryCode": "BE",
+      "countryName": "Belgium",
+      "flag": "🇧🇪",
+      "adminName1": "Brussels Capital",
+      "adminName2": "Bruxelles-Capitale",
+      "geoDistance": 1.008058024897059,
+      "distance": 3863
+    },
+    {
+      "image": "IMG_8654.jpg",
+      "altitude": 18,
+      "timestamp": "2023-07-03T01:34:16.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 11 Pro",
+      "latitude": 38.705219444444445,
+      "longitude": -75.07958333333333,
+      "geoName": "Rehoboth Beach",
+      "formattedName": "Rehoboth Beach, Delaware",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Delaware",
+      "adminName2": "Sussex County",
+      "geoDistance": 1.776422361602151,
+      "distance": 105
+    },
+    {
+      "image": "IMG_8642.jpg",
+      "altitude": 25,
+      "timestamp": "2023-07-02T20:12:10.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 11 Pro",
+      "latitude": 38.71740277777778,
+      "longitude": -75.07742222222222,
+      "geoName": "Rehoboth Beach",
+      "formattedName": "Rehoboth Beach, Delaware",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Delaware",
+      "adminName2": "Sussex County",
+      "geoDistance": 0.41302366001727414,
+      "distance": 105
+    },
+    {
+      "image": "IMG_0009.JPG",
+      "altitude": 454,
+      "timestamp": "2023-06-22T16:45:01.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 mini",
+      "latitude": 43.163069444444446,
+      "longitude": -77.61512777777777,
+      "geoName": "Rochester",
+      "formattedName": "Rochester, New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "New York",
+      "adminName2": "Monroe County",
+      "geoDistance": 0.9224106494241974,
+      "distance": 297
+    },
+    {
+      "image": "IMG_0008.JPG",
+      "altitude": 541,
+      "timestamp": "2023-06-20T20:05:19.000Z",
+      "speed": 0.02462424539215177,
+      "make": "Apple",
+      "model": "iPhone 13 mini",
+      "latitude": 43.08622777777778,
+      "longitude": -79.06857222222222,
+      "geoName": "Niagara Falls",
+      "formattedName": "Niagara Falls, New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "New York",
+      "adminName2": "Niagara County",
+      "geoDistance": 1.3318915497796338,
+      "distance": 309
+    },
+    {
+      "image": "IMG_0004.JPG",
+      "altitude": 825,
+      "timestamp": "2023-06-19T20:23:12.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 mini",
+      "latitude": 42.37352777777778,
+      "longitude": -76.88164444444443,
+      "geoName": "Watkins Glen",
+      "formattedName": "Watkins Glen, New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "New York",
+      "adminName2": "Schuyler County",
+      "geoDistance": 1.0462412537821002,
+      "distance": 241
+    },
+    {
+      "image": "IMG_0002.JPG",
+      "altitude": 722,
+      "timestamp": "2023-06-17T20:16:46.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 mini",
+      "latitude": 42.41464722222222,
+      "longitude": -77.19399166666668,
+      "geoName": "Sylvan Beach",
+      "formattedName": "Sylvan Beach, New York",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "New York",
+      "adminName2": "Steuben County",
+      "geoDistance": 8.974139046289771,
+      "distance": 244
+    },
+    {
+      "image": "IMG_0007.JPG",
+      "altitude": 9,
+      "timestamp": "2023-06-02T18:43:27.000Z",
+      "speed": 0.30447179592599694,
+      "make": "Apple",
+      "model": "iPhone 13 mini",
+      "latitude": 35.22705555555556,
+      "longitude": -75.52455277777777,
+      "geoName": "Buxton",
+      "formattedName": "Buxton, North Carolina",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "North Carolina",
+      "adminName2": "Dare County",
+      "geoDistance": 4.798251101104335,
+      "distance": 266
+    },
+    {
+      "image": "IMG_0011.JPG",
+      "altitude": 11,
+      "timestamp": "2023-06-02T18:32:36.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 mini",
+      "latitude": 35.25046666666667,
+      "longitude": -75.52900833333334,
+      "geoName": "Buxton",
+      "formattedName": "Buxton, North Carolina",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "North Carolina",
+      "adminName2": "Dare County",
+      "geoDistance": 2.2661330102309987,
+      "distance": 264
+    },
+    {
+      "image": "IMG_0001.JPG",
+      "altitude": 2,
+      "timestamp": "2023-06-01T20:39:44.000Z",
+      "speed": 0.31689920407400307,
+      "make": "Apple",
+      "model": "iPhone 13 mini",
+      "latitude": 35.199225,
+      "longitude": -75.7212,
+      "geoName": "Buxton",
+      "formattedName": "Buxton, North Carolina",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "North Carolina",
+      "adminName2": "Dare County",
+      "geoDistance": 17.93738736015084,
+      "distance": 265
+    },
+    {
+      "image": "IMG_0006.JPG",
+      "altitude": 9,
+      "timestamp": "2023-06-01T20:37:43.000Z",
+      "speed": 0.08310109370599171,
+      "make": "Apple",
+      "model": "iPhone 13 mini",
+      "latitude": 35.19968333333333,
+      "longitude": -75.72061111111111,
+      "geoName": "Buxton",
+      "formattedName": "Buxton, North Carolina",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "North Carolina",
+      "adminName2": "Dare County",
+      "geoDistance": 17.86730318970166,
+      "distance": 265
+    },
+    {
+      "image": "IMG_0005.JPG",
+      "altitude": 10,
+      "timestamp": "2023-06-01T20:37:01.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 mini",
+      "latitude": 35.19965833333333,
+      "longitude": -75.72053611111112,
+      "geoName": "Buxton",
+      "formattedName": "Buxton, North Carolina",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "North Carolina",
+      "adminName2": "Dare County",
+      "geoDistance": 17.862310739414795,
+      "distance": 265
+    },
+    {
+      "image": "IMG_0010.JPG",
+      "altitude": 7,
+      "timestamp": "2023-06-01T19:18:40.000Z",
+      "speed": 0.2909522310270735,
+      "make": "Apple",
+      "model": "iPhone 13 mini",
+      "latitude": 35.20656944444445,
+      "longitude": -75.70285,
+      "geoName": "Buxton",
+      "formattedName": "Buxton, North Carolina",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "North Carolina",
+      "adminName2": "Dare County",
+      "geoDistance": 16.081133513479674,
+      "distance": 264
+    },
+    {
+      "image": "IMG_0012.JPG",
+      "altitude": 3,
+      "timestamp": "2023-06-01T15:29:35.000Z",
+      "speed": 0.0728055210754035,
+      "make": "Apple",
+      "model": "iPhone 13 mini",
+      "latitude": 35.34726666666667,
+      "longitude": -75.499625,
+      "geoName": "Buxton",
+      "formattedName": "Buxton, North Carolina",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "North Carolina",
+      "adminName2": "Dare County",
+      "geoDistance": 9.662340932167801,
+      "distance": 259
+    },
+    {
+      "image": "IMG_0003.JPG",
+      "altitude": 6,
+      "timestamp": "2023-06-01T15:29:07.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 13 mini",
+      "latitude": 35.34725277777778,
+      "longitude": -75.49961944444445,
+      "geoName": "Buxton",
+      "formattedName": "Buxton, North Carolina",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "North Carolina",
+      "adminName2": "Dare County",
+      "geoDistance": 9.661129021402468,
+      "distance": 259
+    },
+    {
+      "image": "IMG_5684.jpeg",
+      "timestamp": "2023-05-28T00:24:21.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 8 Plus",
+      "latitude": 41.69631111111111,
+      "longitude": -77.45532222222222,
+      "geoName": "Wellsboro",
+      "formattedName": "Wellsboro, Pennsylvania",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Pennsylvania",
+      "adminName2": "Tioga County",
+      "geoDistance": 14.104868324654259,
+      "distance": 195
+    },
+    {
+      "image": "IMG_5682.jpeg",
+      "timestamp": "2023-05-28T00:19:40.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 8 Plus",
+      "latitude": 41.69631111111111,
+      "longitude": -77.45532222222222,
+      "geoName": "Wellsboro",
+      "formattedName": "Wellsboro, Pennsylvania",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Pennsylvania",
+      "adminName2": "Tioga County",
+      "geoDistance": 14.104868324654259,
+      "distance": 195
+    }
+  ],
+  "usTotals": [
+    "District of Columbia",
+    "California",
+    "Arizona",
+    "Utah",
+    "Nevada",
+    "Delaware",
+    "New York",
+    "North Carolina",
+    "Pennsylvania"
+  ],
+  "imagesPoints": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.0035861111111,
+            38.91678611111111
+          ]
+        },
+        "properties": {
+          "title": "Bloomingdale, District of Columbia"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.10852777777777778,
+            51.49648611111111
+          ]
+        },
+        "properties": {
+          "title": "Lambeth, United Kingdom"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.10856388888888889,
+            51.496922222222224
+          ]
+        },
+        "properties": {
+          "title": "Lambeth, United Kingdom"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.13316111111111112,
+            51.483019444444444
+          ]
+        },
+        "properties": {
+          "title": "Pimlico, United Kingdom"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -0.14628611111111112,
+            51.48356944444445
+          ]
+        },
+        "properties": {
+          "title": "Pimlico, United Kingdom"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.32588888888888,
+            33.723075
+          ]
+        },
+        "properties": {
+          "title": "Indian Wells, California"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.256986111111111,
+            53.345775
+          ]
+        },
+        "properties": {
+          "title": "Dublin, Ireland"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.297341666666666,
+            53.34335
+          ]
+        },
+        "properties": {
+          "title": "Rialto, Ireland"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -6.256986111111111,
+            53.345775
+          ]
+        },
+        "properties": {
+          "title": "Dublin, Ireland"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -114.13169722222221,
+            34.26573055555556
+          ]
+        },
+        "properties": {
+          "title": "Cienega Springs, Arizona"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.94751111111111,
+            37.29731666666667
+          ]
+        },
+        "properties": {
+          "title": "Toquerville, Utah"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -112.94615277777778,
+            37.21351111111112
+          ]
+        },
+        "properties": {
+          "title": "Hildale, Utah"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -114.73927222222223,
+            36.01607222222222
+          ]
+        },
+        "properties": {
+          "title": "Boulder City, Nevada"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -114.73941111111111,
+            36.01595555555556
+          ]
+        },
+        "properties": {
+          "title": "Boulder City, Nevada"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.121025,
+            48.80799444444444
+          ]
+        },
+        "properties": {
+          "title": "Versailles, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.111580555555556,
+            48.80705555555555
+          ]
+        },
+        "properties": {
+          "title": "Versailles, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.1163611111111114,
+            48.80513333333333
+          ]
+        },
+        "properties": {
+          "title": "Versailles, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.346088888888889,
+            48.84626111111111
+          ]
+        },
+        "properties": {
+          "title": "Paris, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.296358333333333,
+            48.86318611111111
+          ]
+        },
+        "properties": {
+          "title": "Neuilly-sur-Seine, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.329597222222222,
+            48.835483333333336
+          ]
+        },
+        "properties": {
+          "title": "Maison Blanche, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.329597222222222,
+            48.835483333333336
+          ]
+        },
+        "properties": {
+          "title": "Maison Blanche, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.327363888888889,
+            48.83792777777778
+          ]
+        },
+        "properties": {
+          "title": "Maison Blanche, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.329597222222222,
+            48.835483333333336
+          ]
+        },
+        "properties": {
+          "title": "Maison Blanche, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.327036111111111,
+            48.86526111111111
+          ]
+        },
+        "properties": {
+          "title": "Porte Saint-Denis, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.3277416666666664,
+            48.86306388888889
+          ]
+        },
+        "properties": {
+          "title": "Paris, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.3429833333333336,
+            48.886005555555556
+          ]
+        },
+        "properties": {
+          "title": "Saint-Vincent de Paul, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.3369416666666667,
+            48.846775
+          ]
+        },
+        "properties": {
+          "title": "Paris, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.3367666666666667,
+            48.845730555555555
+          ]
+        },
+        "properties": {
+          "title": "Paris, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.2948749999999998,
+            48.87374166666667
+          ]
+        },
+        "properties": {
+          "title": "Neuilly-sur-Seine, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.3479444444444444,
+            48.853430555555555
+          ]
+        },
+        "properties": {
+          "title": "Paris, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.3450694444444444,
+            48.85369166666667
+          ]
+        },
+        "properties": {
+          "title": "Paris, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.332058333333333,
+            48.87356666666667
+          ]
+        },
+        "properties": {
+          "title": "Porte Saint-Denis, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.3371583333333334,
+            48.86409722222222
+          ]
+        },
+        "properties": {
+          "title": "Paris, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.3372611111111112,
+            48.86438888888889
+          ]
+        },
+        "properties": {
+          "title": "Paris, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.3374194444444445,
+            48.86426111111111
+          ]
+        },
+        "properties": {
+          "title": "Paris, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.366888888888889,
+            48.86570277777778
+          ]
+        },
+        "properties": {
+          "title": "Folie Méricourt, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.333711111111111,
+            48.85959722222222
+          ]
+        },
+        "properties": {
+          "title": "Paris, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.3268138888888887,
+            48.86089444444445
+          ]
+        },
+        "properties": {
+          "title": "Paris, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.318961111111111,
+            48.863086111111116
+          ]
+        },
+        "properties": {
+          "title": "Paris, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2.294083333333333,
+            48.860475
+          ]
+        },
+        "properties": {
+          "title": "Neuilly-sur-Seine, France"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.185194444444445,
+            50.70080555555556
+          ]
+        },
+        "properties": {
+          "title": "Tubize, Belgium"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.349911111111111,
+            50.84519166666667
+          ]
+        },
+        "properties": {
+          "title": "Brussels, Belgium"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.349983333333333,
+            50.84615277777778
+          ]
+        },
+        "properties": {
+          "title": "Brussels, Belgium"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.348694444444444,
+            50.8455
+          ]
+        },
+        "properties": {
+          "title": "Brussels, Belgium"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.349794444444444,
+            50.84634722222223
+          ]
+        },
+        "properties": {
+          "title": "Brussels, Belgium"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.3551111111111105,
+            50.84792222222222
+          ]
+        },
+        "properties": {
+          "title": "Brussels, Belgium"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.354991666666666,
+            50.84879166666667
+          ]
+        },
+        "properties": {
+          "title": "Brussels, Belgium"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.356230555555555,
+            50.84985833333334
+          ]
+        },
+        "properties": {
+          "title": "Brussels, Belgium"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.359822222222222,
+            50.84767222222222
+          ]
+        },
+        "properties": {
+          "title": "Brussels, Belgium"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4.358486111111111,
+            50.84376944444445
+          ]
+        },
+        "properties": {
+          "title": "Brussels, Belgium"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.07958333333333,
+            38.705219444444445
+          ]
+        },
+        "properties": {
+          "title": "Rehoboth Beach, Delaware"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.07742222222222,
+            38.71740277777778
+          ]
+        },
+        "properties": {
+          "title": "Rehoboth Beach, Delaware"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.61512777777777,
+            43.163069444444446
+          ]
+        },
+        "properties": {
+          "title": "Rochester, New York"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -79.06857222222222,
+            43.08622777777778
+          ]
+        },
+        "properties": {
+          "title": "Niagara Falls, New York"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -76.88164444444443,
+            42.37352777777778
+          ]
+        },
+        "properties": {
+          "title": "Watkins Glen, New York"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.19399166666668,
+            42.41464722222222
+          ]
+        },
+        "properties": {
+          "title": "Sylvan Beach, New York"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.52455277777777,
+            35.22705555555556
+          ]
+        },
+        "properties": {
+          "title": "Buxton, North Carolina"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.52900833333334,
+            35.25046666666667
+          ]
+        },
+        "properties": {
+          "title": "Buxton, North Carolina"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.7212,
+            35.199225
+          ]
+        },
+        "properties": {
+          "title": "Buxton, North Carolina"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.72061111111111,
+            35.19968333333333
+          ]
+        },
+        "properties": {
+          "title": "Buxton, North Carolina"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.72053611111112,
+            35.19965833333333
+          ]
+        },
+        "properties": {
+          "title": "Buxton, North Carolina"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.70285,
+            35.20656944444445
+          ]
+        },
+        "properties": {
+          "title": "Buxton, North Carolina"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.499625,
+            35.34726666666667
+          ]
+        },
+        "properties": {
+          "title": "Buxton, North Carolina"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.49961944444445,
+            35.34725277777778
+          ]
+        },
+        "properties": {
+          "title": "Buxton, North Carolina"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.45532222222222,
+            41.69631111111111
+          ]
+        },
+        "properties": {
+          "title": "Wellsboro, Pennsylvania"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.45532222222222,
+            41.69631111111111
+          ]
+        },
+        "properties": {
+          "title": "Wellsboro, Pennsylvania"
+        }
+      }
+    ]
+  }
+}
