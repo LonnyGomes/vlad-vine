@@ -1,5 +1,13 @@
 <div class="image-card">
-  <img class="image" [src]="image().image" />
+  <img
+    class="image"
+    [ngSrc]="image().image"
+    [width]="600"
+    [height]="600"
+    [priority]="false"
+    decoding="async"
+    [alt]="image().formattedName ?? 'Bulbutin photo'"
+  />
   <div class="info">
     <div class="location-time">
       <div class="country-info">
