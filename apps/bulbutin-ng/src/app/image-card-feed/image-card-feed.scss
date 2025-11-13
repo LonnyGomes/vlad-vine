@@ -1,0 +1,29 @@
+.image-grid {
+  display: grid;
+  gap: 1.5rem;
+  padding: 1rem;
+
+  // Mobile: 1 column
+  grid-template-columns: 1fr;
+
+  // Tablet: 2 columns (min 600px)
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  // Desktop: 3 columns (min 900px)
+  @media (min-width: 900px) {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  // Large Desktop: 4 columns (min 1200px)
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  // Extra Large: 5 columns (min 1600px)
+  @media (min-width: 1600px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
