@@ -63,8 +63,9 @@ export class Map implements OnInit, OnDestroy {
         const newStyle = e.matches ? this.imgFeed.mbStyleDark : this.imgFeed.mbStyleLight;
         this.map.setStyle(newStyle);
 
-        // Re-add the image layer after style change
+        // Re-add terrain and image layer after style change
         this.map.once('styledata', () => {
+          this.addTerrain();
           this.addImageLayer();
         });
       }
@@ -88,8 +89,38 @@ export class Map implements OnInit, OnDestroy {
 
     // Load images and add markers
     this.map.on('load', () => {
+      this.addTerrain();
       this.addImageLayer();
     });
+  }
+
+  private addTerrain() {
+    if (!this.map) return;
+
+    // Add Mapbox Terrain DEM source
+    this.map.addSource('mapbox-dem', {
+      type: 'raster-dem',
+      url: 'mapbox://mapbox.mapbox-terrain-dem-v1',
+      tileSize: 512,
+      maxzoom: 14,
+    });
+
+    // Set the terrain on the map with exaggeration for better visibility
+    this.map.setTerrain({
+      source: 'mapbox-dem',
+      exaggeration: 1.5, // Makes elevation changes more visible (1.0 = realistic)
+    });
+
+    // Add sky layer with better lighting for terrain
+    // this.map.addLayer({
+    //   id: 'sky',
+    //   type: 'sky',
+    //   paint: {
+    //     'sky-type': 'atmosphere',
+    //     'sky-atmosphere-sun': [0.0, 90.0], // Sun directly overhead for even lighting
+    //     'sky-atmosphere-sun-intensity': 10, // Reduced intensity for softer shadows
+    //   },
+    // });
   }
 
   private addImageLayer() {
