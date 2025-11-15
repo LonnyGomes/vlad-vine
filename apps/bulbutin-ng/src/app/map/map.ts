@@ -121,22 +121,13 @@ export class Map implements OnInit, OnDestroy {
 
     // Add popup on click
     this.map!.on('click', 'imagesLayer', (e) => {
-      const coordinates = (e.features![0].geometry as any).coordinates.slice();
-      const title = e.features?.[0].properties?.['title'] || '';
-      const image = e.features?.[0].properties?.['image'] || '';
-      if (coordinates && title && image) {
-        new mapboxgl.Popup({
-          maxWidth: '300px',
-          className: 'map-image-popup',
-        })
-          .setLngLat(coordinates)
-          .setHTML(
-            `<div class="popup-container">
-              <img class="popup-image" src="${this.imgFeed.photosPath}${image}" alt="${title}">
-              <div class="popup-title">${title}</div>
-            </div>`,
-          )
-          .addTo(this.map!);
+      // const coordinates = (e.features![0].geometry as any).coordinates.slice();
+      const id = e.features?.[0].properties?.['id'] || '';
+      if (id) {
+        const image = this.imgFeed.getImageById(Number(id));
+        if (image) {
+          this.openPopupForImage(image);
+        }
       }
     });
 

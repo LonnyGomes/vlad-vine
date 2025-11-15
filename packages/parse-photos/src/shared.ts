@@ -9,7 +9,8 @@ import type { ImageDataResults } from "./models.js";
 import imageDataResults from "../images.json";
 
 // JSON timestamps are strings, so we need to cast appropriately
-export const imageDataResultsJSON = imageDataResults as unknown as ImageDataResults;
+export const imageDataResultsJSON =
+  imageDataResults as unknown as ImageDataResults;
 
 export function calcTotalCountries(images: ImageResult[]): CountryInfo[] {
   const totalCountries = images.reduce(
@@ -87,6 +88,8 @@ export function genGeoJSONPoints(images: ImageResult[]): FeatureCollection {
       },
       properties: {
         title: img.formattedName || img.geoName,
+        id: img.id,
+        image: img.image,
       },
     })),
   };

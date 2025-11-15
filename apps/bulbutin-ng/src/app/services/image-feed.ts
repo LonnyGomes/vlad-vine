@@ -95,4 +95,8 @@ export class ImageFeed {
     // };
     // this.imagePoints.set(geoJsonPoints);
   }
+
+  getImageById(id: number): ImageResult | undefined {
+    return this.images().find((img) => img.id === id);
+  }
 }
