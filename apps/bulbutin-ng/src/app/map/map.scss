@@ -6,6 +6,19 @@ $arrow-padding: 10px;
   min-height: 400px;
 }
 
+.cur-img-idx {
+  position: absolute;
+  bottom: calc(var(--toolbar-height) + 20px);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  z-index: 10;
+}
+
 .map-img-btn {
   position: absolute;
   bottom: calc(var(--toolbar-height) + 10px);

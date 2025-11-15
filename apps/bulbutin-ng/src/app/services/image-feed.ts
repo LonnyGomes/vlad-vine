@@ -20,9 +20,28 @@ export class ImageFeed {
     states: [],
     distanceTraveled: 0,
   });
+  readonly mapIndex = signal<number>(0);
+
+  mbStyleLight = 'mapbox://styles/uknowho/cmhq41w0s009101s54ierbhb1';
+  mbStyleDark = 'mapbox://styles/uknowho/cmi0p4mkx00f601s106i63bms';
 
   constructor() {
     this.loadData();
+  }
+
+  nextMapIndex() {
+    const currentIndex = this.mapIndex();
+    const imagesLength = this.images().length;
+    const nextIndex = (currentIndex + 1) % imagesLength;
+
+    this.mapIndex.update(() => nextIndex);
+  }
+
+  prevMapIndex() {
+    const currentIndex = this.mapIndex();
+    const imagesLength = this.images().length;
+    const prevIndex = (currentIndex - 1 + imagesLength) % imagesLength;
+    this.mapIndex.update(() => prevIndex);
   }
 
   private loadData() {
