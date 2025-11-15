@@ -27,4 +27,9 @@
     font-weight: bold;
     opacity: 1;
   }
+
+  img {
+    width: 50px;
+    filter: brightness(0) invert(1); // inverse default color
+  }
 }
