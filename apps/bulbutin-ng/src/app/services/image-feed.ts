@@ -45,6 +45,17 @@ export class ImageFeed {
     this.mapIndex.update(() => prevIndex);
   }
 
+  setMapIndexByImageId(index: number) {
+    if (index >= 0 && index < this.images().length) {
+      for (let i = 0; i < this.images().length; i++) {
+        if (this.images()[i].id === index) {
+          this.mapIndex.set(i);
+          return;
+        }
+      }
+    }
+  }
+
   private loadData() {
     // Access the images array from the ImageDataResults structure
     const jsonResults = imageDataResultsJSON as ImageDataResults;

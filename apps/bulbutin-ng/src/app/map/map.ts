@@ -162,13 +162,9 @@ export class Map implements OnInit, OnDestroy {
 
     // Add popup on click
     this.map!.on('click', 'imagesLayer', (e) => {
-      // const coordinates = (e.features![0].geometry as any).coordinates.slice();
       const id = e.features?.[0].properties?.['id'] || '';
       if (id) {
-        const image = this.imgFeed.getImageById(Number(id));
-        if (image) {
-          this.openPopupForImage(image);
-        }
+        this.imgFeed.setMapIndexByImageId(Number(id));
       }
     });
 
