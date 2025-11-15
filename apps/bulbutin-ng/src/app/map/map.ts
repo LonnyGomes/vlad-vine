@@ -106,6 +106,14 @@ export class Map implements OnInit, OnDestroy {
       data: imageGeoJSON,
     });
 
+    // Get CSS variable values from the document
+    const rootStyles = getComputedStyle(document.documentElement);
+    const primaryColor = rootStyles.getPropertyValue('--primary-color').trim();
+
+    // Determine stroke color based on dark mode
+    const isDarkMode = this.darkModeQuery.matches;
+    const strokeColor = isDarkMode ? '#CCCCCC' : '#FFFFFF';
+
     // Add a layer to render the points
     this.map!.addLayer({
       id: 'imagesLayer',
@@ -113,9 +121,11 @@ export class Map implements OnInit, OnDestroy {
       source: 'imagesSource',
       paint: {
         'circle-radius': 8,
-        'circle-color': '#ff0000',
-        'circle-stroke-width': 2,
-        'circle-stroke-color': '#FFFFFF',
+        'circle-color': primaryColor, // Use CSS variable
+        'circle-stroke-width': 3,
+        'circle-stroke-color': strokeColor,
+        'circle-opacity': 0.9, // Slightly transparent to see map underneath
+        'circle-emissive-strength': 1,
       },
     });
 
