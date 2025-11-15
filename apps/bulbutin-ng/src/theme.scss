@@ -1,15 +1,17 @@
 :root {
   --primary-color: #3498db;
+  --primary-color-dark: #2574a9; // Darker version for gradient
   --secondary-color: #2ecc71;
   --background-color: #fdfdfd;
   --text-color: #333333;
-  --toolbar-height: 100px;
+  --toolbar-height: 60px; // Reduced for mobile
   --navbar-height: 60px;
   --icon-filter: brightness(0); // Black icons for light mode
 
   // Dark mode
   @media (prefers-color-scheme: dark) {
     --primary-color: #2980b9;
+    --primary-color-dark: #1f618d; // Darker version for gradient
     --secondary-color: #27ae60;
     --background-color: #383838;
     --text-color: #f0f0f0;

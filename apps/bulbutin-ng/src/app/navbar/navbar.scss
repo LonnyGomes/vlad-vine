@@ -1,17 +1,24 @@
 :host {
-  background-color: var(--navbar-bg, #ffffff);
   display: block;
-  height: var(--navbar-height);
-  position: sticky;
-  top: 0;
+  background-color: var(--primary-color);
+  flex-shrink: 0; // Don't shrink in flex layout
   z-index: 100;
-  padding-top: env(safe-area-inset-top); // Handle notch on iPhone
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+
+  // Extend into top safe area (notch)
+  padding-top: env(safe-area-inset-top);
+
+  @media (prefers-color-scheme: dark) {
+    background-color: var(--primary-color-dark);
+  }
 }
 
 .navbar-container {
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  height: 100%;
+  height: var(--navbar-height);
+  align-items: center;
 }
 

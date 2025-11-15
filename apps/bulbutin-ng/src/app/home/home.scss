@@ -1,16 +1,21 @@
 .layout {
-  display: grid;
-  grid-template-rows: var(--navbar-height) 1fr var(--toolbar-height);
+  display: flex;
+  flex-direction: column;
   height: 100vh;
-  height: 100dvh; // Dynamic viewport height for iOS Safari
+  height: 100dvh; // Dynamic viewport height for iOS
   width: 100%;
   overflow: hidden;
   position: relative;
+  background: transparent; // Let body background show through
 }
 
 .content {
+  flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
-  -webkit-overflow-scrolling: touch; // Smooth scrolling on iOS
-  overscroll-behavior: contain; // Prevent pull-to-refresh interference
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+  position: relative;
+  // Prevent iOS Safari from adding extra space
+  min-height: 0;
 }
