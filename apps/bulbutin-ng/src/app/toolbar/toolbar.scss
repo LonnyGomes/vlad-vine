@@ -1,10 +1,15 @@
 :host {
   display: block;
   flex-shrink: 0; // Don't shrink in flex layout
-  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
   z-index: 100;
   position: relative;
   background: transparent; // Let body background show through to safe area
+
+  // Neumorphic effect - soft shadow on top
+  box-shadow:
+    0 -4px 6px rgba(0, 0, 0, 0.15),
+    0 -1px 3px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
 
   // Add gradient using ::before pseudo-element
   &::before {
@@ -28,6 +33,13 @@
         #1a252f 100%
       );
     }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    box-shadow:
+      0 -4px 6px rgba(0, 0, 0, 0.3),
+      0 -1px 3px rgba(0, 0, 0, 0.2),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05);
   }
 }
 
