@@ -1,10 +1,17 @@
 :host {
   background-color: var(--navbar-bg, #ffffff);
+  display: block;
+  height: var(--navbar-height);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding-top: env(safe-area-inset-top); // Handle notch on iPhone
 }
 
 .navbar-container {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   justify-items: center;
+  height: 100%;
 }
 

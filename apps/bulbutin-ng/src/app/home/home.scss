@@ -2,8 +2,15 @@
   display: grid;
   grid-template-rows: var(--navbar-height) 1fr var(--toolbar-height);
   height: 100vh;
+  height: 100dvh; // Dynamic viewport height for iOS Safari
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
 .content {
   overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; // Smooth scrolling on iOS
+  overscroll-behavior: contain; // Prevent pull-to-refresh interference
 }

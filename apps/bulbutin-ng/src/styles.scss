@@ -14,14 +14,19 @@
   --header-clr: #ffffff;
 }
 
-body {
-  margin: 0px;
-  padding-top: env(safe-area-inset-top);
-  padding-bottom: env(safe-area-inset-bottom);
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; // Prevent body scroll
   font-family: 'IBM Plex Sans Variable', sans-serif;
   font-weight: 400;
-  background-color: var(--primary-color);
+  background-color: var(--background-color);
   color: var(--text-color);
+  
+  // iOS Safari viewport fix
+  position: fixed;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
