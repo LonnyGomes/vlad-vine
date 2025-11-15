@@ -24,6 +24,7 @@ export class ImageFeed {
 
   mbStyleLight = 'mapbox://styles/uknowho/cmhq41w0s009101s54ierbhb1';
   mbStyleDark = 'mapbox://styles/uknowho/cmi0p4mkx00f601s106i63bms';
+  photosPath = '/assets/bulbutin-images';
 
   constructor() {
     this.loadData();
@@ -51,7 +52,7 @@ export class ImageFeed {
 
     const processedImages = rawImages.map((curImg: any) => ({
       ...curImg,
-      image: `assets/bulbutin-images/${curImg.image}`,
+      image: `${this.photosPath}/${curImg.image}`,
       timestamp: new Date(curImg.timestamp).toLocaleString(),
     })) as ImageResult[];
 
