@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @use 'theme';
 
-@use '@fontsource/special-gothic-condensed-one';
+@use '@fontsource/pacifico';
 // Supports weights 100-700
 @use '@fontsource-variable/ibm-plex-sans';
 
@@ -24,7 +24,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Special Gothic Condensed One', sans-serif;
+  font-family: 'Pacifico', cursive;
   margin: 0;
   color: var(--header-clr);
 }
