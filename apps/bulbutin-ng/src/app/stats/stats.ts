@@ -1,16 +1,16 @@
 import { Component, inject, computed } from '@angular/core';
 import { ImageFeed } from '../services/image-feed';
 import { DecimalPipe } from '@angular/common';
+import { StatsCard } from '../stats-card/stats-card';
 
 @Component({
   selector: 'app-stats',
-  imports: [DecimalPipe],
+  imports: [DecimalPipe, StatsCard],
   templateUrl: './stats.html',
   styleUrl: './stats.scss',
 })
 export class Stats {
   private imgFeed = inject(ImageFeed);
-  private stats = this.imgFeed.stats;
   countries = computed(() => this.imgFeed.stats().countries);
   states = computed(() => this.imgFeed.stats().states);
   altitude = computed(() => this.imgFeed.stats().altitude);

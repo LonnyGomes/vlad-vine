@@ -1,27 +1,30 @@
-<!-- <p>Total Images: {{ stats()?.totals.images }}</p> -->
-<!-- <p>Total Countries: {{ stats()?.totals.countries }}</p> -->
+<div class="stats-container">
+  <div class="totals-miles">
+    <app-stats-card title="Total Miles Traveled" [value]="distanceTraveled()"></app-stats-card>
+  </div>
 
-<h3>Totals</h3>
-<p>Total distance traveld : {{ distanceTraveled() | number:'1.0-0' }} miles</p>
-<p>Total Images: {{ totals().images }}</p>
-<p>Total Countries: {{ totals().countries }}</p>
-<p>Total US States: {{ totals().us }}</p>
+  <div class="sub-totals">
+    <app-stats-card title="Photos" [value]="totals().images"></app-stats-card>
+    <app-stats-card title="Countries" [value]="totals().countries"></app-stats-card>
+    <app-stats-card title="States" [value]="totals().us"></app-stats-card>
+  </div>
 
-<h3>Altitude Stats</h3>
-<p>Min Altitude: {{ altitude().min }} feet</p>
-<p>Max Altitude: {{ altitude().max }} feet</p>
-<p>Average Altitude: {{ altitude().average }} feet</p>
+  <h3>Altitude Stats</h3>
+  <p>Min Altitude: {{ altitude().min }} feet</p>
+  <p>Max Altitude: {{ altitude().max }} feet</p>
+  <p>Average Altitude: {{ altitude().average }} feet</p>
 
-<h3>States Stats</h3>
-@for(state of states(); track state) {
-<div class="state-stats-card">
-  <span>{{ state}}</span>
+  <h3>States Stats</h3>
+  @for(state of states(); track state) {
+  <div class="state-stats-card">
+    <span>{{ state}}</span>
+  </div>
+  }
+
+  <h3>Countries</h3>
+  @for(country of countries(); track country.countryCode) {
+  <div class="country-stats-card">
+    <span>{{ country.flag }} ({{ country.countryName }})</span>
+  </div>
+  }
 </div>
-}
-
-<h3>Countries</h3>
-@for(country of countries(); track country.countryCode) {
-<div class="country-stats-card">
-  <span>{{ country.flag }} ({{ country.countryName }})</span>
-</div>
-}
