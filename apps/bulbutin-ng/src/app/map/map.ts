@@ -55,7 +55,7 @@ export class Map implements OnInit, OnDestroy {
 
         this.map.flyTo({
           center: [longitude, latitude],
-          zoom: 15,
+          zoom: 14,
           pitch: 60, // Angle the camera (0-85 degrees)
           bearing: 0, // Rotation (0-360 degrees)
           essential: true,
@@ -90,9 +90,9 @@ export class Map implements OnInit, OnDestroy {
     this.map = new mapboxgl.Map({
       container: this.mapContainer().nativeElement,
       style: this.getMapStyle(), // Use style based on dark mode
-      center: [-77.0369, 38.9072], // Default center (Washington DC)
-      zoom: 9,
-      pitch: 45, // Start with angled perspective
+      center: [-50, 0],
+      zoom: 0,
+      pitch: 0, // Start with angled perspective
       bearing: 0, // Initial rotation
     });
 
@@ -101,6 +101,11 @@ export class Map implements OnInit, OnDestroy {
 
     // Load images and add markers
     this.map.on('load', () => {
+      if (!this.imageIsSelected()) {
+        this.map!.zoomTo(1);
+        this.map!.panTo([-50, 30]); // prefer western hemisphere start
+      }
+
       // Add Mapbox Terrain DEM source
       if (this.map!.getSource('mapbox-dem')) {
         this.map!.removeSource('mapbox-dem');
