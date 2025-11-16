@@ -40,7 +40,8 @@
   "dependencies": {
     "emoji-flags": "^1.3.0",
     "exifr": "^7.1.3",
-    "local-reverse-geocoder": "^0.16.7"
+    "local-reverse-geocoder": "^0.16.7",
+    "sharp": "^0.34.5"
   },
   "devDependencies": {
     "@types/geojson": "^7946.0.16",
