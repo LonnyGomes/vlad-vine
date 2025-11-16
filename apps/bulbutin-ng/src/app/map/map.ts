@@ -7,6 +7,7 @@ import {
   inject,
   computed,
   effect,
+  signal,
 } from '@angular/core';
 import mapboxgl from 'mapbox-gl';
 import { environment } from '../../environments/environment';
@@ -25,6 +26,8 @@ export class Map implements OnInit, OnDestroy {
   private map?: mapboxgl.Map;
   private currentPopup?: mapboxgl.Popup;
   private darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  terrainEnabled = signal<boolean>(false);
+  terrainButtonTitle = computed(() => (this.terrainEnabled() ? '3D' : '2D'));
 
   currentImageIndex = computed(
     () => `${this.imgFeed.mapIndex() + 1} / ${this.imgFeed.images().length}`,
@@ -65,7 +68,9 @@ export class Map implements OnInit, OnDestroy {
 
         // Re-add terrain and image layer after style change
         this.map.once('styledata', () => {
-          this.addTerrain();
+          if (this.terrainEnabled()) {
+            this.addTerrain();
+          }
           this.addImageLayer();
         });
       }
@@ -89,21 +94,27 @@ export class Map implements OnInit, OnDestroy {
 
     // Load images and add markers
     this.map.on('load', () => {
-      this.addTerrain();
+      // Add Mapbox Terrain DEM source
+      if (this.map!.getSource('mapbox-dem')) {
+        this.map!.removeSource('mapbox-dem');
+      }
+
+      this.map?.addSource('mapbox-dem', {
+        type: 'raster-dem',
+        url: 'mapbox://mapbox.mapbox-terrain-dem-v1',
+        tileSize: 512,
+        maxzoom: 14,
+      });
+
+      if (this.terrainEnabled()) {
+        this.addTerrain();
+      }
       this.addImageLayer();
     });
   }
 
   private addTerrain() {
     if (!this.map) return;
-
-    // Add Mapbox Terrain DEM source
-    this.map.addSource('mapbox-dem', {
-      type: 'raster-dem',
-      url: 'mapbox://mapbox.mapbox-terrain-dem-v1',
-      tileSize: 512,
-      maxzoom: 14,
-    });
 
     // Set the terrain on the map with exaggeration for better visibility
     this.map.setTerrain({
@@ -217,5 +228,26 @@ export class Map implements OnInit, OnDestroy {
     // Clean up event listener
     this.darkModeQuery.removeEventListener('change', () => {});
     this.map?.remove();
+  }
+
+  toggleTerrain() {
+    if (!this.map) return;
+
+    const currentTerrain = this.map.getTerrain();
+    if (this.terrainEnabled()) {
+      this.map.setTerrain(null);
+      this.terrainEnabled.set(false);
+    } else {
+      if (currentTerrain) {
+        this.map.setTerrain(null);
+      }
+      this.terrainEnabled.set(true);
+    }
+
+    if (currentTerrain) {
+      this.map.setTerrain(null);
+    } else {
+      this.addTerrain();
+    }
   }
 }

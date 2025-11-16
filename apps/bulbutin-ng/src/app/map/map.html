@@ -1,4 +1,7 @@
 <div #mapContainer class="map-container"></div>
+<div class="map-3d-btn" (click)="toggleTerrain()" [class.active]="terrainEnabled()">
+  <span [innerHTML]="terrainButtonTitle()"></span>
+</div>
 <button class="map-img-btn left" aria-label="Previous image" (click)="prev()"></button>
 <div class="cur-img-idx" [innerHTML]="currentImageIndex()"></div>
 <button class="map-img-btn right" aria-label="Next image" (click)="next()"></button>
