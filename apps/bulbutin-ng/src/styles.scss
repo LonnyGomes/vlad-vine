@@ -2,8 +2,8 @@
 @use 'theme';
 
 @use '@fontsource/pacifico';
-// Supports weights 100-700
-@use '@fontsource-variable/ibm-plex-sans';
+// Supports weights 200-800
+@use '@fontsource-variable/manrope';
 
 /* Mapbox GL CSS */
 @import 'mapbox-gl/dist/mapbox-gl.css';
@@ -33,7 +33,7 @@ body {
   padding: 0;
   height: 100%;
   overflow: hidden;
-  font-family: 'IBM Plex Sans Variable', sans-serif;
+  font-family: var(--body-font);
   font-weight: 400;
   color: var(--text-color);
 
@@ -49,7 +49,7 @@ body {
   width: 100%;
   overscroll-behavior: none;
   -webkit-overflow-scrolling: touch;
-  
+
   // Disable text selection
   -webkit-user-select: none;
   user-select: none;
@@ -79,8 +79,15 @@ input, textarea {
   user-select: text;
 }
 
+h1 {
+  font-family: var(--header-font);
+}
+
+ h2, h3, h4, h5, h6 {
+  font-family: var(--body-font);
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Pacifico', cursive;
   margin: 0;
   color: var(--header-clr);
 }

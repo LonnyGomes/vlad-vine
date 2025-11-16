@@ -7,6 +7,9 @@
   --toolbar-height: 60px; // Reduced for mobile
   --navbar-height: 60px;
   --icon-filter: brightness(0); // Black icons for light mode
+  --body-font: 'Manrope Variable', sans-serif;
+  --header-font:'Pacifico', cursive;
+
 
   // Dark mode
   @media (prefers-color-scheme: dark) {
