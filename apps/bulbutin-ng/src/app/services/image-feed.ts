@@ -20,7 +20,7 @@ export class ImageFeed {
     states: [],
     distanceTraveled: 0,
   });
-  readonly mapIndex = signal<number>(0);
+  readonly mapIndex = signal<number>(-1);
 
   mbStyleLight = 'mapbox://styles/uknowho/cmhq41w0s009101s54ierbhb1';
   mbStyleDark = 'mapbox://styles/uknowho/cmi1csaap00g001s1g4rjfiqp';

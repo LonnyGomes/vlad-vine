@@ -32,6 +32,7 @@ export class Map implements OnInit, OnDestroy {
   currentImageIndex = computed(
     () => `${this.imgFeed.mapIndex() + 1} / ${this.imgFeed.images().length}`,
   );
+  imageIsSelected = computed(() => this.imgFeed.mapIndex() !== -1);
 
   // Computed property to get the appropriate map style based on dark mode
   private getMapStyle() {
@@ -42,6 +43,12 @@ export class Map implements OnInit, OnDestroy {
     effect(() => {
       const index = this.imgFeed.mapIndex();
       const images = this.imgFeed.images();
+
+      // we don't want to zoom anywhere, -1 means no image selected
+      if (index == -1) {
+        return;
+      }
+
       if (this.map && images[index]) {
         const currentImage = images[index];
         const { longitude, latitude } = currentImage;
