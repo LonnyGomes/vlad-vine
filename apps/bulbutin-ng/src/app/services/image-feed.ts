@@ -23,7 +23,7 @@ export class ImageFeed {
   readonly mapIndex = signal<number>(0);
 
   mbStyleLight = 'mapbox://styles/uknowho/cmhq41w0s009101s54ierbhb1';
-  mbStyleDark = 'mapbox://styles/uknowho/cmi0p4mkx00f601s106i63bms';
+  mbStyleDark = 'mapbox://styles/uknowho/cmi1csaap00g001s1g4rjfiqp';
   photosPath = '/assets/bulbutin-images';
 
   constructor() {
