@@ -1,11 +1,11 @@
 import { Component, inject, computed } from '@angular/core';
 import { ImageFeed } from '../services/image-feed';
-import { DecimalPipe } from '@angular/common';
 import { StatsCard } from '../stats-card/stats-card';
+import { AltitudeChart } from '../altitude-chart/altitude-chart';
 
 @Component({
   selector: 'app-stats',
-  imports: [DecimalPipe, StatsCard],
+  imports: [StatsCard, AltitudeChart],
   templateUrl: './stats.html',
   styleUrl: './stats.scss',
 })

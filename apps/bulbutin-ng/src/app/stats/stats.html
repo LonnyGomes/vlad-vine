@@ -10,9 +10,14 @@
   </div>
 
   <h3>Altitude Stats</h3>
-  <p>Min Altitude: {{ altitude().min }} feet</p>
-  <p>Max Altitude: {{ altitude().max }} feet</p>
-  <p>Average Altitude: {{ altitude().average }} feet</p>
+  <div class="chart-container">
+    <app-altitude-chart></app-altitude-chart>
+  </div>
+  <div class="altitude-totals">
+    <p>Min: {{ altitude().min }} feet</p>
+    <p>Max: {{ altitude().max }} feet</p>
+    <p>Average: {{ altitude().average }} feet</p>
+  </div>
 
   <h3>States Stats</h3>
   @for(state of states(); track state) {
