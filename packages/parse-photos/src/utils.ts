@@ -1,6 +1,7 @@
 import path from "node:path";
 import fs from "node:fs/promises";
 import exifr from "exifr";
+import sharp from "sharp";
 import type { ImageResult, ImageDataResults } from "./models.js";
 import { geocode, initGeocoder } from "./geocoder.js";
 import {
@@ -15,7 +16,7 @@ let distanceTraveled = 0;
 async function extractMetadata(
   imagePath: string,
   id: number,
-  homeCoords: readonly [lon: number, lat: number],
+  homeCoords: readonly [lon: number, lat: number]
 ): Promise<ImageResult> {
   const metadata = await exifr.parse(imagePath);
   const image = path.basename(imagePath);
@@ -48,13 +49,26 @@ async function extractMetadata(
 
   // generate formatted name based on if US or not
   const formattedName =
-    countryCode === "US"
+    countryCode === 'US'
       ? `${geoName}, ${adminName1}`
       : `${geoName}, ${countryName}`;
+
+  // Generate thumbnail
+  // Create thumbnails directory if it doesn't exist
+  const basePath = path.dirname(imagePath);
+  const thumbnailsDir = path.join(basePath, 'thumbnails');
+  await fs.mkdir(thumbnailsDir, { recursive: true });
+
+  console.log(`Processing ${image}...`);
+  const { thumbName: imageThumb } = await generateThumbnail(
+    imagePath,
+    thumbnailsDir
+  );
 
   return {
     id,
     image,
+    imageThumb,
     altitude: GPSAltitude ? metersToFeet(GPSAltitude) : undefined,
     timestamp: DateTimeOriginal,
     speed: GPSSpeed ? kmhToMph(GPSSpeed) : 0,
@@ -76,7 +90,7 @@ async function extractMetadata(
 
 /**
  * Uses the haversine formula (great-circle distance on a sphere)
- * to Calculate the great-circle (“as the crow flies”) distance between two lat/lon pairs.
+ * to Calculate the great-circle ("as the crow flies") distance between two lat/lon pairs.
  * a = sin²(Δφ/2) + cos φ1 * cos φ2 * sin²(Δλ/2)
  * c = 2 * atan2(√a, √(1−a))
  * d = R * c
@@ -91,7 +105,7 @@ function haversineDistance(
   lon1: number,
   lat1: number,
   lon2: number,
-  lat2: number,
+  lat2: number
 ): number {
   const toRadians = (deg: number) => (deg * Math.PI) / 180;
   const kmsToMiles = (km: number) => Math.round(km * 0.621371);
@@ -112,20 +126,49 @@ function haversineDistance(
   return kmsToMiles(d);
 }
 
+/**
+ * Generate a 600x600 center-cropped thumbnail in WebP format
+ * @param imagePath Path to the source image
+ * @param outputDir Directory where the thumbnail should be saved
+ * @returns Path to the generated thumbnail
+ */
+async function generateThumbnail(
+  imagePath: string,
+  outputDir: string
+): Promise<{ thumbPath: string; thumbName: string }> {
+  const filename = path.basename(imagePath);
+  const parsedName = path.parse(filename);
+  const thumbName = `thumb-${parsedName.name}.webp`;
+  const thumbPath = path.join(outputDir, thumbName);
+
+  await sharp(imagePath)
+    .rotate() // Auto-rotate based on EXIF orientation
+    .resize(600, 600, {
+      fit: 'cover',
+      position: 'center',
+    })
+    .webp({ quality: 80 })
+    .toFile(thumbPath);
+
+  return { thumbPath, thumbName };
+}
+
 export async function processImages(
   basePath: string,
-  homeCoords: readonly [lon: number, lat: number],
+  homeCoords: readonly [lon: number, lat: number]
 ): Promise<ImageDataResults> {
   await initGeocoder();
   const files = await fs.readdir(basePath);
-  const extentions = [".jpg", ".jpeg", ".png", ".tiff", ".heic"];
+  const extentions = ['.jpg', '.jpeg', '.png', '.tiff', '.heic'];
   const imageFiles = files.filter((file) =>
-    extentions.includes(path.extname(file).toLowerCase()),
+    extentions.includes(path.extname(file).toLowerCase())
   );
+
   let prevCoord: [number, number] = [...homeCoords];
 
   const promises = imageFiles.map(async (image, id) => {
     const imagePath = path.join(basePath, image);
+
     const metadata = await extractMetadata(imagePath, id, homeCoords);
     distanceTraveled +=
       metadata.longitude !== undefined
@@ -133,7 +176,7 @@ export async function processImages(
             prevCoord[0],
             prevCoord[1],
             metadata.longitude,
-            metadata.latitude,
+            metadata.latitude
           )
         : 0;
     prevCoord = [metadata.longitude, metadata.latitude];
@@ -143,7 +186,7 @@ export async function processImages(
   const results = await Promise.all(promises);
   console.log(`Total Distance Traveled: ${Math.round(distanceTraveled)} miles`);
   const images = results.sort(
-    (a, b) => b.timestamp.getTime() - a.timestamp.getTime(),
+    (a, b) => b.timestamp.getTime() - a.timestamp.getTime()
   );
   const countryTotals = calcTotalCountries(results);
   const usTotals = calcTotalUSStates(results);

@@ -3,6 +3,7 @@ import type { FeatureCollection } from "geojson";
 export interface ImageResult {
   id: number;
   image: string;
+  imageThumb: string;
   altitude?: number;
   timestamp: Date;
   speed: number;

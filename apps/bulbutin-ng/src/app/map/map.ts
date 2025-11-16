@@ -185,10 +185,10 @@ export class Map implements OnInit, OnDestroy {
       this.currentPopup.remove();
     }
 
-    const { longitude, latitude, formattedName, geoName, image: imagePath } = image;
+    const { longitude, latitude, formattedName, geoName, imageThumb } = image;
     const title = formattedName || geoName || '';
 
-    if (longitude && latitude && imagePath) {
+    if (longitude && latitude && imageThumb) {
       this.currentPopup = new mapboxgl.Popup({
         maxWidth: '300px',
         className: 'map-image-popup',
@@ -197,7 +197,7 @@ export class Map implements OnInit, OnDestroy {
         .setLngLat([longitude, latitude])
         .setHTML(
           `<div class="popup-container">
-            <img class="popup-image" src="${imagePath}" alt="${title}">
+            <img class="popup-image" src="${imageThumb}" alt="${title}">
             <div class="popup-title">${title}</div>
           </div>`,
         )

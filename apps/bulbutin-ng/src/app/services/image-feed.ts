@@ -64,6 +64,7 @@ export class ImageFeed {
     const processedImages = rawImages.map((curImg: any) => ({
       ...curImg,
       image: `${this.photosPath}/${curImg.image}`,
+      imageThumb: `${this.photosPath}/${curImg.imageThumb}`,
       timestamp: new Date(curImg.timestamp).toLocaleString(),
     })) as ImageResult[];
 

@@ -35,6 +35,7 @@
     {
       "id": 3,
       "image": "7308918047400158217.jpg",
+      "imageThumb": "thumb-7308918047400158217.webp",
       "altitude": 6759,
       "timestamp": "2024-08-24T21:46:25.000Z",
       "speed": 0,
@@ -53,6 +54,7 @@
     {
       "id": 1,
       "image": "5566879053881335906.jpg",
+      "imageThumb": "thumb-5566879053881335906.webp",
       "altitude": 7972,
       "timestamp": "2024-08-17T18:56:26.000Z",
       "speed": 0,
@@ -71,6 +73,7 @@
     {
       "id": 0,
       "image": "3332584359264293728.jpg",
+      "imageThumb": "thumb-3332584359264293728.webp",
       "altitude": 5906,
       "timestamp": "2024-08-16T15:12:27.000Z",
       "speed": 0,
@@ -89,6 +92,7 @@
     {
       "id": 2,
       "image": "6680929339117383400.jpg",
+      "imageThumb": "thumb-6680929339117383400.webp",
       "altitude": 5741,
       "timestamp": "2024-08-16T14:38:28.000Z",
       "speed": 0,
@@ -107,6 +111,7 @@
     {
       "id": 68,
       "image": "IMG_9666.JPG",
+      "imageThumb": "thumb-IMG_9666.webp",
       "altitude": 23,
       "timestamp": "2024-06-21T19:25:22.000Z",
       "speed": 0.07280961314966393,
@@ -127,6 +132,7 @@
     {
       "id": 67,
       "image": "IMG_9661.JPG",
+      "imageThumb": "thumb-IMG_9661.webp",
       "altitude": 15,
       "timestamp": "2024-06-21T19:23:48.000Z",
       "speed": 0.05222961195345697,
@@ -147,6 +153,7 @@
     {
       "id": 66,
       "image": "IMG_9658.JPG",
+      "imageThumb": "thumb-IMG_9658.webp",
       "altitude": 19,
       "timestamp": "2024-06-21T19:06:07.000Z",
       "speed": 1.6236811847003076,
@@ -167,6 +174,7 @@
     {
       "id": 65,
       "image": "IMG_9653.JPG",
+      "imageThumb": "thumb-IMG_9653.webp",
       "altitude": 22,
       "timestamp": "2024-06-21T18:41:13.000Z",
       "speed": 0.9171406034690346,
@@ -187,6 +195,7 @@
     {
       "id": 64,
       "image": "IMG_8679.JPG",
+      "imageThumb": "thumb-IMG_8679.webp",
       "altitude": 132,
       "timestamp": "2024-05-07T19:29:39.000Z",
       "speed": 0.2982467772078217,
@@ -207,6 +216,7 @@
     {
       "id": 39,
       "image": "IMG_0884.jpeg",
+      "imageThumb": "thumb-IMG_0884.webp",
       "timestamp": "2023-11-24T15:30:24.000Z",
       "speed": 0,
       "make": "Apple",
@@ -226,6 +236,7 @@
     {
       "id": 38,
       "image": "IMG_0858.jpeg",
+      "imageThumb": "thumb-IMG_0858.webp",
       "timestamp": "2023-11-22T18:19:22.000Z",
       "speed": 0,
       "make": "Apple",
@@ -245,6 +256,7 @@
     {
       "id": 37,
       "image": "IMG_0835.jpeg",
+      "imageThumb": "thumb-IMG_0835.webp",
       "timestamp": "2023-11-22T17:30:06.000Z",
       "speed": 0,
       "make": "Apple",
@@ -264,6 +276,7 @@
     {
       "id": 59,
       "image": "IMG_3486.jpeg",
+      "imageThumb": "thumb-IMG_3486.webp",
       "altitude": 370,
       "timestamp": "2023-09-23T14:53:04.000Z",
       "speed": 0.21636226678883147,
@@ -284,6 +297,7 @@
     {
       "id": 58,
       "image": "IMG_3275.jpeg",
+      "imageThumb": "thumb-IMG_3275.webp",
       "altitude": 4530,
       "timestamp": "2023-09-21T22:01:41.000Z",
       "speed": 0.03671089106247364,
@@ -304,6 +318,7 @@
     {
       "id": 57,
       "image": "IMG_3196.jpeg",
+      "imageThumb": "thumb-IMG_3196.webp",
       "altitude": 5293,
       "timestamp": "2023-09-21T17:42:47.000Z",
       "speed": 0,
@@ -324,6 +339,7 @@
     {
       "id": 56,
       "image": "IMG_2982.jpeg",
+      "imageThumb": "thumb-IMG_2982.webp",
       "altitude": 1253,
       "timestamp": "2023-09-20T20:27:34.000Z",
       "speed": 0,
@@ -344,6 +360,7 @@
     {
       "id": 55,
       "image": "IMG_2973.jpeg",
+      "imageThumb": "thumb-IMG_2973.webp",
       "altitude": 1284,
       "timestamp": "2023-09-20T20:23:03.000Z",
       "speed": 0,
@@ -364,6 +381,7 @@
     {
       "id": 54,
       "image": "IMG_2521.jpeg",
+      "imageThumb": "thumb-IMG_2521.webp",
       "altitude": 407,
       "timestamp": "2023-09-16T20:41:36.000Z",
       "speed": 0.033695559531921694,
@@ -384,6 +402,7 @@
     {
       "id": 53,
       "image": "IMG_2484.jpeg",
+      "imageThumb": "thumb-IMG_2484.webp",
       "altitude": 379,
       "timestamp": "2023-09-16T19:49:57.000Z",
       "speed": 0.1242742,
@@ -404,6 +423,7 @@
     {
       "id": 52,
       "image": "IMG_2458.jpeg",
+      "imageThumb": "thumb-IMG_2458.webp",
       "altitude": 422,
       "timestamp": "2023-09-16T19:11:50.000Z",
       "speed": 0,
@@ -424,6 +444,7 @@
     {
       "id": 51,
       "image": "IMG_1944.jpeg",
+      "imageThumb": "thumb-IMG_1944.webp",
       "altitude": 242,
       "timestamp": "2023-09-14T14:36:32.000Z",
       "speed": 0,
@@ -444,6 +465,7 @@
     {
       "id": 49,
       "image": "IMG_1889.jpeg",
+      "imageThumb": "thumb-IMG_1889.webp",
       "altitude": 96,
       "timestamp": "2023-09-14T01:16:35.000Z",
       "speed": 0,
@@ -464,6 +486,7 @@
     {
       "id": 48,
       "image": "IMG_1712.jpeg",
+      "imageThumb": "thumb-IMG_1712.webp",
       "altitude": 190,
       "timestamp": "2023-09-13T20:54:15.000Z",
       "speed": 0,
@@ -484,6 +507,7 @@
     {
       "id": 47,
       "image": "IMG_1663.jpeg",
+      "imageThumb": "thumb-IMG_1663.webp",
       "altitude": 190,
       "timestamp": "2023-09-13T20:21:14.000Z",
       "speed": 0,
@@ -504,6 +528,7 @@
     {
       "id": 46,
       "image": "IMG_1658.jpeg",
+      "imageThumb": "thumb-IMG_1658.webp",
       "timestamp": "2023-09-13T20:17:12.000Z",
       "speed": 0,
       "make": "Apple",
@@ -523,6 +548,7 @@
     {
       "id": 45,
       "image": "IMG_1655.jpeg",
+      "imageThumb": "thumb-IMG_1655.webp",
       "altitude": 190,
       "timestamp": "2023-09-13T20:13:47.000Z",
       "speed": 0,
@@ -543,6 +569,7 @@
     {
       "id": 44,
       "image": "IMG_1200.jpeg",
+      "imageThumb": "thumb-IMG_1200.webp",
       "altitude": 108,
       "timestamp": "2023-09-10T14:07:38.000Z",
       "speed": 0,
@@ -563,6 +590,7 @@
     {
       "id": 43,
       "image": "IMG_1196.jpeg",
+      "imageThumb": "thumb-IMG_1196.webp",
       "altitude": 121,
       "timestamp": "2023-09-10T14:01:20.000Z",
       "speed": 0,
@@ -583,6 +611,7 @@
     {
       "id": 50,
       "image": "IMG_1929.JPG",
+      "imageThumb": "thumb-IMG_1929.webp",
       "altitude": 389,
       "timestamp": "2023-09-09T23:32:29.000Z",
       "speed": 0.017057978870654543,
@@ -603,6 +632,7 @@
     {
       "id": 42,
       "image": "IMG_1155.jpeg",
+      "imageThumb": "thumb-IMG_1155.webp",
       "altitude": 157,
       "timestamp": "2023-09-09T19:50:21.000Z",
       "speed": 0,
@@ -623,6 +653,7 @@
     {
       "id": 41,
       "image": "IMG_1149.jpeg",
+      "imageThumb": "thumb-IMG_1149.webp",
       "altitude": 156,
       "timestamp": "2023-09-09T19:46:16.000Z",
       "speed": 0.025711895695076675,
@@ -643,6 +674,7 @@
     {
       "id": 40,
       "image": "IMG_0947.jpeg",
+      "imageThumb": "thumb-IMG_0947.webp",
       "altitude": 343,
       "timestamp": "2023-09-07T23:32:27.000Z",
       "speed": 0,
@@ -663,6 +695,7 @@
     {
       "id": 36,
       "image": "IMG_0829.jpeg",
+      "imageThumb": "thumb-IMG_0829.webp",
       "altitude": 113,
       "timestamp": "2023-09-07T13:59:42.000Z",
       "speed": 0,
@@ -683,6 +716,7 @@
     {
       "id": 35,
       "image": "IMG_0819.jpeg",
+      "imageThumb": "thumb-IMG_0819.webp",
       "altitude": 84,
       "timestamp": "2023-09-07T13:52:58.000Z",
       "speed": 0,
@@ -703,6 +737,7 @@
     {
       "id": 34,
       "image": "IMG_0781.jpeg",
+      "imageThumb": "thumb-IMG_0781.webp",
       "altitude": 98,
       "timestamp": "2023-09-06T22:49:25.000Z",
       "speed": 0,
@@ -723,6 +758,7 @@
     {
       "id": 33,
       "image": "IMG_0717.jpeg",
+      "imageThumb": "thumb-IMG_0717.webp",
       "altitude": 105,
       "timestamp": "2023-09-06T21:54:55.000Z",
       "speed": 0.039331989501085594,
@@ -743,6 +779,7 @@
     {
       "id": 32,
       "image": "IMG_0713.jpeg",
+      "imageThumb": "thumb-IMG_0713.webp",
       "altitude": 108,
       "timestamp": "2023-09-06T21:53:39.000Z",
       "speed": 0,
@@ -763,6 +800,7 @@
     {
       "id": 31,
       "image": "IMG_0703.jpeg",
+      "imageThumb": "thumb-IMG_0703.webp",
       "altitude": 107,
       "timestamp": "2023-09-06T21:28:57.000Z",
       "speed": 0,
@@ -783,6 +821,7 @@
     {
       "id": 30,
       "image": "IMG_0552.jpeg",
+      "imageThumb": "thumb-IMG_0552.webp",
       "altitude": 119,
       "timestamp": "2023-09-04T21:09:50.000Z",
       "speed": 0,
@@ -803,6 +842,7 @@
     {
       "id": 29,
       "image": "IMG_0546.jpeg",
+      "imageThumb": "thumb-IMG_0546.webp",
       "altitude": 96,
       "timestamp": "2023-09-04T19:10:28.000Z",
       "speed": 2.6470406022340995,
@@ -823,6 +863,7 @@
     {
       "id": 28,
       "image": "IMG_0528.jpeg",
+      "imageThumb": "thumb-IMG_0528.webp",
       "altitude": 97,
       "timestamp": "2023-09-04T18:44:04.000Z",
       "speed": 2.249362948832042,
@@ -843,6 +884,7 @@
     {
       "id": 27,
       "image": "IMG_0524.jpeg",
+      "imageThumb": "thumb-IMG_0524.webp",
       "altitude": 94,
       "timestamp": "2023-09-04T18:41:09.000Z",
       "speed": 2.2617905051863545,
@@ -863,6 +905,7 @@
     {
       "id": 26,
       "image": "IMG_0516.jpeg",
+      "imageThumb": "thumb-IMG_0516.webp",
       "altitude": 79,
       "timestamp": "2023-09-04T18:04:08.000Z",
       "speed": 0,
@@ -883,6 +926,7 @@
     {
       "id": 25,
       "image": "IMG_0489.jpeg",
+      "imageThumb": "thumb-IMG_0489.webp",
       "altitude": 269,
       "timestamp": "2023-09-04T10:54:51.000Z",
       "speed": 32.13730887850952,
@@ -903,6 +947,7 @@
     {
       "id": 24,
       "image": "IMG_0332.jpeg",
+      "imageThumb": "thumb-IMG_0332.webp",
       "altitude": 62,
       "timestamp": "2023-09-02T21:16:10.000Z",
       "speed": 0,
@@ -923,6 +968,7 @@
     {
       "id": 23,
       "image": "IMG_0328.jpeg",
+      "imageThumb": "thumb-IMG_0328.webp",
       "altitude": 63,
       "timestamp": "2023-09-02T21:09:44.000Z",
       "speed": 0,
@@ -943,6 +989,7 @@
     {
       "id": 22,
       "image": "IMG_0325.jpeg",
+      "imageThumb": "thumb-IMG_0325.webp",
       "altitude": 60,
       "timestamp": "2023-09-02T21:06:11.000Z",
       "speed": 0,
@@ -963,6 +1010,7 @@
     {
       "id": 21,
       "image": "IMG_0303.jpeg",
+      "imageThumb": "thumb-IMG_0303.webp",
       "altitude": 60,
       "timestamp": "2023-09-02T20:09:01.000Z",
       "speed": 0,
@@ -983,6 +1031,7 @@
     {
       "id": 20,
       "image": "IMG_0287.jpeg",
+      "imageThumb": "thumb-IMG_0287.webp",
       "altitude": 75,
       "timestamp": "2023-09-02T19:18:20.000Z",
       "speed": 0,
@@ -1003,6 +1052,7 @@
     {
       "id": 19,
       "image": "IMG_0278.jpeg",
+      "imageThumb": "thumb-IMG_0278.webp",
       "altitude": 74,
       "timestamp": "2023-09-02T18:57:52.000Z",
       "speed": 0.04536053511542532,
@@ -1023,6 +1073,7 @@
     {
       "id": 18,
       "image": "IMG_0271.jpeg",
+      "imageThumb": "thumb-IMG_0271.webp",
       "altitude": 51,
       "timestamp": "2023-09-02T18:51:33.000Z",
       "speed": 0,
@@ -1043,6 +1094,7 @@
     {
       "id": 17,
       "image": "IMG_0262.jpeg",
+      "imageThumb": "thumb-IMG_0262.webp",
       "altitude": 138,
       "timestamp": "2023-09-02T17:42:28.000Z",
       "speed": 0,
@@ -1063,6 +1115,7 @@
     {
       "id": 16,
       "image": "IMG_0225.jpeg",
+      "imageThumb": "thumb-IMG_0225.webp",
       "altitude": 164,
       "timestamp": "2023-09-02T16:43:24.000Z",
       "speed": 0.08250781540158116,
@@ -1083,6 +1136,7 @@
     {
       "id": 63,
       "image": "IMG_8654.jpg",
+      "imageThumb": "thumb-IMG_8654.webp",
       "altitude": 18,
       "timestamp": "2023-07-03T01:34:16.000Z",
       "speed": 0,
@@ -1103,6 +1157,7 @@
     {
       "id": 62,
       "image": "IMG_8642.jpg",
+      "imageThumb": "thumb-IMG_8642.webp",
       "altitude": 25,
       "timestamp": "2023-07-02T20:12:10.000Z",
       "speed": 0,
@@ -1123,6 +1178,7 @@
     {
       "id": 12,
       "image": "IMG_0009.JPG",
+      "imageThumb": "thumb-IMG_0009.webp",
       "altitude": 454,
       "timestamp": "2023-06-22T16:45:01.000Z",
       "speed": 0,
@@ -1143,6 +1199,7 @@
     {
       "id": 11,
       "image": "IMG_0008.JPG",
+      "imageThumb": "thumb-IMG_0008.webp",
       "altitude": 541,
       "timestamp": "2023-06-20T20:05:19.000Z",
       "speed": 0.02462424539215177,
@@ -1163,6 +1220,7 @@
     {
       "id": 7,
       "image": "IMG_0004.JPG",
+      "imageThumb": "thumb-IMG_0004.webp",
       "altitude": 825,
       "timestamp": "2023-06-19T20:23:12.000Z",
       "speed": 0,
@@ -1183,6 +1241,7 @@
     {
       "id": 5,
       "image": "IMG_0002.JPG",
+      "imageThumb": "thumb-IMG_0002.webp",
       "altitude": 722,
       "timestamp": "2023-06-17T20:16:46.000Z",
       "speed": 0,
@@ -1203,6 +1262,7 @@
     {
       "id": 10,
       "image": "IMG_0007.JPG",
+      "imageThumb": "thumb-IMG_0007.webp",
       "altitude": 9,
       "timestamp": "2023-06-02T18:43:27.000Z",
       "speed": 0.30447179592599694,
@@ -1223,6 +1283,7 @@
     {
       "id": 14,
       "image": "IMG_0011.JPG",
+      "imageThumb": "thumb-IMG_0011.webp",
       "altitude": 11,
       "timestamp": "2023-06-02T18:32:36.000Z",
       "speed": 0,
@@ -1243,6 +1304,7 @@
     {
       "id": 4,
       "image": "IMG_0001.JPG",
+      "imageThumb": "thumb-IMG_0001.webp",
       "altitude": 2,
       "timestamp": "2023-06-01T20:39:44.000Z",
       "speed": 0.31689920407400307,
@@ -1263,6 +1325,7 @@
     {
       "id": 9,
       "image": "IMG_0006.JPG",
+      "imageThumb": "thumb-IMG_0006.webp",
       "altitude": 9,
       "timestamp": "2023-06-01T20:37:43.000Z",
       "speed": 0.08310109370599171,
@@ -1283,6 +1346,7 @@
     {
       "id": 8,
       "image": "IMG_0005.JPG",
+      "imageThumb": "thumb-IMG_0005.webp",
       "altitude": 10,
       "timestamp": "2023-06-01T20:37:01.000Z",
       "speed": 0,
@@ -1303,6 +1367,7 @@
     {
       "id": 13,
       "image": "IMG_0010.JPG",
+      "imageThumb": "thumb-IMG_0010.webp",
       "altitude": 7,
       "timestamp": "2023-06-01T19:18:40.000Z",
       "speed": 0.2909522310270735,
@@ -1323,6 +1388,7 @@
     {
       "id": 15,
       "image": "IMG_0012.JPG",
+      "imageThumb": "thumb-IMG_0012.webp",
       "altitude": 3,
       "timestamp": "2023-06-01T15:29:35.000Z",
       "speed": 0.0728055210754035,
@@ -1343,6 +1409,7 @@
     {
       "id": 6,
       "image": "IMG_0003.JPG",
+      "imageThumb": "thumb-IMG_0003.webp",
       "altitude": 6,
       "timestamp": "2023-06-01T15:29:07.000Z",
       "speed": 0,
@@ -1363,6 +1430,7 @@
     {
       "id": 61,
       "image": "IMG_5684.jpeg",
+      "imageThumb": "thumb-IMG_5684.webp",
       "timestamp": "2023-05-28T00:24:21.000Z",
       "speed": 0,
       "make": "Apple",
@@ -1382,6 +1450,7 @@
     {
       "id": 60,
       "image": "IMG_5682.jpeg",
+      "imageThumb": "thumb-IMG_5682.webp",
       "timestamp": "2023-05-28T00:19:40.000Z",
       "speed": 0,
       "make": "Apple",
@@ -2450,5 +2519,5 @@
       }
     ]
   },
-  "distanceTraveled": 63415
+  "distanceTraveled": 77889
 }
