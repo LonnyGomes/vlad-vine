@@ -2,7 +2,7 @@
   "altitudeStats": {
     "min": 2,
     "max": 7972,
-    "average": 753
+    "average": 731
   },
   "countryTotals": [
     {
@@ -109,7 +109,7 @@
       "distance": 1502
     },
     {
-      "id": 68,
+      "id": 70,
       "image": "IMG_9666.JPG",
       "imageThumb": "thumb-IMG_9666.webp",
       "altitude": 23,
@@ -130,7 +130,7 @@
       "distance": 3665
     },
     {
-      "id": 67,
+      "id": 69,
       "image": "IMG_9661.JPG",
       "imageThumb": "thumb-IMG_9661.webp",
       "altitude": 15,
@@ -151,7 +151,7 @@
       "distance": 3665
     },
     {
-      "id": 66,
+      "id": 68,
       "image": "IMG_9658.JPG",
       "imageThumb": "thumb-IMG_9658.webp",
       "altitude": 19,
@@ -172,7 +172,7 @@
       "distance": 3665
     },
     {
-      "id": 65,
+      "id": 67,
       "image": "IMG_9653.JPG",
       "imageThumb": "thumb-IMG_9653.webp",
       "altitude": 22,
@@ -193,7 +193,7 @@
       "distance": 3664
     },
     {
-      "id": 64,
+      "id": 66,
       "image": "IMG_8679.JPG",
       "imageThumb": "thumb-IMG_8679.webp",
       "altitude": 132,
@@ -212,6 +212,48 @@
       "adminName2": "Riverside County",
       "geoDistance": 1.693112864592228,
       "distance": 2201
+    },
+    {
+      "id": 63,
+      "image": "IMG_8224.JPG",
+      "imageThumb": "thumb-IMG_8224.webp",
+      "altitude": 10,
+      "timestamp": "2024-04-13T23:29:43.000Z",
+      "speed": 0.027523254521313417,
+      "make": "Apple",
+      "model": "iPhone 15 Pro",
+      "latitude": 38.18183888888888,
+      "longitude": -75.16024722222222,
+      "geoName": "Berlin",
+      "formattedName": "Berlin, Maryland",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Maryland",
+      "adminName2": "Worcester County",
+      "geoDistance": 16.43812183045843,
+      "distance": 111
+    },
+    {
+      "id": 62,
+      "image": "IMG_8209.JPG",
+      "imageThumb": "thumb-IMG_8209.webp",
+      "altitude": 10,
+      "timestamp": "2024-04-13T23:25:27.000Z",
+      "speed": 0.013339268636356972,
+      "make": "Apple",
+      "model": "iPhone 15 Pro",
+      "latitude": 38.181824999999996,
+      "longitude": -75.16017777777779,
+      "geoName": "Berlin",
+      "formattedName": "Berlin, Maryland",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Maryland",
+      "adminName2": "Worcester County",
+      "geoDistance": 16.441443898546268,
+      "distance": 111
     },
     {
       "id": 39,
@@ -1134,7 +1176,7 @@
       "distance": 3863
     },
     {
-      "id": 63,
+      "id": 65,
       "image": "IMG_8654.jpg",
       "imageThumb": "thumb-IMG_8654.webp",
       "altitude": 18,
@@ -1155,7 +1197,7 @@
       "distance": 105
     },
     {
-      "id": 62,
+      "id": 64,
       "image": "IMG_8642.jpg",
       "imageThumb": "thumb-IMG_8642.webp",
       "altitude": 25,
@@ -1471,6 +1513,7 @@
   "usTotals": [
     "Colorado",
     "California",
+    "Maryland",
     "Arizona",
     "Utah",
     "Nevada",
@@ -1553,7 +1596,7 @@
         },
         "properties": {
           "title": "Lambeth, United Kingdom",
-          "id": 68,
+          "id": 70,
           "image": "IMG_9666.JPG"
         }
       },
@@ -1568,7 +1611,7 @@
         },
         "properties": {
           "title": "Lambeth, United Kingdom",
-          "id": 67,
+          "id": 69,
           "image": "IMG_9661.JPG"
         }
       },
@@ -1583,7 +1626,7 @@
         },
         "properties": {
           "title": "Pimlico, United Kingdom",
-          "id": 66,
+          "id": 68,
           "image": "IMG_9658.JPG"
         }
       },
@@ -1598,7 +1641,7 @@
         },
         "properties": {
           "title": "Pimlico, United Kingdom",
-          "id": 65,
+          "id": 67,
           "image": "IMG_9653.JPG"
         }
       },
@@ -1613,8 +1656,38 @@
         },
         "properties": {
           "title": "Indian Wells, California",
-          "id": 64,
+          "id": 66,
           "image": "IMG_8679.JPG"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.16024722222222,
+            38.18183888888888
+          ]
+        },
+        "properties": {
+          "title": "Berlin, Maryland",
+          "id": 63,
+          "image": "IMG_8224.JPG"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -75.16017777777779,
+            38.181824999999996
+          ]
+        },
+        "properties": {
+          "title": "Berlin, Maryland",
+          "id": 62,
+          "image": "IMG_8209.JPG"
         }
       },
       {
@@ -2288,7 +2361,7 @@
         },
         "properties": {
           "title": "Rehoboth Beach, Delaware",
-          "id": 63,
+          "id": 65,
           "image": "IMG_8654.jpg"
         }
       },
@@ -2303,7 +2376,7 @@
         },
         "properties": {
           "title": "Rehoboth Beach, Delaware",
-          "id": 62,
+          "id": 64,
           "image": "IMG_8642.jpg"
         }
       },
@@ -2519,5 +2592,5 @@
       }
     ]
   },
-  "distanceTraveled": 77889
+  "distanceTraveled": 72840
 }
