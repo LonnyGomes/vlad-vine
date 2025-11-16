@@ -1,4 +1,5 @@
 $arrow-padding: 10px;
+$bottom-controls-offset: calc(var(--toolbar-height) / 2);
 
 .map-container {
   width: 100%;
@@ -8,7 +9,7 @@ $arrow-padding: 10px;
 
 .cur-img-idx {
   position: absolute;
-  bottom: calc(var(--toolbar-height) + 20px);
+  bottom: $bottom-controls-offset;
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.5);
@@ -21,7 +22,7 @@ $arrow-padding: 10px;
 
 .map-img-btn {
   position: absolute;
-  bottom: calc(var(--toolbar-height) + 10px);
+  bottom: $bottom-controls-offset;
   border: none;
   padding: 0;
   width: 44px;
