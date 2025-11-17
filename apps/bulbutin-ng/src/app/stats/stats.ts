@@ -2,10 +2,11 @@ import { Component, inject, computed } from '@angular/core';
 import { ImageFeed } from '../services/image-feed';
 import { StatsCard } from '../stats-card/stats-card';
 import { AltitudeChart } from '../altitude-chart/altitude-chart';
+import { CountryChart } from '../country-chart/country-chart';
 
 @Component({
   selector: 'app-stats',
-  imports: [StatsCard, AltitudeChart],
+  imports: [StatsCard, AltitudeChart, CountryChart],
   templateUrl: './stats.html',
   styleUrl: './stats.scss',
 })

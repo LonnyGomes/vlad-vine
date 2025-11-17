@@ -19,6 +19,11 @@
     <p>Average: {{ altitude().average }} feet</p>
   </div>
 
+  <h3>Countries Distribution</h3>
+  <div class="chart-container">
+    <app-country-chart></app-country-chart>
+  </div>
+
   <h3>States Stats</h3>
   @for(state of states(); track state) {
   <div class="state-stats-card">
