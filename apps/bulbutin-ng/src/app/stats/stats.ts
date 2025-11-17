@@ -3,10 +3,11 @@ import { ImageFeed } from '../services/image-feed';
 import { StatsCard } from '../stats-card/stats-card';
 import { AltitudeChart } from '../altitude-chart/altitude-chart';
 import { CountryChart } from '../country-chart/country-chart';
+import { DecimalPipe } from '@angular/common';
 
 @Component({
   selector: 'app-stats',
-  imports: [StatsCard, AltitudeChart, CountryChart],
+  imports: [StatsCard, AltitudeChart, CountryChart, DecimalPipe],
   templateUrl: './stats.html',
   styleUrl: './stats.scss',
 })
