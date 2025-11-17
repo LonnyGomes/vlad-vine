@@ -94,9 +94,7 @@ export class AltitudeChart implements AfterViewInit, OnDestroy {
         },
       ],
       legend: {
-        itemStyle: {
-          color: getCSSColor('--text-color'),
-        },
+        enabled: false,
       },
       credits: {
         enabled: false,
