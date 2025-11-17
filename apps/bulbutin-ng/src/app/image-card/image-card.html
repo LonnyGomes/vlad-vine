@@ -10,9 +10,11 @@
   />
   <div class="info">
     <div class="location-time">
-      <div class="country-info">
-        <span class="flag" [innerHTML]="image().flag"></span>
-        <span [innerHTML]="image().formattedName"></span>
+      <div class="country-info" >
+          <span class="flag" [innerHTML]="image().flag"></span>
+        <a class="link-overlay" href="javascript:void(0)" (click)="showImageOnMap(image())">
+          <span [innerHTML]="image().formattedName"></span>
+        </a>
       </div>
       <div class="timestamp">
         <img class="icon" src="/assets/icons/mdi-light_clock.svg">

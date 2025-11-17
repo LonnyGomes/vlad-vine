@@ -92,6 +92,10 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--header-clr);
 }
 
+a {
+  color: var(--link-color);
+}
+
 // iOS-specific fixes for devices with notches/safe areas
 @supports (padding: max(0px)) {
   body {

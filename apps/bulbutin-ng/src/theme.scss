@@ -9,6 +9,7 @@
   --icon-filter: brightness(0); // Black icons for light mode
   --body-font: 'Manrope Variable', sans-serif;
   --header-font:'Pacifico', cursive;
+  --link-color: var(--text-color);
 
 
   // Dark mode
@@ -19,5 +20,6 @@
     --background-color: #383838;
     --text-color: #f0f0f0;
     --icon-filter: brightness(0) invert(1); // White icons for dark mode
+    --link-color: var(--text-color);
   }
 }
