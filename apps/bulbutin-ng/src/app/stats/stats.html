@@ -9,12 +9,12 @@
     <app-stats-card title="States" [value]="totals().us"></app-stats-card>
   </div>
 
-  <h2 class="section-head">Countries Distribution</h2>
+  <h2 class="section-head">Countries Visited</h2>
   <div class="chart-container">
     <app-country-chart></app-country-chart>
   </div>
 
-  <h2 class="section-head">Altitude Statistics</h2>
+  <h2 class="section-head">Altitude Climbed</h2>
   <div class="altitude-totals">
     <p><strong>Min:</strong> {{ altitude().min }} feet</p>
     <p><strong>Max:</strong> {{ altitude().max | number: '1.0-0' }} feet</p>
@@ -24,7 +24,7 @@
     <app-altitude-chart></app-altitude-chart>
   </div>
 
-  <h2 class="section-head">List of States</h2>
+  <h2 class="section-head">States Visited</h2>
   @for(state of states(); track state) {
   <div class="state-stats-card">
     <span>{{ state}}</span>

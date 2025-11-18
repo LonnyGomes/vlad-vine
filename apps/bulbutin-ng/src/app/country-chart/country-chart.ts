@@ -80,9 +80,10 @@ export class CountryChart implements AfterViewInit, OnDestroy {
         backgroundColor: 'transparent',
         renderTo: container.nativeElement,
         borderWidth: 0,
+        marginTop: 0,
       },
       title: {
-        text: 'Photos Per Country',
+        text: '',
         style: {
           color: textColor,
         },

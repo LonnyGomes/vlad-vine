@@ -57,9 +57,10 @@ export class AltitudeChart implements AfterViewInit, OnDestroy {
         type: 'line',
         backgroundColor: 'transparent',
         renderTo: container.nativeElement,
+        marginTop: 0,
       },
       title: {
-        text: 'Altitude Over Time',
+        text: '',
         style: {
           color: getCSSColor('--text-color'),
         },
@@ -121,4 +122,3 @@ export class AltitudeChart implements AfterViewInit, OnDestroy {
     }
   }
 }
-
