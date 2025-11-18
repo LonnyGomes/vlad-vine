@@ -1,4 +1,4 @@
-import type { FeatureCollection } from "geojson";
+import type { Feature, FeatureCollection } from "geojson";
 import type { AltitudeStats, CountryInfo, ImageResult } from "./models";
 
 /**
@@ -92,6 +92,24 @@ export function genGeoJSONPoints(images: ImageResult[]): FeatureCollection {
         image: img.image,
       },
     })),
+  };
+
+  return geoPoints;
+}
+
+/**
+ * Convert ImageResult array to GeoJSON Feature of LineString for a route
+ * @param images Array of ImageResult
+ * @returns GeoJSON Feature
+ */
+export function genGeoJSONRoute(images: ImageResult[]): Feature {
+  const geoPoints: Feature = {
+    type: "Feature",
+    properties: {},
+    geometry: {
+      type: "LineString",
+      coordinates: images.map((img) => [img.longitude, img.latitude]),
+    },
   };
 
   return geoPoints;

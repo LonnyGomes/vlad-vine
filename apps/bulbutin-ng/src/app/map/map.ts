@@ -79,6 +79,7 @@ export class Map implements OnInit, OnDestroy {
             this.addTerrain();
           }
           this.addImageLayer();
+          this.addImageRoute();
         });
       }
     });
@@ -101,6 +102,11 @@ export class Map implements OnInit, OnDestroy {
 
     // Load images and add markers
     this.map.on('load', () => {
+      // Force map to resize to ensure it fits the container properly
+      // setTimeout(() => {
+      //   this.map?.resize();
+      // }, 100);
+
       if (!this.imageIsSelected()) {
         this.map!.zoomTo(1);
         this.map!.panTo([-50, 30]); // prefer western hemisphere start
@@ -122,7 +128,13 @@ export class Map implements OnInit, OnDestroy {
         this.addTerrain();
       }
       this.addImageLayer();
+      this.addImageRoute();
     });
+  }
+
+  getCssVariableValue(varName: string): string {
+    const rootStyles = getComputedStyle(document.documentElement);
+    return rootStyles.getPropertyValue(varName).trim();
   }
 
   private addTerrain() {
@@ -161,8 +173,7 @@ export class Map implements OnInit, OnDestroy {
     });
 
     // Get CSS variable values from the document
-    const rootStyles = getComputedStyle(document.documentElement);
-    const primaryColor = rootStyles.getPropertyValue('--primary-color').trim();
+    const primaryColor = this.getCssVariableValue('--primary-color');
 
     // Determine stroke color based on dark mode
     const isDarkMode = this.darkModeQuery.matches;
@@ -197,6 +208,39 @@ export class Map implements OnInit, OnDestroy {
     });
     this.map!.on('mouseleave', 'imagesLayer', () => {
       this.map!.getCanvas().style.cursor = '';
+    });
+  }
+
+  private addImageRoute() {
+    const primaryColor = this.getCssVariableValue('--primary-color');
+    const routeGeoJSON = this.imgFeed.imageRoute();
+
+    // Check if source already exists and remove it
+    if (this.map!.getSource('imageRouteSource')) {
+      this.map!.removeLayer('imageRouteLayer');
+      this.map!.removeSource('imageRouteSource');
+    }
+
+    this.map!.addSource('imageRouteSource', {
+      type: 'geojson',
+      data: routeGeoJSON,
+    });
+
+    // Add a layer to render the route line
+    this.map!.addLayer({
+      id: 'imageRouteLayer',
+      type: 'line',
+      source: 'imageRouteSource',
+      layout: {
+        'line-join': 'round',
+        'line-cap': 'round',
+      },
+      paint: {
+        'line-color': primaryColor,
+        'line-width': 4,
+        'line-opacity': 0.8,
+        'line-emissive-strength': 1,
+      },
     });
   }
 

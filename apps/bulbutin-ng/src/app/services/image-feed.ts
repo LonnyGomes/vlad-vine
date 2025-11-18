@@ -1,7 +1,7 @@
 import { Injectable, signal } from '@angular/core';
-import { FeatureCollection } from 'geojson';
+import { Feature, FeatureCollection } from 'geojson';
 // Import directly from parse-photos static JSON export
-import { imageDataResultsJSON, genGeoJSONPoints } from 'parse-photos/shared';
+import { imageDataResultsJSON, genGeoJSONPoints, genGeoJSONRoute } from 'parse-photos/shared';
 import { ImageDataResults, ImageResult, Stats } from 'parse-photos/types';
 
 @Injectable({
@@ -12,6 +12,15 @@ export class ImageFeed {
   readonly imagePoints = signal<FeatureCollection>({
     type: 'FeatureCollection',
     features: [],
+  });
+
+  readonly imageRoute = signal<Feature>({
+    type: 'Feature',
+    properties: {},
+    geometry: {
+      type: 'LineString',
+      coordinates: [],
+    },
   });
   readonly stats = signal<Stats>({
     altitude: { min: 0, max: 0, average: 0 },
@@ -71,6 +80,9 @@ export class ImageFeed {
     const imagesPoints = genGeoJSONPoints(rawImages);
     this.images.set(processedImages);
     this.imagePoints.set(imagesPoints);
+
+    const imageRoute = genGeoJSONRoute(rawImages);
+    this.imageRoute.set(imageRoute);
 
     const stats: Stats = {
       altitude: {
