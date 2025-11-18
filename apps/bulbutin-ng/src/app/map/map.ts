@@ -78,8 +78,8 @@ export class Map implements OnInit, OnDestroy {
           if (this.terrainEnabled()) {
             this.addTerrain();
           }
-          this.addImageLayer();
           this.addImageRoute();
+          this.addImageLayer();
         });
       }
     });
@@ -127,8 +127,8 @@ export class Map implements OnInit, OnDestroy {
       if (this.terrainEnabled()) {
         this.addTerrain();
       }
-      this.addImageLayer();
       this.addImageRoute();
+      this.addImageLayer();
     });
   }
 
