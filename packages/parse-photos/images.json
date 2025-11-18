@@ -2,7 +2,7 @@
   "altitudeStats": {
     "min": 2,
     "max": 7972,
-    "average": 731
+    "average": 740
   },
   "countryTotals": [
     {
@@ -109,7 +109,7 @@
       "distance": 1502
     },
     {
-      "id": 70,
+      "id": 69,
       "image": "IMG_9666.JPG",
       "imageThumb": "thumb-IMG_9666.webp",
       "altitude": 23,
@@ -130,7 +130,7 @@
       "distance": 3665
     },
     {
-      "id": 69,
+      "id": 68,
       "image": "IMG_9661.JPG",
       "imageThumb": "thumb-IMG_9661.webp",
       "altitude": 15,
@@ -151,7 +151,7 @@
       "distance": 3665
     },
     {
-      "id": 68,
+      "id": 67,
       "image": "IMG_9658.JPG",
       "imageThumb": "thumb-IMG_9658.webp",
       "altitude": 19,
@@ -172,7 +172,7 @@
       "distance": 3665
     },
     {
-      "id": 67,
+      "id": 66,
       "image": "IMG_9653.JPG",
       "imageThumb": "thumb-IMG_9653.webp",
       "altitude": 22,
@@ -191,27 +191,6 @@
       "adminName2": "Greater London",
       "geoDistance": 0.8803039488537604,
       "distance": 3664
-    },
-    {
-      "id": 66,
-      "image": "IMG_8679.JPG",
-      "imageThumb": "thumb-IMG_8679.webp",
-      "altitude": 132,
-      "timestamp": "2024-05-07T19:29:39.000Z",
-      "speed": 0.2982467772078217,
-      "make": "Apple",
-      "model": "iPhone 15 Pro",
-      "latitude": 33.723075,
-      "longitude": -116.32588888888888,
-      "geoName": "Indian Wells",
-      "formattedName": "Indian Wells, California",
-      "countryCode": "US",
-      "countryName": "United States",
-      "flag": "🇺🇸",
-      "adminName1": "California",
-      "adminName2": "Riverside County",
-      "geoDistance": 1.693112864592228,
-      "distance": 2201
     },
     {
       "id": 63,
@@ -1512,7 +1491,6 @@
   ],
   "usTotals": [
     "Colorado",
-    "California",
     "Maryland",
     "Arizona",
     "Utah",
@@ -1596,7 +1574,7 @@
         },
         "properties": {
           "title": "Lambeth, United Kingdom",
-          "id": 70,
+          "id": 69,
           "image": "IMG_9666.JPG"
         }
       },
@@ -1611,7 +1589,7 @@
         },
         "properties": {
           "title": "Lambeth, United Kingdom",
-          "id": 69,
+          "id": 68,
           "image": "IMG_9661.JPG"
         }
       },
@@ -1626,7 +1604,7 @@
         },
         "properties": {
           "title": "Pimlico, United Kingdom",
-          "id": 68,
+          "id": 67,
           "image": "IMG_9658.JPG"
         }
       },
@@ -1641,23 +1619,8 @@
         },
         "properties": {
           "title": "Pimlico, United Kingdom",
-          "id": 67,
-          "image": "IMG_9653.JPG"
-        }
-      },
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            -116.32588888888888,
-            33.723075
-          ]
-        },
-        "properties": {
-          "title": "Indian Wells, California",
           "id": 66,
-          "image": "IMG_8679.JPG"
+          "image": "IMG_9653.JPG"
         }
       },
       {
@@ -2592,5 +2555,5 @@
       }
     ]
   },
-  "distanceTraveled": 72840
+  "distanceTraveled": 67961
 }
