@@ -43,14 +43,13 @@
       "model": "iPhone 17 Pro",
       "latitude": 38.892136111111114,
       "longitude": -77.01767777777778,
-      "geoName": "Downtown DC",
-      "formattedName": "Downtown DC, District of Columbia",
+      "geoName": "Washington",
+      "formattedName": "Washington, District of Columbia",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "District of Columbia",
-      "adminName2": "",
-      "geoDistance": 0.2456050947644314,
+      "geoDistance": 0,
       "distance": 0
     },
     {
@@ -70,7 +69,7 @@
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "District of Columbia",
-      "geoDistance": 0.46522604413217944,
+      "geoDistance": 0,
       "distance": 1
     },
     {
@@ -82,14 +81,14 @@
       "speed": 0,
       "latitude": 39.979,
       "longitude": -105.194,
-      "geoName": "Superior",
-      "formattedName": "Superior, Colorado",
+      "geoName": "Boulder",
+      "formattedName": "Boulder, Colorado",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "Colorado",
       "adminName2": "Boulder County",
-      "geoDistance": 3.633048691289213,
+      "geoDistance": 0,
       "distance": 1500
     },
     {
@@ -101,14 +100,14 @@
       "speed": 0,
       "latitude": 38.913,
       "longitude": -105.285,
-      "geoName": "Cripple Creek",
-      "formattedName": "Cripple Creek, Colorado",
+      "geoName": "Florissant",
+      "formattedName": "Florissant, Colorado",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "Colorado",
       "adminName2": "Teller County",
-      "geoDistance": 20.676489518557712,
+      "geoDistance": 0,
       "distance": 1514
     },
     {
@@ -120,14 +119,14 @@
       "speed": 0,
       "latitude": 39.689,
       "longitude": -105.191,
-      "geoName": "West Pleasant View",
-      "formattedName": "West Pleasant View, Colorado",
+      "geoName": "Morrison",
+      "formattedName": "Morrison, Colorado",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "Colorado",
       "adminName2": "Jefferson County",
-      "geoDistance": 4.959898568926599,
+      "geoDistance": 0,
       "distance": 1502
     },
     {
@@ -139,14 +138,14 @@
       "speed": 0,
       "latitude": 39.675,
       "longitude": -105.19,
-      "geoName": "West Pleasant View",
-      "formattedName": "West Pleasant View, Colorado",
+      "geoName": "Morrison",
+      "formattedName": "Morrison, Colorado",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "Colorado",
       "adminName2": "Jefferson County",
-      "geoDistance": 6.475290022219157,
+      "geoDistance": 0,
       "distance": 1502
     },
     {
@@ -160,14 +159,14 @@
       "model": "iPhone 15 Pro",
       "latitude": 51.49648611111111,
       "longitude": -0.10852777777777778,
-      "geoName": "Lambeth",
-      "formattedName": "Lambeth, United Kingdom",
+      "geoName": "Greater London",
+      "formattedName": "Greater London, United Kingdom",
       "countryCode": "GB",
       "countryName": "United Kingdom",
       "flag": "🇬🇧",
       "adminName1": "England",
       "adminName2": "Greater London",
-      "geoDistance": 0.20769149182623833,
+      "geoDistance": 0,
       "distance": 3665
     },
     {
@@ -181,14 +180,14 @@
       "model": "iPhone 15 Pro",
       "latitude": 51.496922222222224,
       "longitude": -0.10856388888888889,
-      "geoName": "Lambeth",
-      "formattedName": "Lambeth, United Kingdom",
+      "geoName": "Greater London",
+      "formattedName": "Greater London, United Kingdom",
       "countryCode": "GB",
       "countryName": "United Kingdom",
       "flag": "🇬🇧",
       "adminName1": "England",
       "adminName2": "Greater London",
-      "geoDistance": 0.21430227510923586,
+      "geoDistance": 0,
       "distance": 3665
     },
     {
@@ -202,14 +201,14 @@
       "model": "iPhone 15 Pro",
       "latitude": 51.483019444444444,
       "longitude": -0.13316111111111112,
-      "geoName": "Pimlico",
-      "formattedName": "Pimlico, United Kingdom",
+      "geoName": "Greater London",
+      "formattedName": "Greater London, United Kingdom",
       "countryCode": "GB",
       "countryName": "United Kingdom",
       "flag": "🇬🇧",
       "adminName1": "England",
       "adminName2": "Greater London",
-      "geoDistance": 0.7128094659110394,
+      "geoDistance": 0,
       "distance": 3665
     },
     {
@@ -223,14 +222,14 @@
       "model": "iPhone 15 Pro",
       "latitude": 51.48356944444445,
       "longitude": -0.14628611111111112,
-      "geoName": "Pimlico",
-      "formattedName": "Pimlico, United Kingdom",
+      "geoName": "The Power Station",
+      "formattedName": "The Power Station, United Kingdom",
       "countryCode": "GB",
       "countryName": "United Kingdom",
       "flag": "🇬🇧",
       "adminName1": "England",
       "adminName2": "Greater London",
-      "geoDistance": 0.8803039488537604,
+      "geoDistance": 0,
       "distance": 3664
     },
     {
@@ -244,14 +243,14 @@
       "model": "iPhone 15 Pro",
       "latitude": 38.18183888888888,
       "longitude": -75.16024722222222,
-      "geoName": "Berlin",
-      "formattedName": "Berlin, Maryland",
+      "geoName": "Newark",
+      "formattedName": "Newark, Maryland",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "Maryland",
       "adminName2": "Worcester County",
-      "geoDistance": 16.43812183045843,
+      "geoDistance": 0,
       "distance": 111
     },
     {
@@ -265,14 +264,14 @@
       "model": "iPhone 15 Pro",
       "latitude": 38.181824999999996,
       "longitude": -75.16017777777779,
-      "geoName": "Berlin",
-      "formattedName": "Berlin, Maryland",
+      "geoName": "Newark",
+      "formattedName": "Newark, Maryland",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "Maryland",
       "adminName2": "Worcester County",
-      "geoDistance": 16.441443898546268,
+      "geoDistance": 0,
       "distance": 111
     },
     {
@@ -285,14 +284,13 @@
       "model": "iPhone 12 Pro",
       "latitude": 53.345775,
       "longitude": -6.256986111111111,
-      "geoName": "Dublin",
-      "formattedName": "Dublin, Ireland",
+      "geoName": "Goldsmith House",
+      "formattedName": "Goldsmith House, Ireland",
       "countryCode": "IE",
       "countryName": "Ireland",
       "flag": "🇮🇪",
-      "adminName1": "Leinster",
-      "adminName2": "Dublin City",
-      "geoDistance": 1.5125719466522427,
+      "adminName1": "County Dublin",
+      "geoDistance": 0,
       "distance": 3381
     },
     {
@@ -305,14 +303,13 @@
       "model": "iPhone 12 Pro",
       "latitude": 53.34335,
       "longitude": -6.297341666666666,
-      "geoName": "Rialto",
-      "formattedName": "Rialto, Ireland",
+      "geoName": "Bow Bridge Place",
+      "formattedName": "Bow Bridge Place, Ireland",
       "countryCode": "IE",
       "countryName": "Ireland",
       "flag": "🇮🇪",
-      "adminName1": "Leinster",
-      "adminName2": "Dublin City",
-      "geoDistance": 0.7895569358795745,
+      "adminName1": "County Dublin",
+      "geoDistance": 0,
       "distance": 3380
     },
     {
@@ -325,14 +322,13 @@
       "model": "iPhone 12 Pro",
       "latitude": 53.345775,
       "longitude": -6.256986111111111,
-      "geoName": "Dublin",
-      "formattedName": "Dublin, Ireland",
+      "geoName": "Goldsmith House",
+      "formattedName": "Goldsmith House, Ireland",
       "countryCode": "IE",
       "countryName": "Ireland",
       "flag": "🇮🇪",
-      "adminName1": "Leinster",
-      "adminName2": "Dublin City",
-      "geoDistance": 1.5125719466522427,
+      "adminName1": "County Dublin",
+      "geoDistance": 0,
       "distance": 3381
     },
     {
@@ -346,14 +342,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 34.26573055555556,
       "longitude": -114.13169722222221,
-      "geoName": "Cienega Springs",
-      "formattedName": "Cienega Springs, Arizona",
+      "geoName": "Parker",
+      "formattedName": "Parker, Arizona",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "Arizona",
       "adminName2": "La Paz County",
-      "geoDistance": 12.106299475764942,
+      "geoDistance": 0,
       "distance": 2070
     },
     {
@@ -367,14 +363,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 37.29731666666667,
       "longitude": -112.94751111111111,
-      "geoName": "Toquerville",
-      "formattedName": "Toquerville, Utah",
+      "geoName": "Springdale",
+      "formattedName": "Springdale, Utah",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "Utah",
       "adminName2": "Washington County",
-      "geoDistance": 30.2308267324381,
+      "geoDistance": 0,
       "distance": 1945
     },
     {
@@ -388,14 +384,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 37.21351111111112,
       "longitude": -112.94615277777778,
-      "geoName": "Hildale",
-      "formattedName": "Hildale, Utah",
+      "geoName": "Springdale",
+      "formattedName": "Springdale, Utah",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "Utah",
       "adminName2": "Washington County",
-      "geoDistance": 23.413308181172336,
+      "geoDistance": 0,
       "distance": 1946
     },
     {
@@ -416,7 +412,7 @@
       "flag": "🇺🇸",
       "adminName1": "Nevada",
       "adminName2": "Clark County",
-      "geoDistance": 9.364625187291994,
+      "geoDistance": 0,
       "distance": 2064
     },
     {
@@ -437,7 +433,7 @@
       "flag": "🇺🇸",
       "adminName1": "Nevada",
       "adminName2": "Clark County",
-      "geoDistance": 9.34767005627262,
+      "geoDistance": 0,
       "distance": 2064
     },
     {
@@ -458,7 +454,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Yvelines",
-      "geoDistance": 1.0846571538677476,
+      "geoDistance": 0,
       "distance": 3822
     },
     {
@@ -479,7 +475,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Yvelines",
-      "geoDistance": 1.703622602020235,
+      "geoDistance": 0,
       "distance": 3821
     },
     {
@@ -500,7 +496,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Yvelines",
-      "geoDistance": 1.3205861951139277,
+      "geoDistance": 0,
       "distance": 3822
     },
     {
@@ -514,14 +510,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 48.84626111111111,
       "longitude": 2.346088888888889,
-      "geoName": "Paris",
-      "formattedName": "Paris, France",
+      "geoName": "Panthéon",
+      "formattedName": "Panthéon, France",
       "countryCode": "FR",
       "countryName": "France",
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 0.8192982806689924,
+      "geoDistance": 0,
       "distance": 3830
     },
     {
@@ -535,14 +531,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 48.86318611111111,
       "longitude": 2.296358333333333,
-      "geoName": "Neuilly-sur-Seine",
-      "formattedName": "Neuilly-sur-Seine, France",
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
       "countryCode": "FR",
       "countryName": "France",
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
-      "adminName2": "Hauts-de-Seine",
-      "geoDistance": 3.0797960916331486,
+      "adminName2": "Paris",
+      "geoDistance": 0,
       "distance": 3828
     },
     {
@@ -556,14 +552,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 48.835483333333336,
       "longitude": 2.329597222222222,
-      "geoName": "Maison Blanche",
-      "formattedName": "Maison Blanche, France",
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
       "countryCode": "FR",
       "countryName": "France",
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 1.8851408920380557,
+      "geoDistance": 0,
       "distance": 3830
     },
     {
@@ -577,14 +573,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 48.835483333333336,
       "longitude": 2.329597222222222,
-      "geoName": "Maison Blanche",
-      "formattedName": "Maison Blanche, France",
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
       "countryCode": "FR",
       "countryName": "France",
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 1.8851408920380557,
+      "geoDistance": 0,
       "distance": 3830
     },
     {
@@ -597,14 +593,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 48.83792777777778,
       "longitude": 2.327363888888889,
-      "geoName": "Maison Blanche",
-      "formattedName": "Maison Blanche, France",
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
       "countryCode": "FR",
       "countryName": "France",
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 2.177924802397366,
+      "geoDistance": 0,
       "distance": 3830
     },
     {
@@ -618,14 +614,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 48.835483333333336,
       "longitude": 2.329597222222222,
-      "geoName": "Maison Blanche",
-      "formattedName": "Maison Blanche, France",
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
       "countryCode": "FR",
       "countryName": "France",
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 1.8851408920380557,
+      "geoDistance": 0,
       "distance": 3830
     },
     {
@@ -639,14 +635,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 48.86526111111111,
       "longitude": 2.327036111111111,
-      "geoName": "Porte Saint-Denis",
-      "formattedName": "Porte Saint-Denis, France",
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
       "countryCode": "FR",
       "countryName": "France",
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 2.047403568864434,
+      "geoDistance": 0,
       "distance": 3829
     },
     {
@@ -667,7 +663,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 1.8776894934005897,
+      "geoDistance": 0,
       "distance": 3829
     },
     {
@@ -681,14 +677,14 @@
       "model": "iPhone 14 Pro",
       "latitude": 48.886005555555556,
       "longitude": 2.3429833333333336,
-      "geoName": "Saint-Vincent de Paul",
-      "formattedName": "Saint-Vincent de Paul, France",
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
       "countryCode": "FR",
       "countryName": "France",
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 1.063189745237004,
+      "geoDistance": 0,
       "distance": 3829
     },
     {
@@ -709,7 +705,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 1.1389338740621784,
+      "geoDistance": 0,
       "distance": 3830
     },
     {
@@ -730,7 +726,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 1.226550223260814,
+      "geoDistance": 0,
       "distance": 3830
     },
     {
@@ -744,14 +740,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 48.87374166666667,
       "longitude": 2.2948749999999998,
-      "geoName": "Neuilly-sur-Seine",
-      "formattedName": "Neuilly-sur-Seine, France",
+      "geoName": "L'Arc de Triomphe de l'Etoile",
+      "formattedName": "L'Arc de Triomphe de l'Etoile, France",
       "countryCode": "FR",
       "countryName": "France",
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
-      "adminName2": "Hauts-de-Seine",
-      "geoDistance": 2.2046478411020263,
+      "adminName2": "Paris",
+      "geoDistance": 0,
       "distance": 3827
     },
     {
@@ -772,7 +768,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 0.06263834305962362,
+      "geoDistance": 0,
       "distance": 3830
     },
     {
@@ -793,7 +789,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 0.2747360429387955,
+      "geoDistance": 0,
       "distance": 3830
     },
     {
@@ -807,14 +803,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 48.87356666666667,
       "longitude": 2.332058333333333,
-      "geoName": "Porte Saint-Denis",
-      "formattedName": "Porte Saint-Denis, France",
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
       "countryCode": "FR",
       "countryName": "France",
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 1.4562646444420873,
+      "geoDistance": 0,
       "distance": 3829
     },
     {
@@ -835,7 +831,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 1.462037534391048,
+      "geoDistance": 0,
       "distance": 3829
     },
     {
@@ -856,7 +852,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 1.484227886893011,
+      "geoDistance": 0,
       "distance": 3829
     },
     {
@@ -877,7 +873,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 1.465954854743235,
+      "geoDistance": 0,
       "distance": 3829
     },
     {
@@ -891,14 +887,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 48.86570277777778,
       "longitude": 2.366888888888889,
-      "geoName": "Folie Méricourt",
-      "formattedName": "Folie Méricourt, France",
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
       "countryCode": "FR",
       "countryName": "France",
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 0.33697438672556435,
+      "geoDistance": 0,
       "distance": 3831
     },
     {
@@ -919,7 +915,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 1.3007466777649621,
+      "geoDistance": 0,
       "distance": 3829
     },
     {
@@ -940,7 +936,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 1.8110370673681377,
+      "geoDistance": 0,
       "distance": 3829
     },
     {
@@ -961,7 +957,7 @@
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
       "adminName2": "Paris",
-      "geoDistance": 2.4337006403608146,
+      "geoDistance": 0,
       "distance": 3829
     },
     {
@@ -975,14 +971,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 48.860475,
       "longitude": 2.294083333333333,
-      "geoName": "Neuilly-sur-Seine",
-      "formattedName": "Neuilly-sur-Seine, France",
+      "geoName": "Paris",
+      "formattedName": "Paris, France",
       "countryCode": "FR",
       "countryName": "France",
       "flag": "🇫🇷",
       "adminName1": "Île-de-France",
-      "adminName2": "Hauts-de-Seine",
-      "geoDistance": 3.223277477357061,
+      "adminName2": "Paris",
+      "geoDistance": 0,
       "distance": 3828
     },
     {
@@ -996,14 +992,14 @@
       "model": "iPhone 13 Pro",
       "latitude": 50.70080555555556,
       "longitude": 4.185194444444445,
-      "geoName": "Tubize",
-      "formattedName": "Tubize, Belgium",
+      "geoName": "Tubeke",
+      "formattedName": "Tubeke, Belgium",
       "countryCode": "BE",
       "countryName": "Belgium",
       "flag": "🇧🇪",
-      "adminName1": "Wallonia",
-      "adminName2": "Province du Brabant Wallon",
-      "geoDistance": 1.5855727697795492,
+      "adminName1": "Waals Gewest",
+      "adminName2": "Waals-Brabant",
+      "geoDistance": 0,
       "distance": 3859
     },
     {
@@ -1017,14 +1013,13 @@
       "model": "iPhone 13 Pro",
       "latitude": 50.84519166666667,
       "longitude": 4.349911111111111,
-      "geoName": "Brussels",
-      "formattedName": "Brussels, Belgium",
+      "geoName": "Bruxelles",
+      "formattedName": "Bruxelles, Belgium",
       "countryCode": "BE",
       "countryName": "Belgium",
       "flag": "🇧🇪",
-      "adminName1": "Brussels Capital",
-      "adminName2": "Bruxelles-Capitale",
-      "geoDistance": 0.5900679974576426,
+      "adminName1": "Bruxelles",
+      "geoDistance": 0,
       "distance": 3862
     },
     {
@@ -1038,14 +1033,13 @@
       "model": "iPhone 13 Pro",
       "latitude": 50.84615277777778,
       "longitude": 4.349983333333333,
-      "geoName": "Brussels",
-      "formattedName": "Brussels, Belgium",
+      "geoName": "Bruxelles",
+      "formattedName": "Bruxelles, Belgium",
       "countryCode": "BE",
       "countryName": "Belgium",
       "flag": "🇧🇪",
-      "adminName1": "Brussels Capital",
-      "adminName2": "Bruxelles-Capitale",
-      "geoDistance": 0.4852400250551876,
+      "adminName1": "Bruxelles",
+      "geoDistance": 0,
       "distance": 3862
     },
     {
@@ -1059,14 +1053,13 @@
       "model": "iPhone 13 Pro",
       "latitude": 50.8455,
       "longitude": 4.348694444444444,
-      "geoName": "Brussels",
-      "formattedName": "Brussels, Belgium",
+      "geoName": "Bruxelles",
+      "formattedName": "Bruxelles, Belgium",
       "countryCode": "BE",
       "countryName": "Belgium",
       "flag": "🇧🇪",
-      "adminName1": "Brussels Capital",
-      "adminName2": "Bruxelles-Capitale",
-      "geoDistance": 0.5504476598153634,
+      "adminName1": "Bruxelles",
+      "geoDistance": 0,
       "distance": 3862
     },
     {
@@ -1080,14 +1073,13 @@
       "model": "iPhone 13 Pro",
       "latitude": 50.84634722222223,
       "longitude": 4.349794444444444,
-      "geoName": "Brussels",
-      "formattedName": "Brussels, Belgium",
+      "geoName": "Bruxelles",
+      "formattedName": "Bruxelles, Belgium",
       "countryCode": "BE",
       "countryName": "Belgium",
       "flag": "🇧🇪",
-      "adminName1": "Brussels Capital",
-      "adminName2": "Bruxelles-Capitale",
-      "geoDistance": 0.46173374927953703,
+      "adminName1": "Bruxelles",
+      "geoDistance": 0,
       "distance": 3862
     },
     {
@@ -1101,14 +1093,13 @@
       "model": "iPhone 13 Pro",
       "latitude": 50.84792222222222,
       "longitude": 4.3551111111111105,
-      "geoName": "Brussels",
-      "formattedName": "Brussels, Belgium",
+      "geoName": "Bruxelles",
+      "formattedName": "Bruxelles, Belgium",
       "countryCode": "BE",
       "countryName": "Belgium",
       "flag": "🇧🇪",
-      "adminName1": "Brussels Capital",
-      "adminName2": "Bruxelles-Capitale",
-      "geoDistance": 0.5258890395028631,
+      "adminName1": "Bruxelles",
+      "geoDistance": 0,
       "distance": 3862
     },
     {
@@ -1122,14 +1113,13 @@
       "model": "iPhone 13 Pro",
       "latitude": 50.84879166666667,
       "longitude": 4.354991666666666,
-      "geoName": "Brussels",
-      "formattedName": "Brussels, Belgium",
+      "geoName": "Bruxelles",
+      "formattedName": "Bruxelles, Belgium",
       "countryCode": "BE",
       "countryName": "Belgium",
       "flag": "🇧🇪",
-      "adminName1": "Brussels Capital",
-      "adminName2": "Bruxelles-Capitale",
-      "geoDistance": 0.4734667305521574,
+      "adminName1": "Bruxelles",
+      "geoDistance": 0,
       "distance": 3862
     },
     {
@@ -1143,14 +1133,13 @@
       "model": "iPhone 13 Pro",
       "latitude": 50.84985833333334,
       "longitude": 4.356230555555555,
-      "geoName": "Brussels",
-      "formattedName": "Brussels, Belgium",
+      "geoName": "Bruxelles",
+      "formattedName": "Bruxelles, Belgium",
       "countryCode": "BE",
       "countryName": "Belgium",
       "flag": "🇧🇪",
-      "adminName1": "Brussels Capital",
-      "adminName2": "Bruxelles-Capitale",
-      "geoDistance": 0.5271726954850595,
+      "adminName1": "Bruxelles",
+      "geoDistance": 0,
       "distance": 3862
     },
     {
@@ -1164,14 +1153,13 @@
       "model": "iPhone 13 Pro",
       "latitude": 50.84767222222222,
       "longitude": 4.359822222222222,
-      "geoName": "Brussels",
-      "formattedName": "Brussels, Belgium",
+      "geoName": "Bruxelles",
+      "formattedName": "Bruxelles, Belgium",
       "countryCode": "BE",
       "countryName": "Belgium",
       "flag": "🇧🇪",
-      "adminName1": "Brussels Capital",
-      "adminName2": "Bruxelles-Capitale",
-      "geoDistance": 0.8344832615910254,
+      "adminName1": "Bruxelles",
+      "geoDistance": 0,
       "distance": 3862
     },
     {
@@ -1185,14 +1173,13 @@
       "model": "iPhone 13 Pro",
       "latitude": 50.84376944444445,
       "longitude": 4.358486111111111,
-      "geoName": "Brussels",
-      "formattedName": "Brussels, Belgium",
+      "geoName": "Bruxelles",
+      "formattedName": "Bruxelles, Belgium",
       "countryCode": "BE",
       "countryName": "Belgium",
       "flag": "🇧🇪",
-      "adminName1": "Brussels Capital",
-      "adminName2": "Bruxelles-Capitale",
-      "geoDistance": 1.008058024897059,
+      "adminName1": "Bruxelles",
+      "geoDistance": 0,
       "distance": 3863
     },
     {
@@ -1213,7 +1200,7 @@
       "flag": "🇺🇸",
       "adminName1": "Delaware",
       "adminName2": "Sussex County",
-      "geoDistance": 1.776422361602151,
+      "geoDistance": 0,
       "distance": 105
     },
     {
@@ -1234,7 +1221,7 @@
       "flag": "🇺🇸",
       "adminName1": "Delaware",
       "adminName2": "Sussex County",
-      "geoDistance": 0.41302366001727414,
+      "geoDistance": 0,
       "distance": 105
     },
     {
@@ -1255,7 +1242,7 @@
       "flag": "🇺🇸",
       "adminName1": "New York",
       "adminName2": "Monroe County",
-      "geoDistance": 0.9224106494241974,
+      "geoDistance": 0,
       "distance": 297
     },
     {
@@ -1276,7 +1263,7 @@
       "flag": "🇺🇸",
       "adminName1": "New York",
       "adminName2": "Niagara County",
-      "geoDistance": 1.3318915497796338,
+      "geoDistance": 0,
       "distance": 309
     },
     {
@@ -1297,7 +1284,7 @@
       "flag": "🇺🇸",
       "adminName1": "New York",
       "adminName2": "Schuyler County",
-      "geoDistance": 1.0462412537821002,
+      "geoDistance": 0,
       "distance": 241
     },
     {
@@ -1311,14 +1298,14 @@
       "model": "iPhone 13 mini",
       "latitude": 42.41464722222222,
       "longitude": -77.19399166666668,
-      "geoName": "Sylvan Beach",
-      "formattedName": "Sylvan Beach, New York",
+      "geoName": "Hammondsport",
+      "formattedName": "Hammondsport, New York",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "New York",
       "adminName2": "Steuben County",
-      "geoDistance": 8.974139046289771,
+      "geoDistance": 0,
       "distance": 244
     },
     {
@@ -1339,7 +1326,7 @@
       "flag": "🇺🇸",
       "adminName1": "North Carolina",
       "adminName2": "Dare County",
-      "geoDistance": 4.798251101104335,
+      "geoDistance": 0,
       "distance": 266
     },
     {
@@ -1360,7 +1347,7 @@
       "flag": "🇺🇸",
       "adminName1": "North Carolina",
       "adminName2": "Dare County",
-      "geoDistance": 2.2661330102309987,
+      "geoDistance": 0,
       "distance": 264
     },
     {
@@ -1374,14 +1361,14 @@
       "model": "iPhone 13 mini",
       "latitude": 35.199225,
       "longitude": -75.7212,
-      "geoName": "Buxton",
-      "formattedName": "Buxton, North Carolina",
+      "geoName": "Hatteras",
+      "formattedName": "Hatteras, North Carolina",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "North Carolina",
       "adminName2": "Dare County",
-      "geoDistance": 17.93738736015084,
+      "geoDistance": 0,
       "distance": 265
     },
     {
@@ -1395,14 +1382,14 @@
       "model": "iPhone 13 mini",
       "latitude": 35.19968333333333,
       "longitude": -75.72061111111111,
-      "geoName": "Buxton",
-      "formattedName": "Buxton, North Carolina",
+      "geoName": "Hatteras",
+      "formattedName": "Hatteras, North Carolina",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "North Carolina",
       "adminName2": "Dare County",
-      "geoDistance": 17.86730318970166,
+      "geoDistance": 0,
       "distance": 265
     },
     {
@@ -1416,14 +1403,14 @@
       "model": "iPhone 13 mini",
       "latitude": 35.19965833333333,
       "longitude": -75.72053611111112,
-      "geoName": "Buxton",
-      "formattedName": "Buxton, North Carolina",
+      "geoName": "Hatteras",
+      "formattedName": "Hatteras, North Carolina",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "North Carolina",
       "adminName2": "Dare County",
-      "geoDistance": 17.862310739414795,
+      "geoDistance": 0,
       "distance": 265
     },
     {
@@ -1437,14 +1424,14 @@
       "model": "iPhone 13 mini",
       "latitude": 35.20656944444445,
       "longitude": -75.70285,
-      "geoName": "Buxton",
-      "formattedName": "Buxton, North Carolina",
+      "geoName": "Hatteras",
+      "formattedName": "Hatteras, North Carolina",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "North Carolina",
       "adminName2": "Dare County",
-      "geoDistance": 16.081133513479674,
+      "geoDistance": 0,
       "distance": 264
     },
     {
@@ -1458,14 +1445,14 @@
       "model": "iPhone 13 mini",
       "latitude": 35.34726666666667,
       "longitude": -75.499625,
-      "geoName": "Buxton",
-      "formattedName": "Buxton, North Carolina",
+      "geoName": "Avon",
+      "formattedName": "Avon, North Carolina",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "North Carolina",
       "adminName2": "Dare County",
-      "geoDistance": 9.662340932167801,
+      "geoDistance": 0,
       "distance": 259
     },
     {
@@ -1479,14 +1466,14 @@
       "model": "iPhone 13 mini",
       "latitude": 35.34725277777778,
       "longitude": -75.49961944444445,
-      "geoName": "Buxton",
-      "formattedName": "Buxton, North Carolina",
+      "geoName": "Avon",
+      "formattedName": "Avon, North Carolina",
       "countryCode": "US",
       "countryName": "United States",
       "flag": "🇺🇸",
       "adminName1": "North Carolina",
       "adminName2": "Dare County",
-      "geoDistance": 9.661129021402468,
+      "geoDistance": 0,
       "distance": 259
     },
     {
@@ -1506,7 +1493,7 @@
       "flag": "🇺🇸",
       "adminName1": "Pennsylvania",
       "adminName2": "Tioga County",
-      "geoDistance": 14.104868324654259,
+      "geoDistance": 0,
       "distance": 195
     },
     {
@@ -1526,7 +1513,7 @@
       "flag": "🇺🇸",
       "adminName1": "Pennsylvania",
       "adminName2": "Tioga County",
-      "geoDistance": 14.104868324654259,
+      "geoDistance": 0,
       "distance": 195
     }
   ],
@@ -1555,7 +1542,7 @@
           ]
         },
         "properties": {
-          "title": "Downtown DC, District of Columbia",
+          "title": "Washington, District of Columbia",
           "id": 36,
           "image": "IMG_0815.jpeg"
         }
@@ -1585,7 +1572,7 @@
           ]
         },
         "properties": {
-          "title": "Superior, Colorado",
+          "title": "Boulder, Colorado",
           "id": 3,
           "image": "7308918047400158217.jpg"
         }
@@ -1600,7 +1587,7 @@
           ]
         },
         "properties": {
-          "title": "Cripple Creek, Colorado",
+          "title": "Florissant, Colorado",
           "id": 1,
           "image": "5566879053881335906.jpg"
         }
@@ -1615,7 +1602,7 @@
           ]
         },
         "properties": {
-          "title": "West Pleasant View, Colorado",
+          "title": "Morrison, Colorado",
           "id": 0,
           "image": "3332584359264293728.jpg"
         }
@@ -1630,7 +1617,7 @@
           ]
         },
         "properties": {
-          "title": "West Pleasant View, Colorado",
+          "title": "Morrison, Colorado",
           "id": 2,
           "image": "6680929339117383400.jpg"
         }
@@ -1645,7 +1632,7 @@
           ]
         },
         "properties": {
-          "title": "Lambeth, United Kingdom",
+          "title": "Greater London, United Kingdom",
           "id": 71,
           "image": "IMG_9666.JPG"
         }
@@ -1660,7 +1647,7 @@
           ]
         },
         "properties": {
-          "title": "Lambeth, United Kingdom",
+          "title": "Greater London, United Kingdom",
           "id": 70,
           "image": "IMG_9661.JPG"
         }
@@ -1675,7 +1662,7 @@
           ]
         },
         "properties": {
-          "title": "Pimlico, United Kingdom",
+          "title": "Greater London, United Kingdom",
           "id": 69,
           "image": "IMG_9658.JPG"
         }
@@ -1690,7 +1677,7 @@
           ]
         },
         "properties": {
-          "title": "Pimlico, United Kingdom",
+          "title": "The Power Station, United Kingdom",
           "id": 68,
           "image": "IMG_9653.JPG"
         }
@@ -1705,7 +1692,7 @@
           ]
         },
         "properties": {
-          "title": "Berlin, Maryland",
+          "title": "Newark, Maryland",
           "id": 65,
           "image": "IMG_8224.JPG"
         }
@@ -1720,7 +1707,7 @@
           ]
         },
         "properties": {
-          "title": "Berlin, Maryland",
+          "title": "Newark, Maryland",
           "id": 64,
           "image": "IMG_8209.JPG"
         }
@@ -1735,7 +1722,7 @@
           ]
         },
         "properties": {
-          "title": "Dublin, Ireland",
+          "title": "Goldsmith House, Ireland",
           "id": 41,
           "image": "IMG_0884.jpeg"
         }
@@ -1750,7 +1737,7 @@
           ]
         },
         "properties": {
-          "title": "Rialto, Ireland",
+          "title": "Bow Bridge Place, Ireland",
           "id": 40,
           "image": "IMG_0858.jpeg"
         }
@@ -1765,7 +1752,7 @@
           ]
         },
         "properties": {
-          "title": "Dublin, Ireland",
+          "title": "Goldsmith House, Ireland",
           "id": 39,
           "image": "IMG_0835.jpeg"
         }
@@ -1780,7 +1767,7 @@
           ]
         },
         "properties": {
-          "title": "Cienega Springs, Arizona",
+          "title": "Parker, Arizona",
           "id": 61,
           "image": "IMG_3486.jpeg"
         }
@@ -1795,7 +1782,7 @@
           ]
         },
         "properties": {
-          "title": "Toquerville, Utah",
+          "title": "Springdale, Utah",
           "id": 60,
           "image": "IMG_3275.jpeg"
         }
@@ -1810,7 +1797,7 @@
           ]
         },
         "properties": {
-          "title": "Hildale, Utah",
+          "title": "Springdale, Utah",
           "id": 59,
           "image": "IMG_3196.jpeg"
         }
@@ -1900,7 +1887,7 @@
           ]
         },
         "properties": {
-          "title": "Paris, France",
+          "title": "Panthéon, France",
           "id": 53,
           "image": "IMG_1944.jpeg"
         }
@@ -1915,7 +1902,7 @@
           ]
         },
         "properties": {
-          "title": "Neuilly-sur-Seine, France",
+          "title": "Paris, France",
           "id": 51,
           "image": "IMG_1889.jpeg"
         }
@@ -1930,7 +1917,7 @@
           ]
         },
         "properties": {
-          "title": "Maison Blanche, France",
+          "title": "Paris, France",
           "id": 50,
           "image": "IMG_1712.jpeg"
         }
@@ -1945,7 +1932,7 @@
           ]
         },
         "properties": {
-          "title": "Maison Blanche, France",
+          "title": "Paris, France",
           "id": 49,
           "image": "IMG_1663.jpeg"
         }
@@ -1960,7 +1947,7 @@
           ]
         },
         "properties": {
-          "title": "Maison Blanche, France",
+          "title": "Paris, France",
           "id": 48,
           "image": "IMG_1658.jpeg"
         }
@@ -1975,7 +1962,7 @@
           ]
         },
         "properties": {
-          "title": "Maison Blanche, France",
+          "title": "Paris, France",
           "id": 47,
           "image": "IMG_1655.jpeg"
         }
@@ -1990,7 +1977,7 @@
           ]
         },
         "properties": {
-          "title": "Porte Saint-Denis, France",
+          "title": "Paris, France",
           "id": 46,
           "image": "IMG_1200.jpeg"
         }
@@ -2020,7 +2007,7 @@
           ]
         },
         "properties": {
-          "title": "Saint-Vincent de Paul, France",
+          "title": "Paris, France",
           "id": 52,
           "image": "IMG_1929.JPG"
         }
@@ -2065,7 +2052,7 @@
           ]
         },
         "properties": {
-          "title": "Neuilly-sur-Seine, France",
+          "title": "L'Arc de Triomphe de l'Etoile, France",
           "id": 42,
           "image": "IMG_0947.jpeg"
         }
@@ -2110,7 +2097,7 @@
           ]
         },
         "properties": {
-          "title": "Porte Saint-Denis, France",
+          "title": "Paris, France",
           "id": 34,
           "image": "IMG_0781.jpeg"
         }
@@ -2170,7 +2157,7 @@
           ]
         },
         "properties": {
-          "title": "Folie Méricourt, France",
+          "title": "Paris, France",
           "id": 30,
           "image": "IMG_0552.jpeg"
         }
@@ -2230,7 +2217,7 @@
           ]
         },
         "properties": {
-          "title": "Neuilly-sur-Seine, France",
+          "title": "Paris, France",
           "id": 26,
           "image": "IMG_0516.jpeg"
         }
@@ -2245,7 +2232,7 @@
           ]
         },
         "properties": {
-          "title": "Tubize, Belgium",
+          "title": "Tubeke, Belgium",
           "id": 25,
           "image": "IMG_0489.jpeg"
         }
@@ -2260,7 +2247,7 @@
           ]
         },
         "properties": {
-          "title": "Brussels, Belgium",
+          "title": "Bruxelles, Belgium",
           "id": 24,
           "image": "IMG_0332.jpeg"
         }
@@ -2275,7 +2262,7 @@
           ]
         },
         "properties": {
-          "title": "Brussels, Belgium",
+          "title": "Bruxelles, Belgium",
           "id": 23,
           "image": "IMG_0328.jpeg"
         }
@@ -2290,7 +2277,7 @@
           ]
         },
         "properties": {
-          "title": "Brussels, Belgium",
+          "title": "Bruxelles, Belgium",
           "id": 22,
           "image": "IMG_0325.jpeg"
         }
@@ -2305,7 +2292,7 @@
           ]
         },
         "properties": {
-          "title": "Brussels, Belgium",
+          "title": "Bruxelles, Belgium",
           "id": 21,
           "image": "IMG_0303.jpeg"
         }
@@ -2320,7 +2307,7 @@
           ]
         },
         "properties": {
-          "title": "Brussels, Belgium",
+          "title": "Bruxelles, Belgium",
           "id": 20,
           "image": "IMG_0287.jpeg"
         }
@@ -2335,7 +2322,7 @@
           ]
         },
         "properties": {
-          "title": "Brussels, Belgium",
+          "title": "Bruxelles, Belgium",
           "id": 19,
           "image": "IMG_0278.jpeg"
         }
@@ -2350,7 +2337,7 @@
           ]
         },
         "properties": {
-          "title": "Brussels, Belgium",
+          "title": "Bruxelles, Belgium",
           "id": 18,
           "image": "IMG_0271.jpeg"
         }
@@ -2365,7 +2352,7 @@
           ]
         },
         "properties": {
-          "title": "Brussels, Belgium",
+          "title": "Bruxelles, Belgium",
           "id": 17,
           "image": "IMG_0262.jpeg"
         }
@@ -2380,7 +2367,7 @@
           ]
         },
         "properties": {
-          "title": "Brussels, Belgium",
+          "title": "Bruxelles, Belgium",
           "id": 16,
           "image": "IMG_0225.jpeg"
         }
@@ -2470,7 +2457,7 @@
           ]
         },
         "properties": {
-          "title": "Sylvan Beach, New York",
+          "title": "Hammondsport, New York",
           "id": 5,
           "image": "IMG_0002.JPG"
         }
@@ -2515,7 +2502,7 @@
           ]
         },
         "properties": {
-          "title": "Buxton, North Carolina",
+          "title": "Hatteras, North Carolina",
           "id": 4,
           "image": "IMG_0001.JPG"
         }
@@ -2530,7 +2517,7 @@
           ]
         },
         "properties": {
-          "title": "Buxton, North Carolina",
+          "title": "Hatteras, North Carolina",
           "id": 9,
           "image": "IMG_0006.JPG"
         }
@@ -2545,7 +2532,7 @@
           ]
         },
         "properties": {
-          "title": "Buxton, North Carolina",
+          "title": "Hatteras, North Carolina",
           "id": 8,
           "image": "IMG_0005.JPG"
         }
@@ -2560,7 +2547,7 @@
           ]
         },
         "properties": {
-          "title": "Buxton, North Carolina",
+          "title": "Hatteras, North Carolina",
           "id": 13,
           "image": "IMG_0010.JPG"
         }
@@ -2575,7 +2562,7 @@
           ]
         },
         "properties": {
-          "title": "Buxton, North Carolina",
+          "title": "Avon, North Carolina",
           "id": 15,
           "image": "IMG_0012.JPG"
         }
@@ -2590,7 +2577,7 @@
           ]
         },
         "properties": {
-          "title": "Buxton, North Carolina",
+          "title": "Avon, North Carolina",
           "id": 6,
           "image": "IMG_0003.JPG"
         }
@@ -2627,5 +2614,5 @@
       }
     ]
   },
-  "distanceTraveled": 87154
+  "distanceTraveled": 113571
 }
