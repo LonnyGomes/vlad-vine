@@ -240,6 +240,7 @@ export class Map implements OnInit, OnDestroy {
         'line-width': 4,
         'line-opacity': 0.8,
         'line-emissive-strength': 1,
+        'line-dasharray': [2, 2],
       },
     });
   }
