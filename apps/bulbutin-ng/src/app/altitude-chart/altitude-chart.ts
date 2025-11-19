@@ -57,7 +57,7 @@ export class AltitudeChart implements AfterViewInit, OnDestroy {
         type: 'line',
         backgroundColor: 'transparent',
         renderTo: container.nativeElement,
-        marginTop: 0,
+        marginTop: 5,
       },
       title: {
         text: '',
