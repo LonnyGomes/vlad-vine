@@ -7,10 +7,16 @@ import {
   ChangeDetectionStrategy,
   AfterViewInit,
   OnDestroy,
+  computed,
 } from '@angular/core';
 import * as Highcharts from 'highcharts';
 import { ImageFeed } from '../services/image-feed';
 import { getCSSColor } from '../../utils/getCSSColor';
+
+interface ModelData {
+  model: string;
+  count: number;
+}
 
 @Component({
   selector: 'app-model-chart',
@@ -25,6 +31,21 @@ export class ModelChart implements AfterViewInit, OnDestroy {
   private chart = signal<Highcharts.Chart | null>(null);
   private darkModeQuery = window.matchMedia('(prefers-color-scheme: dark)');
   private darkModeListener: any;
+
+  // Compute model data for table display
+  modelData = computed(() => {
+    const images = this.imageFeed.images();
+    const modelMap = new Map<string, number>();
+
+    images.forEach((img) => {
+      const model = img.model || 'Unknown';
+      modelMap.set(model, (modelMap.get(model) || 0) + 1);
+    });
+
+    return Array.from(modelMap.entries())
+      .sort((a, b) => b[1] - a[1])
+      .map(([model, count]) => ({ model, count }));
+  });
 
   ngAfterViewInit() {
     this.renderChart();

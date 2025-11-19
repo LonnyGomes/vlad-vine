@@ -4,3 +4,60 @@
   height: 400px;
   margin: 20px 0;
 }
+
+.model-table {
+  display: none;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  color: var(--text-color);
+
+  thead {
+    tr {
+      border-bottom: 2px solid var(--primary-color);
+    }
+
+    th {
+      text-align: left;
+      padding: 12px 16px;
+      font-weight: bold;
+      font-size: 14px;
+      color: var(--text-color);
+
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+
+    td {
+      padding: 12px 16px;
+      font-size: 14px;
+
+      &:last-child {
+        text-align: right;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+// Mobile: show table, hide chart
+@media (max-width: 768px) {
+  .model-chart-container {
+    display: none;
+  }
+
+  .model-table {
+    display: table;
+  }
+}

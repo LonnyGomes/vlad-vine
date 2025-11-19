@@ -1,1 +1,20 @@
+<!-- Chart for desktop -->
 <div #chartContainer class="model-chart-container"></div>
+
+<!-- Table for mobile -->
+<table class="model-table">
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Photos</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (item of modelData(); track item.model) {
+    <tr>
+      <td>{{ item.model }}</td>
+      <td>{{ item.count }}</td>
+    </tr>
+    }
+  </tbody>
+</table>
