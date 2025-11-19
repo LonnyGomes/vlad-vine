@@ -138,12 +138,18 @@ export class CountryChart implements AfterViewInit, OnDestroy {
         enabled: false,
       },
       plotOptions: {
+        bar: {
+          pointPadding: 0.1,
+          groupPadding: 0.1,
+        },
         series: {
           dataLabels: {
             enabled: true,
             style: {
               textOutline: 'none',
               color: textColor,
+              fontSize: '16px',
+              fontWeight: 'bold',
             },
           },
           borderWidth: 0,
