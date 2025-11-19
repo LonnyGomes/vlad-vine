@@ -16,7 +16,7 @@ let distanceTraveled = 0;
 async function extractMetadata(
   imagePath: string,
   id: number,
-  homeCoords: readonly [lon: number, lat: number]
+  homeCoords: readonly [lon: number, lat: number],
 ): Promise<ImageResult> {
   const metadata = await exifr.parse(imagePath);
   const image = path.basename(imagePath);
@@ -49,20 +49,19 @@ async function extractMetadata(
 
   // generate formatted name based on if US or not
   const formattedName =
-    countryCode === 'US'
+    countryCode === "US"
       ? `${geoName}, ${adminName1}`
       : `${geoName}, ${countryName}`;
 
   // Generate thumbnail
   // Create thumbnails directory if it doesn't exist
   const basePath = path.dirname(imagePath);
-  const thumbnailsDir = path.join(basePath, 'thumbnails');
-  await fs.mkdir(thumbnailsDir, { recursive: true });
+  await fs.mkdir(basePath, { recursive: true });
 
   console.log(`Processing ${image}...`);
   const { thumbName: imageThumb } = await generateThumbnail(
     imagePath,
-    thumbnailsDir
+    basePath,
   );
 
   return {
@@ -105,7 +104,7 @@ function haversineDistance(
   lon1: number,
   lat1: number,
   lon2: number,
-  lat2: number
+  lat2: number,
 ): number {
   const toRadians = (deg: number) => (deg * Math.PI) / 180;
   const kmsToMiles = (km: number) => Math.round(km * 0.621371);
@@ -134,7 +133,7 @@ function haversineDistance(
  */
 async function generateThumbnail(
   imagePath: string,
-  outputDir: string
+  outputDir: string,
 ): Promise<{ thumbPath: string; thumbName: string }> {
   const filename = path.basename(imagePath);
   const parsedName = path.parse(filename);
@@ -144,8 +143,8 @@ async function generateThumbnail(
   await sharp(imagePath)
     .rotate() // Auto-rotate based on EXIF orientation
     .resize(600, 600, {
-      fit: 'cover',
-      position: 'center',
+      fit: "cover",
+      position: "center",
     })
     .webp({ quality: 80 })
     .toFile(thumbPath);
@@ -155,13 +154,13 @@ async function generateThumbnail(
 
 export async function processImages(
   basePath: string,
-  homeCoords: readonly [lon: number, lat: number]
+  homeCoords: readonly [lon: number, lat: number],
 ): Promise<ImageDataResults> {
   await initGeocoder();
   const files = await fs.readdir(basePath);
-  const extentions = ['.jpg', '.jpeg', '.png', '.tiff', '.heic'];
+  const extentions = [".jpg", ".jpeg", ".png", ".tiff", ".heic"];
   const imageFiles = files.filter((file) =>
-    extentions.includes(path.extname(file).toLowerCase())
+    extentions.includes(path.extname(file).toLowerCase()),
   );
 
   let prevCoord: [number, number] = [...homeCoords];
@@ -176,7 +175,7 @@ export async function processImages(
             prevCoord[0],
             prevCoord[1],
             metadata.longitude,
-            metadata.latitude
+            metadata.latitude,
           )
         : 0;
     prevCoord = [metadata.longitude, metadata.latitude];
@@ -186,7 +185,7 @@ export async function processImages(
   const results = await Promise.all(promises);
   console.log(`Total Distance Traveled: ${Math.round(distanceTraveled)} miles`);
   const images = results.sort(
-    (a, b) => b.timestamp.getTime() - a.timestamp.getTime()
+    (a, b) => b.timestamp.getTime() - a.timestamp.getTime(),
   );
   const countryTotals = calcTotalCountries(results);
   const usTotals = calcTotalUSStates(results);
