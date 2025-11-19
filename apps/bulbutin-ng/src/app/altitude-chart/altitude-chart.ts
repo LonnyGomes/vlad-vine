@@ -54,7 +54,7 @@ export class AltitudeChart implements AfterViewInit, OnDestroy {
 
     const options: Highcharts.Options = {
       chart: {
-        type: 'line',
+        type: 'scatter',
         backgroundColor: 'transparent',
         renderTo: container.nativeElement,
         marginTop: 5,
@@ -88,10 +88,14 @@ export class AltitudeChart implements AfterViewInit, OnDestroy {
       },
       series: [
         {
-          type: 'line',
+          type: 'scatter',
           name: 'Altitude',
           data: altitudeData as any,
           color: getCSSColor('--primary-color'),
+          marker: {
+            radius: 6,
+            symbol: 'circle',
+          },
         },
       ],
       legend: {
