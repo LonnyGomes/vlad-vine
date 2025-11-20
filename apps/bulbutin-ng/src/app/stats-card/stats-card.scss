@@ -7,15 +7,19 @@
   position: relative;
   background-color: var(--background-color);
 
-  // True neumorphic effect - soft raised appearance
+  // Subtle neumorphic effect - creates depth without harsh shadows
   box-shadow:
-    6px 6px 12px rgba(0, 0, 0, 0.2),
-    -6px -6px 12px rgba(255, 255, 255, 0.15);
+    // Light source from top-left creates soft highlight
+    -3px -3px 6px rgba(255, 255, 255, 0.6),
+    // Shadow from bottom-right creates subtle depth
+    3px 3px 6px rgba(0, 0, 0, 0.15);
 
   @media (prefers-color-scheme: dark) {
     box-shadow:
-      6px 6px 12px rgba(0, 0, 0, 0.4),
-      -6px -6px 12px rgba(255, 255, 255, 0.08);
+      // Reduced highlight for dark mode
+      -2px -2px 4px rgba(255, 255, 255, 0.05),
+      // Slightly stronger shadow for contrast in dark mode
+      2px 2px 4px rgba(0, 0, 0, 0.4);
   }
 
   .title {
@@ -24,12 +28,12 @@
     width: 100%;
     text-align: center;
 
-    // Subtle inset for recessed title area
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.15);
+    // Very subtle inset for title area
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 
     @media (prefers-color-scheme: dark) {
       background-color: var(--primary-color-dark);
-      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2);
     }
   }
 
