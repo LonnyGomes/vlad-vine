@@ -10,6 +10,7 @@ import {
 } from '@angular/core';
 import * as Highcharts from 'highcharts';
 import { ImageFeed } from '../services/image-feed';
+import { getCSSColor } from '../../utils/getCSSColor';
 
 @Component({
   selector: 'app-country-chart',
@@ -116,7 +117,7 @@ export class CountryChart implements AfterViewInit, OnDestroy {
             fontSize: '32px',
           },
         },
-        lineColor: isDarkMode ? '#404040' : '#ccd6eb',
+        lineColor: getCSSColor('--primary-color'),
       },
       legend: {
         enabled: false,
@@ -139,8 +140,8 @@ export class CountryChart implements AfterViewInit, OnDestroy {
       },
       plotOptions: {
         bar: {
-          pointPadding: 0.1,
-          groupPadding: 0.1,
+          pointPadding: 0.2,
+          groupPadding: 0.2,
         },
         series: {
           dataLabels: {
