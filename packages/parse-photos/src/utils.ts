@@ -163,21 +163,26 @@ export async function processImages(
     extentions.includes(path.extname(file).toLowerCase()),
   );
 
-  let prevCoord: [number, number] = [...homeCoords];
+  let prevCoord: [number, number] | null = null;
 
   const promises = imageFiles.map(async (image, id) => {
     const imagePath = path.join(basePath, image);
 
     const metadata = await extractMetadata(imagePath, id, homeCoords);
-    distanceTraveled +=
-      metadata.longitude !== undefined
-        ? haversineDistance(
-            prevCoord[0],
-            prevCoord[1],
-            metadata.longitude,
-            metadata.latitude,
-          )
-        : 0;
+    if (
+      prevCoord !== null &&
+      metadata.longitude !== undefined &&
+      metadata.latitude !== undefined
+    ) {
+      const newDistance = haversineDistance(
+        prevCoord[0],
+        prevCoord[1],
+        metadata.longitude,
+        metadata.latitude,
+      );
+
+      distanceTraveled += newDistance;
+    }
     prevCoord = [metadata.longitude, metadata.latitude];
     return metadata;
   });
