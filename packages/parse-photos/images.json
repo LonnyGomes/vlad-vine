@@ -2,7 +2,7 @@
   "altitudeStats": {
     "min": 2,
     "max": 7972,
-    "average": 718
+    "average": 687
   },
   "countryTotals": [
     {
@@ -149,7 +149,7 @@
       "distance": 1502
     },
     {
-      "id": 71,
+      "id": 74,
       "image": "IMG_9666.JPG",
       "imageThumb": "thumb-IMG_9666.webp",
       "altitude": 23,
@@ -170,7 +170,7 @@
       "distance": 3665
     },
     {
-      "id": 70,
+      "id": 73,
       "image": "IMG_9661.JPG",
       "imageThumb": "thumb-IMG_9661.webp",
       "altitude": 15,
@@ -191,7 +191,7 @@
       "distance": 3665
     },
     {
-      "id": 69,
+      "id": 72,
       "image": "IMG_9658.JPG",
       "imageThumb": "thumb-IMG_9658.webp",
       "altitude": 19,
@@ -212,7 +212,7 @@
       "distance": 3665
     },
     {
-      "id": 68,
+      "id": 71,
       "image": "IMG_9653.JPG",
       "imageThumb": "thumb-IMG_9653.webp",
       "altitude": 22,
@@ -1183,6 +1183,69 @@
       "distance": 3863
     },
     {
+      "id": 70,
+      "image": "IMG_8841.jpeg",
+      "imageThumb": "thumb-IMG_8841.webp",
+      "altitude": 8,
+      "timestamp": "2023-08-04T20:59:31.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 11 Pro",
+      "latitude": 33.836825000000005,
+      "longitude": -78.60968888888888,
+      "geoName": "North Myrtle Beach",
+      "formattedName": "North Myrtle Beach, South Carolina",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "South Carolina",
+      "adminName2": "Horry County",
+      "geoDistance": 0,
+      "distance": 360
+    },
+    {
+      "id": 69,
+      "image": "IMG_8829.jpeg",
+      "imageThumb": "thumb-IMG_8829.webp",
+      "altitude": 21,
+      "timestamp": "2023-08-04T20:53:28.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 11 Pro",
+      "latitude": 33.83684166666667,
+      "longitude": -78.60968055555556,
+      "geoName": "North Myrtle Beach",
+      "formattedName": "North Myrtle Beach, South Carolina",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "South Carolina",
+      "adminName2": "Horry County",
+      "geoDistance": 0,
+      "distance": 360
+    },
+    {
+      "id": 68,
+      "image": "IMG_8822.jpeg",
+      "imageThumb": "thumb-IMG_8822.webp",
+      "altitude": 16,
+      "timestamp": "2023-08-04T20:50:42.000Z",
+      "speed": 0.3706073445835245,
+      "make": "Apple",
+      "model": "iPhone 11 Pro",
+      "latitude": 33.83748333333334,
+      "longitude": -78.610925,
+      "geoName": "North Myrtle Beach",
+      "formattedName": "North Myrtle Beach, South Carolina",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "South Carolina",
+      "adminName2": "Horry County",
+      "geoDistance": 0,
+      "distance": 360
+    },
+    {
       "id": 67,
       "image": "IMG_8654.jpg",
       "imageThumb": "thumb-IMG_8654.webp",
@@ -1524,6 +1587,7 @@
     "Arizona",
     "Utah",
     "Nevada",
+    "South Carolina",
     "Delaware",
     "New York",
     "North Carolina",
@@ -1633,7 +1697,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 71,
+          "id": 74,
           "image": "IMG_9666.JPG"
         }
       },
@@ -1648,7 +1712,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 70,
+          "id": 73,
           "image": "IMG_9661.JPG"
         }
       },
@@ -1663,7 +1727,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 69,
+          "id": 72,
           "image": "IMG_9658.JPG"
         }
       },
@@ -1678,7 +1742,7 @@
         },
         "properties": {
           "title": "The Power Station, United Kingdom",
-          "id": 68,
+          "id": 71,
           "image": "IMG_9653.JPG"
         }
       },
@@ -2377,6 +2441,51 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
+            -78.60968888888888,
+            33.836825000000005
+          ]
+        },
+        "properties": {
+          "title": "North Myrtle Beach, South Carolina",
+          "id": 70,
+          "image": "IMG_8841.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.60968055555556,
+            33.83684166666667
+          ]
+        },
+        "properties": {
+          "title": "North Myrtle Beach, South Carolina",
+          "id": 69,
+          "image": "IMG_8829.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -78.610925,
+            33.83748333333334
+          ]
+        },
+        "properties": {
+          "title": "North Myrtle Beach, South Carolina",
+          "id": 68,
+          "image": "IMG_8822.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
             -75.07958333333333,
             38.705219444444445
           ]
@@ -2614,5 +2723,5 @@
       }
     ]
   },
-  "distanceTraveled": 113571
+  "distanceTraveled": 141873
 }
