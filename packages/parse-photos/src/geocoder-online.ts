@@ -13,6 +13,8 @@
  * To:   import { geocode, initGeocoder } from "./geocoder-online.js";
  */
 
+import "dotenv/config";
+
 import emojiFlags from "emoji-flags";
 
 export interface GeocodeResult {

@@ -3,3 +3,4 @@ node_modules
 geocoder-dump
 dist
 *.tsbuildinfo
+.env
