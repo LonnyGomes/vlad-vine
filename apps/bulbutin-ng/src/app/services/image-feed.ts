@@ -53,7 +53,6 @@ export class ImageFeed {
     const prevIndex = (currentIndex - 1 + imagesLength) % imagesLength;
     this.mapIndex.update(() => prevIndex);
   }
-
   setMapIndexByImageId(index: number) {
     if (index >= 0 && index < this.images().length) {
       for (let i = 0; i < this.images().length; i++) {
@@ -101,23 +100,6 @@ export class ImageFeed {
     };
 
     this.stats.set(stats);
-
-    console.log('Image stats:', stats);
-
-    // const geoJsonPoints: FeatureCollection = {
-    //   type: 'FeatureCollection',
-    //   features: processedImages.map((img) => ({
-    //     type: 'Feature',
-    //     geometry: {
-    //       type: 'Point',
-    //       coordinates: [img.longitude, img.latitude],
-    //     },
-    //     properties: {
-    //       title: img.formattedName || img.geoName,
-    //     },
-    //   })),
-    // };
-    // this.imagePoints.set(geoJsonPoints);
   }
 
   getImageById(id: number): ImageResult | undefined {
