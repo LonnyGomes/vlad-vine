@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 import exifr from "exifr";
 import sharp from "sharp";
 import type { ImageResult, ImageDataResults } from "./models.js";
-import { geocode, initGeocoder } from "./geocoder.js";
+import { geocode, initGeocoder } from './geocoder-online.js';
 import {
   calcTotalCountries,
   calcAltitudes,
