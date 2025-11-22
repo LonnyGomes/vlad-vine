@@ -113,67 +113,274 @@ await saveImageData(results);
 ## Exported Types
 
 ### `ImageResult`
-Complete metadata for a single image including:
-- `image`: filename
-- `altitude`: altitude in feet
-- `timestamp`: Date object
-- `speed`: speed in mph
-- `make`, `model`: camera info
-- `latitude`, `longitude`: GPS coordinates
-- `geoName`, `countryCode`, `countryName`, `flag`: location info
-- `adminName1`, `adminName2`: administrative regions
-- `distance`: distance from home in miles
-- `geoDistance`: geocoding distance
+Complete metadata for a single processed image:
+
+```typescript
+interface ImageResult {
+  id: number;                 // Unique identifier
+  image: string;              // Original filename
+  imageThumb: string;         // Generated thumbnail filename (WebP)
+  altitude?: number;          // Altitude in feet (optional)
+  timestamp: Date;            // Photo timestamp
+  speed: number;              // GPS speed in mph
+  make: string;               // Camera manufacturer
+  model: string;              // Camera model
+  latitude: number;           // GPS latitude
+  longitude: number;          // GPS longitude
+  geoName: string;            // City/locality name
+  formattedName: string;      // "City, State" (US) or "City, Country"
+  countryCode: string;        // ISO country code (e.g., "US")
+  countryName: string;        // Full country name
+  flag: string;               // Emoji flag (e.g., "🇺🇸")
+  adminName1: string;         // State/province name
+  adminName2?: string;        // County/district (optional)
+  geoDistance: number;        // Distance from geocoder (meters)
+  distance: number;           // Distance from home in miles
+}
+```
 
 ### `ImageDataResults`
-Complete results including:
-- `images`: array of `ImageResult`
-- `countryTotals`: array of visited countries
-- `usTotals`: array of visited US states
-- `altitudeStats`: min, max, and average altitudes
+Complete processing results including all images and computed statistics:
+
+```typescript
+interface ImageDataResults {
+  images: ImageResult[];              // All processed images
+  countryTotals: CountryInfo[];       // Unique countries visited
+  usTotals: string[];                 // Unique US states visited
+  altitudeStats: AltitudeStats;       // Min, max, average altitude
+  imagesPoints: FeatureCollection;    // GeoJSON point features
+  distanceTraveled: number;           // Total miles traveled
+}
+```
 
 ### `CountryInfo`
-Country information:
-- `countryCode`: ISO country code
-- `countryName`: full country name
-- `flag`: emoji flag
+Information about a visited country:
+
+```typescript
+interface CountryInfo {
+  countryCode: string;  // ISO code (e.g., "FR")
+  countryName: string;  // Full name (e.g., "France")
+  flag: string;         // Emoji flag (e.g., "🇫🇷")
+}
+```
 
 ### `AltitudeStats`
-Altitude statistics:
-- `min`: minimum altitude
-- `max`: maximum altitude
-- `average`: average altitude
+Altitude statistics across all images:
 
-## API
+```typescript
+interface AltitudeStats {
+  min: number;      // Minimum altitude in feet
+  max: number;      // Maximum altitude in feet
+  average: number;  // Average altitude in feet
+}
+```
 
-### Data Functions
+### `Stats`
+Frontend-friendly statistics interface:
+
+```typescript
+interface Stats {
+  altitude: {
+    min: number;
+    max: number;
+    average: number;
+  };
+  totals: {
+    images: number;
+    countries: number;
+    us: number;
+  };
+  countries: CountryInfo[];
+  states: string[];
+  distanceTraveled: number;
+}
+```
+
+## API Reference
+
+### Shared Functions (Browser & Node.js)
+
+#### `genGeoJSONPoints(images: ImageResult[]): FeatureCollection`
+Converts an array of ImageResult objects into a GeoJSON FeatureCollection of Point features for map visualization.
+
+**Returns**: GeoJSON FeatureCollection with point features containing:
+- `geometry`: Point coordinates `[longitude, latitude]`
+- `properties.title`: Formatted location name
+- `properties.id`: Image ID
+- `properties.image`: Image filename
+
+```typescript
+import { genGeoJSONPoints } from 'parse-photos/shared';
+
+const points = genGeoJSONPoints(images);
+// Use with Mapbox, Leaflet, etc.
+```
+
+#### `genGeoJSONRoute(images: ImageResult[]): Feature`
+Generates a GeoJSON Feature with a LineString geometry representing the travel route connecting all photo locations in chronological order.
+
+**Returns**: GeoJSON Feature with LineString geometry
+
+```typescript
+import { genGeoJSONRoute } from 'parse-photos/shared';
+
+const route = genGeoJSONRoute(images);
+// Display as a line on the map
+```
+
+#### `calcTotalCountries(images: ImageResult[]): CountryInfo[]`
+Calculates the unique countries visited from image data.
+
+```typescript
+import { calcTotalCountries } from 'parse-photos/shared';
+
+const countries = calcTotalCountries(images);
+// [{ countryCode: 'US', countryName: 'United States', flag: '🇺🇸' }, ...]
+```
+
+#### `calcTotalUSStates(images: ImageResult[]): string[]`
+Extracts unique US states visited (filters for `countryCode === 'US'`).
+
+```typescript
+import { calcTotalUSStates } from 'parse-photos/shared';
+
+const states = calcTotalUSStates(images);
+// ['California', 'New York', 'Texas', ...]
+```
+
+#### `calcAltitudes(images: ImageResult[]): AltitudeStats`
+Computes altitude statistics (min, max, average) from images with altitude data.
+
+```typescript
+import { calcAltitudes } from 'parse-photos/shared';
+
+const stats = calcAltitudes(images);
+// { min: 0, max: 14505, average: 1234 }
+```
+
+### Data Functions (Node.js Only)
 
 #### `loadImageData(): Promise<ImageDataResults>`
-Loads and parses the processed image data from `images.json`. Automatically revives Date objects.
+Asynchronously loads and parses `images.json`. Automatically revives Date objects from ISO strings.
+
+**Note**: This uses Node.js filesystem APIs and won't work in browsers.
+
+```typescript
+import { loadImageData } from 'parse-photos';
+
+const data = await loadImageData();
+```
 
 #### `saveImageData(data: ImageDataResults): Promise<void>`
-Saves image data to `images.json`.
+Saves processed image data to `images.json` with pretty-printing.
+
+```typescript
+import { saveImageData } from 'parse-photos';
+
+await saveImageData(results);
+```
 
 #### `getImagesJsonPath(): string`
 Returns the absolute path to `images.json`.
 
-### Utility Functions
+```typescript
+import { getImagesJsonPath } from 'parse-photos';
+
+const path = getImagesJsonPath();
+```
+
+### Processing Functions (Node.js Only)
 
 #### `processImages(basePath: string, homeCoords: readonly [lon, lat]): Promise<ImageDataResults>`
-Processes all images in a directory and returns complete results.
+Main processing function that:
+1. Reads all image files from `basePath`
+2. Extracts EXIF metadata
+3. Performs reverse geocoding via Google API
+4. Generates WebP thumbnails
+5. Calculates distances and statistics
+6. Returns complete `ImageDataResults`
 
-#### `calcTotalCountries(images: ImageResult[]): CountryInfo[]`
-Calculates unique countries from image data.
+**Parameters**:
+- `basePath`: Directory containing images
+- `homeCoords`: `[longitude, latitude]` of home base for distance calculations
 
-#### `calcTotalUSStates(images: ImageResult[]): string[]`
-Calculates unique US states from image data.
+```typescript
+import { processImages, saveImageData } from 'parse-photos';
 
-#### `calcAltitudes(images: ImageResult[]): AltitudeStats`
-Calculates altitude statistics from image data.
+const results = await processImages('./photos', [-77.01, 38.89]);
+await saveImageData(results);
+```
+
+## Supported Image Formats
+
+- JPEG (`.jpg`, `.jpeg`)
+- PNG (`.png`)
+- TIFF (`.tiff`)
+- HEIC (`.heic`) - Apple iPhone photos
+
+## Supported Image Formats
+
+- JPEG (`.jpg`, `.jpeg`)
+- PNG (`.png`)
+- TIFF (`.tiff`)
+- HEIC (`.heic`) - Apple iPhone photos
 
 ## Output
 
-The package generates `images.json` containing all processed image data in the `ImageDataResults` format.
+The package generates `images.json` in the package root containing:
+
+```json
+{
+  "images": [...],           // Array of ImageResult objects
+  "countryTotals": [...],    // Unique countries visited
+  "usTotals": [...],         // Unique US states visited
+  "altitudeStats": {...},    // Altitude min/max/average
+  "imagesPoints": {...},     // GeoJSON FeatureCollection
+  "distanceTraveled": 1234   // Total miles traveled
+}
+```
+
+This JSON file is:
+- Used by frontend applications via `imageDataResultsJSON` export
+- Human-readable (pretty-printed with 2-space indentation)
+- Version-controlled (commit it to track your journeys!)
+
+## Technical Details
+
+### Distance Calculations
+
+The package uses the **Haversine formula** to calculate great-circle distances between GPS coordinates:
+
+```
+a = sin²(Δφ/2) + cos(φ1) × cos(φ2) × sin²(Δλ/2)
+c = 2 × atan2(√a, √(1−a))
+d = R × c
+```
+
+Where:
+- φ = latitude in radians
+- λ = longitude in radians
+- R = Earth's radius (6,371 km)
+
+Results are converted from kilometers to miles and accumulated as you move from photo to photo chronologically.
+
+### Thumbnail Generation
+
+Thumbnails are generated using Sharp:
+- **Size**: 600×600 pixels
+- **Format**: WebP (80% quality)
+- **Cropping**: Center-crop to maintain aspect ratio
+- **Rotation**: Auto-rotates based on EXIF orientation
+- **Naming**: `thumb-{original-name}.webp`
+
+### Geocoding
+
+Uses Google Geocoding API to convert coordinates to human-readable locations:
+- Extracts locality (city/town)
+- Identifies administrative regions (state/province, county)
+- Determines country with ISO code
+- Adds emoji flags via `emoji-flags` package
+- Smart formatting: "City, State" for US, "City, Country" elsewhere
 
 ## Development
 
@@ -181,18 +388,80 @@ The package generates `images.json` containing all processed image data in the `
 # Install dependencies
 npm install
 
-# Run in development mode
-npm run dev
-
-# Watch for changes
-npm run watch
-
 # Build TypeScript
 npm run build
 
-# Type check
+# Watch mode (rebuilds on change)
+npm run watch
+
+# Run the photo processor
+npm start
+
+# Type checking only
 npx tsc --noEmit
 ```
+
+## Project Structure
+
+```
+parse-photos/
+├── src/
+│   ├── index.ts              # CLI entry point
+│   ├── utils.ts              # Core image processing
+│   ├── geocoder-online.ts    # Google Geocoding API
+│   ├── data.ts               # JSON file operations
+│   ├── shared.ts             # Browser-friendly exports
+│   ├── models.ts             # TypeScript interfaces
+│   └── lib.ts                # Main package exports
+├── images/                   # Place your photos here
+├── images.json               # Generated output
+└── package.json
+```
+
+## Integration Examples
+
+### Angular Example
+
+```typescript
+// src/app/services/image-feed.ts
+import { Injectable, signal } from '@angular/core';
+import { imageDataResultsJSON, genGeoJSONPoints } from 'parse-photos/shared';
+import type { ImageResult } from 'parse-photos/types';
+
+@Injectable({ providedIn: 'root' })
+export class ImageFeed {
+  readonly images = signal<ImageResult[]>(imageDataResultsJSON.images);
+  readonly mapPoints = signal(genGeoJSONPoints(imageDataResultsJSON.images));
+}
+```
+
+### React Example
+
+```typescript
+// hooks/useImageData.ts
+import { useMemo } from 'react';
+import { imageDataResultsJSON } from 'parse-photos/shared';
+
+export function useImageData() {
+  const images = useMemo(() => imageDataResultsJSON.images, []);
+  const countries = useMemo(() => imageDataResultsJSON.countryTotals, []);
+  
+  return { images, countries };
+}
+```
+
+## Dependencies
+
+### Runtime
+- `exifr` - EXIF metadata extraction
+- `sharp` - Image thumbnail generation (WebP)
+- `emoji-flags` - Country emoji flags
+- `geojson` - TypeScript types for GeoJSON
+
+### Google Maps API
+- Requires a valid API key in `.env`
+- Uses Geocoding API for reverse geocoding
+- See [pricing details](https://developers.google.com/maps/documentation/geocoding/usage-and-billing)
 
 ## License
 
