@@ -44,6 +44,30 @@ export class Map implements OnInit, OnDestroy {
       const index = this.imgFeed.mapIndex();
       const images = this.imgFeed.images();
 
+      const isDarkMode = this.darkModeQuery.matches;
+      const strokeColor = isDarkMode ? '#CCCCCC' : '#FFFFFF';
+
+      // Update selected circle color
+      if (this.map && this.map.getLayer('imagesLayer')) {
+        const selectedImageId = images[index]?.id ?? -1;
+        const primaryColor = this.getCssVariableValue('--primary-color');
+        const selectedColor = this.getCssVariableValue('--primary-color-dark');
+
+        this.map.setPaintProperty('imagesLayer', 'circle-stroke-color', [
+          'case',
+          ['==', ['get', 'id'], selectedImageId],
+          selectedColor,
+          strokeColor,
+        ]);
+
+        this.map.setPaintProperty('imagesLayer', 'circle-color', [
+          'case',
+          ['==', ['get', 'id'], selectedImageId],
+          strokeColor,
+          primaryColor,
+        ]);
+      }
+
       // we don't want to zoom anywhere, -1 means no image selected
       if (index == -1) {
         return;
@@ -174,10 +198,14 @@ export class Map implements OnInit, OnDestroy {
 
     // Get CSS variable values from the document
     const primaryColor = this.getCssVariableValue('--primary-color');
+    const selectedColor = this.getCssVariableValue('--primary-color-dark') || '#1e40af'; // Darker blue fallback
 
     // Determine stroke color based on dark mode
     const isDarkMode = this.darkModeQuery.matches;
     const strokeColor = isDarkMode ? '#CCCCCC' : '#FFFFFF';
+
+    // Get selected image ID (use -1 if no selection)
+    const selectedImageId = this.imgFeed.images()[this.imgFeed.mapIndex()]?.id ?? -1;
 
     // Add a layer to render the points
     this.map!.addLayer({
@@ -186,7 +214,12 @@ export class Map implements OnInit, OnDestroy {
       source: 'imagesSource',
       paint: {
         'circle-radius': 8,
-        'circle-color': primaryColor, // Use CSS variable
+        'circle-color': [
+          'case',
+          ['==', ['get', 'id'], selectedImageId],
+          selectedColor,
+          primaryColor,
+        ],
         'circle-stroke-width': 3,
         'circle-stroke-color': strokeColor,
         'circle-opacity': 0.9, // Slightly transparent to see map underneath
