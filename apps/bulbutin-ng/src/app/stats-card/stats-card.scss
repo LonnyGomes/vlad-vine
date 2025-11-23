@@ -17,7 +17,7 @@
     text-align: center;
     z-index: 100;
 
-    @include mi.neumorphism(true, 0px, 10px, 15px);
+    @include mi.neumorphism(true, 0px, 10px, 15px, 0.0);
   }
 
   .value {
