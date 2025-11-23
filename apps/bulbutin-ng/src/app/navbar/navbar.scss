@@ -24,10 +24,26 @@
 }
 
 .navbar-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
-  height: var(--navbar-height);
+  display: flex;
+  justify-content: center;
   align-items: center;
+  height: var(--navbar-height);
+  position: relative;
+
+  h1 {
+    margin: 0;
+  }
+
+  .upload-btn {
+    position: absolute;
+    right: 16px;
+    display: flex;
+    align-items: center;
+  }
+
+  .btn {
+    cursor: pointer;
+    width: 36px;
+  }
 }
 

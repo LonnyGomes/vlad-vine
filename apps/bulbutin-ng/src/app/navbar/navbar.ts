@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { ImageFeed } from '../services/image-feed';
 
 @Component({
   selector: 'app-navbar',
@@ -7,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.scss',
 })
 export class Navbar {
-
+  private imageFeed = inject(ImageFeed);
+  goToUpload() {
+    window.location.href = this.imageFeed.uploadUrl;
+  }
 }
