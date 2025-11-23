@@ -2,7 +2,7 @@
   --primary-color: #3498db;
   --primary-color-dark: #2574a9; // Darker version for gradient
   --secondary-color: #2ecc71;
-  --background-color: #fdfdfd;
+  --background-color: #f0f2f5;
   --text-color: #333333;
   --toolbar-height: 60px; // Reduced for mobile
   --navbar-height: 60px;
@@ -10,7 +10,7 @@
   --body-font: 'Montserrat Variable', sans-serif;
   --header-font:'Pacifico', cursive;
   --link-color: var(--text-color);
-
+  --default-radius: 16px;
 
   // Dark mode
   @media (prefers-color-scheme: dark) {
@@ -18,6 +18,7 @@
     --primary-color-dark: #1f618d; // Darker version for gradient
     --secondary-color: #27ae60;
     --background-color: #383838;
+    // --background-color: #1b1d23;
     --text-color: #f0f0f0;
     --icon-filter: brightness(0) invert(1); // White icons for dark mode
     --link-color: var(--text-color);

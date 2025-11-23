@@ -1,0 +1,24 @@
+
+@mixin neumorphism($inset: false, $radius: var(--default-radius), $top-padding: 20px, $side-padding: 0px) {
+  padding: $top-padding $side-padding;
+  border-radius: $radius;
+  @if $inset {
+    box-shadow:
+      inset 6px 6px 12px rgba(0, 0, 0, 0.08),
+      inset -6px -6px 12px rgba(255, 255, 255, 0.7);
+    @media (prefers-color-scheme: dark) {
+      box-shadow:
+        inset 4px 4px 8px rgba(0, 0, 0, 0.3),
+        inset -4px -4px 8px rgba(255, 255, 255, 0.05);
+    }
+  } @else {
+    box-shadow:
+      6px 6px 12px rgba(0, 0, 0, 0.08),
+      -6px -6px 12px rgba(255, 255, 255, 0.7);
+    @media (prefers-color-scheme: dark) {
+      box-shadow:
+        4px 4px 8px rgba(0, 0, 0, 0.4),
+        -4px -4px 8px rgba(255, 255, 255, 0.05);
+    }
+  }
+}

@@ -1,6 +1,9 @@
+@use '../../mixins' as mi;
+
 .state-chart-container {
   display: block;
   width: 100%;
   height: 400px;
   margin: 20px 0;
+  @include mi.neumorphism(true);
 }
