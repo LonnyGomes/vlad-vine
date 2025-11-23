@@ -10,7 +10,7 @@ Help document Bulbutin's adventures around the world! Add your photos to the fee
 
 ## How to Contribute
 
-1. **Add your photos** - Upload the images [here](https://github.com/LonnyGomes/bulbutin/tree/main/packages/parse-photos/images)
+1. **Add your photos** - Upload the images [here](https://github.com/LonnyGomes/vlad-vine/tree/main/packages/parse-photos/images)
 3. **Create a pull request** - Submit your photos for review
 4. **Wait for merge** - Once approved, your photos will appear in Bulbutin's feed!
 

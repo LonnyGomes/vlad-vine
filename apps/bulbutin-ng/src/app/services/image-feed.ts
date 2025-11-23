@@ -34,7 +34,7 @@ export class ImageFeed {
   mbStyleLight = 'mapbox://styles/uknowho/cmhq41w0s009101s54ierbhb1';
   mbStyleDark = 'mapbox://styles/uknowho/cmi1csaap00g001s1g4rjfiqp';
   photosPath = '/assets/bulbutin-images';
-  uploadUrl = 'https://github.com/LonnyGomes/vlad-vine/blob/main/packages/parse-photos/UPLOADs.md';
+  uploadUrl = 'https://github.com/LonnyGomes/vlad-vine/blob/main/packages/parse-photos/UPLOAD.md';
 
   constructor() {
     this.loadData();
