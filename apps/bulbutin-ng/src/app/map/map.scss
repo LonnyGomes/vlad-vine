@@ -157,18 +157,22 @@ $bottom-controls-offset: calc(var(--toolbar-height) / 2);
   .mapboxgl-popup-close-button {
     width: 32px;
     height: 32px;
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 24px;
     padding: 0;
-    color: #333;
+    text-align: center;
+    color: var(--text-color);
     font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: var(--background-color);
+    opacity: 0.95;
     border-radius: 50%;
     margin: 4px;
+    border: none;
+    cursor: pointer;
 
     &:hover {
-      background-color: rgba(255, 255, 255, 1);
-      color: #000;
+      opacity: 1;
+      color: var(--text-color);
     }
   }
 
@@ -179,6 +183,7 @@ $bottom-controls-offset: calc(var(--toolbar-height) / 2);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     max-width: 200px; // Match image width
     overflow: hidden;
+    background-color: var(--background-color);
   }
 
   // Popup container
@@ -202,7 +207,8 @@ $bottom-controls-offset: calc(var(--toolbar-height) / 2);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.4;
-    color: #333;
+    color: var(--text-color);
+    background-color: var(--background-color);
     max-width: 200px;
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -211,7 +217,7 @@ $bottom-controls-offset: calc(var(--toolbar-height) / 2);
 
   // Remove default padding
   .mapboxgl-popup-tip {
-    border-top-color: #fff;
+    border-top-color: var(--background-color);
   }
 }
 
