@@ -5,7 +5,7 @@
   @if $inset {
     box-shadow:
       inset 6px 6px 12px rgba(0, 0, 0, 0.08),
-      inset -6px -6px 12px rgba(255, 255, 255, 0.7);
+      inset -6px -6px 12px rgba(255, 255, 255, 0.5);
     @media (prefers-color-scheme: dark) {
       box-shadow:
         inset 4px 4px 8px rgba(0, 0, 0, 0.2),
