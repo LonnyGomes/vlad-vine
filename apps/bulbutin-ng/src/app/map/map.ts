@@ -315,7 +315,7 @@ export class Map implements OnInit, OnDestroy {
             <div class="popup-title">${title}</div>
             <div class="popup-metadata">
               ${formattedDate ? `<div class="popup-date">${formattedDate}</div>` : ''}
-              ${altitudeText ? `<div class="popup-altitude">${altitudeText}</div>` : ''}
+              ${altitudeText ? `<div class="popup-altitude"><img class="icon" src="/assets/icons/hugeicons_mountain.svg" alt="altitude">${altitudeText}</div>` : ''}
             </div>
           </div>`
         )

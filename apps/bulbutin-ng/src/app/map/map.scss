@@ -226,6 +226,18 @@ $bottom-controls-offset: calc(var(--toolbar-height) / 2);
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+
+    .popup-altitude {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+
+      .icon {
+        width: 16px;
+        height: 16px;
+        filter: var(--icon-filter);
+      }
+    }
   }
 
   // Remove default padding
