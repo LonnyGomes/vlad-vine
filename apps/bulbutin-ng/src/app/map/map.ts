@@ -286,8 +286,21 @@ export class Map implements OnInit, OnDestroy {
       this.currentPopup.remove();
     }
 
-    const { longitude, latitude, formattedName, geoName, imageThumb } = image;
+    const { longitude, latitude, formattedName, geoName, imageThumb, altitude, timestamp } = image;
     const title = formattedName || geoName || '';
+
+    // Format date as DD Mmm YYYY
+    const date = timestamp ? new Date(timestamp) : null;
+    const formattedDate = date
+      ? date.toLocaleDateString('en-US', {
+          day: '2-digit',
+          month: 'short',
+          year: 'numeric',
+        })
+      : '';
+
+    // Format altitude if it exists
+    const altitudeText = altitude ? `${Math.round(altitude).toLocaleString()} ft` : '';
 
     if (longitude && latitude && imageThumb) {
       this.currentPopup = new mapboxgl.Popup({
@@ -300,7 +313,11 @@ export class Map implements OnInit, OnDestroy {
           `<div class="popup-container">
             <img class="popup-image" src="${imageThumb}" alt="${title}">
             <div class="popup-title">${title}</div>
-          </div>`,
+            <div class="popup-metadata">
+              ${formattedDate ? `<div class="popup-date">${formattedDate}</div>` : ''}
+              ${altitudeText ? `<div class="popup-altitude">${altitudeText}</div>` : ''}
+            </div>
+          </div>`
         )
         .addTo(this.map);
     }
