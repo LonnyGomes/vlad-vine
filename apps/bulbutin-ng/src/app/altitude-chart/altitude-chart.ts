@@ -68,6 +68,8 @@ export class AltitudeChart implements AfterViewInit, OnDestroy {
       },
       xAxis: {
         type: 'datetime',
+        lineColor: getCSSColor('--text-color'),
+        tickColor: getCSSColor('--text-color'),
         labels: {
           style: {
             color: getCSSColor('--text-color'),
@@ -84,10 +86,23 @@ export class AltitudeChart implements AfterViewInit, OnDestroy {
             fontSize: '16px',
           },
         },
+        lineColor: getCSSColor('--text-color'),
+        tickColor: getCSSColor('--text-color'),
         labels: {
           style: {
             color: getCSSColor('--text-color'),
           },
+        },
+      },
+      tooltip: {
+        formatter: function (this: any) {
+          const date = new Date(this.x).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+          });
+          const altitude = this.y.toLocaleString('en-US');
+          return `<b>${date}</b><br/>Altitude: ${altitude} ft`;
         },
       },
       series: [
