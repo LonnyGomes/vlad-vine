@@ -74,6 +74,7 @@ export class StateChart implements AfterViewInit, OnDestroy {
         renderTo: container.nativeElement,
         borderWidth: 0,
         marginTop: 0,
+        marginRight: 30,
       },
       title: {
         text: '',
@@ -86,6 +87,8 @@ export class StateChart implements AfterViewInit, OnDestroy {
           text: 'Number of Photos',
           style: {
             color: textColor,
+            fontWeight: 'bold',
+            fontSize: '16px',
           },
         },
         labels: {
@@ -101,6 +104,8 @@ export class StateChart implements AfterViewInit, OnDestroy {
           text: 'States',
           style: {
             color: textColor,
+            fontWeight: 'bold',
+            fontSize: '16px',
           },
         },
         labels: {

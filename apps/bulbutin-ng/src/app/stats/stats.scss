@@ -1,3 +1,5 @@
+@use '../../mixins' as mi;
+
 .stats-container{
   padding: 16px;
   display: flex;
@@ -35,4 +37,8 @@
 .chart-container {
   width: 100%;
   max-width: 768px;
+
+  &.altitude-section{
+    @include mi.neumorphism(true, var(--default-radius), 5px);
+  }
 }

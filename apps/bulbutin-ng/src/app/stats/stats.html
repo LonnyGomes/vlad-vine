@@ -24,16 +24,14 @@
     <app-model-chart></app-model-chart>
   </div>
 
-  <h2 class="section-head">Altitude Climbed</h2>
-  <div class="altitude-totals">
-    <p><strong>Min:</strong> {{ altitude().min }} feet</p>
-    <p><strong>Max:</strong> {{ altitude().max | number: '1.0-0' }} feet</p>
-    <p><strong>Average:</strong> {{ altitude().average | number: '1.0-0' }} feet</p>
-  </div>
-  <div class="chart-container">
+  <h2 class="section-head">Altitudes Climbed</h2>
+  <div class="chart-container altitude-section">
+    <div class="altitude-totals">
+      <p><strong>Min:</strong> {{ altitude().min }} ft</p>
+      <p><strong>Max:</strong> {{ altitude().max | number: '1.0-0' }} ft</p>
+      <p><strong>Avg:</strong> {{ altitude().average | number: '1.0-0' }} ft</p>
+    </div>
     <app-altitude-chart></app-altitude-chart>
   </div>
-
-
 
 </div>

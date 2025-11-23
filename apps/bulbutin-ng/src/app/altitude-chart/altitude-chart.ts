@@ -58,6 +58,7 @@ export class AltitudeChart implements AfterViewInit, OnDestroy {
         backgroundColor: 'transparent',
         renderTo: container.nativeElement,
         marginTop: 5,
+        marginRight: 30,
       },
       title: {
         text: '',
@@ -70,6 +71,7 @@ export class AltitudeChart implements AfterViewInit, OnDestroy {
         labels: {
           style: {
             color: getCSSColor('--text-color'),
+            fontWeight: 'bold',
           },
         },
       },
@@ -78,6 +80,8 @@ export class AltitudeChart implements AfterViewInit, OnDestroy {
           text: 'Altitude (feet)',
           style: {
             color: getCSSColor('--text-color'),
+            fontWeight: 'bold',
+            fontSize: '16px',
           },
         },
         labels: {
