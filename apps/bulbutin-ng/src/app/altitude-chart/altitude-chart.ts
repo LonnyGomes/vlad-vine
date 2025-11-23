@@ -59,6 +59,13 @@ export class AltitudeChart implements AfterViewInit, OnDestroy {
         renderTo: container.nativeElement,
         marginTop: 5,
         marginRight: 30,
+        panning: {
+          enabled: false,
+        },
+        panKey: 'shift',
+        zooming: {
+          type: undefined,
+        },
       },
       title: {
         text: '',
@@ -103,6 +110,13 @@ export class AltitudeChart implements AfterViewInit, OnDestroy {
           });
           const altitude = this.y.toLocaleString('en-US');
           return `<b>${date}</b><br/>Altitude: ${altitude} ft`;
+        },
+      },
+      plotOptions: {
+        series: {
+          allowPointSelect: false,
+          stickyTracking: false,
+          enableMouseTracking: true,
         },
       },
       series: [
