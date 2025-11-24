@@ -41,54 +41,7 @@ export class Map implements OnInit, OnDestroy {
 
   constructor() {
     effect(() => {
-      const index = this.imgFeed.mapIndex();
-      const images = this.imgFeed.images();
-
-      const isDarkMode = this.darkModeQuery.matches;
-      const strokeColor = isDarkMode ? '#CCCCCC' : '#FFFFFF';
-
-      // Update selected circle color
-      if (this.map && this.map.getLayer('imagesLayer')) {
-        const selectedImageId = images[index]?.id ?? -1;
-        const primaryColor = this.getCssVariableValue('--primary-color');
-        const selectedColor = this.getCssVariableValue('--primary-color-dark');
-
-        this.map.setPaintProperty('imagesLayer', 'circle-stroke-color', [
-          'case',
-          ['==', ['get', 'id'], selectedImageId],
-          selectedColor,
-          strokeColor,
-        ]);
-
-        this.map.setPaintProperty('imagesLayer', 'circle-color', [
-          'case',
-          ['==', ['get', 'id'], selectedImageId],
-          strokeColor,
-          primaryColor,
-        ]);
-      }
-
-      // we don't want to zoom anywhere, -1 means no image selected
-      if (index == -1) {
-        return;
-      }
-
-      if (this.map && images[index]) {
-        const currentImage = images[index];
-        const { longitude, latitude } = currentImage;
-
-        this.map.flyTo({
-          center: [longitude, latitude],
-          zoom: 14,
-          pitch: 60, // Angle the camera (0-85 degrees)
-          bearing: 0, // Rotation (0-360 degrees)
-          essential: true,
-          // duration: 2500, // Smooth 2.5 second animation
-        });
-
-        // Open popup for the current image
-        this.openPopupForImage(currentImage);
-      }
+      this.updateMapSelection();
     });
 
     // Listen for dark mode changes and update map style
@@ -154,6 +107,57 @@ export class Map implements OnInit, OnDestroy {
       this.addImageRoute();
       this.addImageLayer();
     });
+  }
+
+  updateMapSelection() {
+    const index = this.imgFeed.mapIndex();
+    const images = this.imgFeed.images();
+
+    const isDarkMode = this.darkModeQuery.matches;
+    const strokeColor = isDarkMode ? '#CCCCCC' : '#FFFFFF';
+
+    // Update selected circle color
+    if (this.map && this.map.getLayer('imagesLayer')) {
+      const selectedImageId = images[index]?.id ?? -1;
+      const primaryColor = this.getCssVariableValue('--primary-color');
+      const selectedColor = this.getCssVariableValue('--primary-color-dark');
+
+      this.map.setPaintProperty('imagesLayer', 'circle-stroke-color', [
+        'case',
+        ['==', ['get', 'id'], selectedImageId],
+        selectedColor,
+        strokeColor,
+      ]);
+
+      this.map.setPaintProperty('imagesLayer', 'circle-color', [
+        'case',
+        ['==', ['get', 'id'], selectedImageId],
+        strokeColor,
+        primaryColor,
+      ]);
+    }
+
+    // we don't want to zoom anywhere, -1 means no image selected
+    if (index == -1) {
+      return;
+    }
+
+    if (this.map && images[index]) {
+      const currentImage = images[index];
+      const { longitude, latitude } = currentImage;
+
+      this.map.flyTo({
+        center: [longitude, latitude],
+        zoom: 14,
+        pitch: 60, // Angle the camera (0-85 degrees)
+        bearing: 0, // Rotation (0-360 degrees)
+        essential: true,
+        // duration: 2500, // Smooth 2.5 second animation
+      });
+
+      // Open popup for the current image
+      this.openPopupForImage(currentImage);
+    }
   }
 
   getCssVariableValue(varName: string): string {
@@ -231,7 +235,13 @@ export class Map implements OnInit, OnDestroy {
     this.map!.on('click', 'imagesLayer', (e) => {
       const id = e.features?.[0].properties?.['id'] || '';
       if (id) {
-        this.imgFeed.setMapIndexByImageId(Number(id));
+        if (id !== this.imgFeed.images()[this.imgFeed.mapIndex()]?.id) {
+          // new image clicked
+          this.imgFeed.setMapIndexByImageId(Number(id));
+        } else {
+          // handle case where same image is clicked again
+          this.updateMapSelection();
+        }
       }
     });
 
@@ -281,11 +291,6 @@ export class Map implements OnInit, OnDestroy {
   private openPopupForImage(image: ImageResult) {
     if (!this.map) return;
 
-    // Remove existing popup if any
-    if (this.currentPopup) {
-      this.currentPopup.remove();
-    }
-
     const { longitude, latitude, formattedName, geoName, imageThumb, altitude, timestamp } = image;
     const title = formattedName || geoName || '';
 
@@ -303,23 +308,29 @@ export class Map implements OnInit, OnDestroy {
     const altitudeText = altitude ? `${Math.round(altitude).toLocaleString()} ft` : '';
 
     if (longitude && latitude && imageThumb) {
-      this.currentPopup = new mapboxgl.Popup({
-        maxWidth: '300px',
-        className: 'map-image-popup',
-        closeOnClick: false, // Keep popup open when navigating
-      })
-        .setLngLat([longitude, latitude])
-        .setHTML(
-          `<div class="popup-container">
+      // only create popup if it doesn't exist
+      if (!this.currentPopup) {
+        this.currentPopup = new mapboxgl.Popup({
+          maxWidth: '300px',
+          className: 'map-image-popup',
+          closeOnClick: false, // Keep popup open when navigating
+        })
+          .on('close', () => {
+            this.currentPopup = undefined;
+          })
+          .addTo(this.map);
+      }
+
+      this.currentPopup.setLngLat([longitude, latitude]).setHTML(
+        `<div class="popup-container">
             <img class="popup-image" src="${imageThumb}" alt="${title}">
             <div class="popup-title">${title}</div>
             <div class="popup-metadata">
               ${formattedDate ? `<div class="popup-date">${formattedDate}</div>` : ''}
               ${altitudeText ? `<div class="popup-altitude"><img class="icon" src="/assets/icons/hugeicons_mountain.svg" alt="altitude">${altitudeText}</div>` : ''}
             </div>
-          </div>`
-        )
-        .addTo(this.map);
+          </div>`,
+      );
     }
   }
 
