@@ -149,7 +149,7 @@ export class Map implements OnInit, OnDestroy {
       this.map.flyTo({
         center: [longitude, latitude],
         zoom: 14,
-        pitch: 60, // Angle the camera (0-85 degrees)
+        pitch: 65, // Angle the camera (0-85 degrees)
         bearing: 0, // Rotation (0-360 degrees)
         essential: true,
         // duration: 2500, // Smooth 2.5 second animation
@@ -172,6 +172,16 @@ export class Map implements OnInit, OnDestroy {
     this.map.setTerrain({
       source: 'mapbox-dem',
       exaggeration: 1.5, // Makes elevation changes more visible (1.0 = realistic)
+    });
+
+    // Configure fog/atmosphere settings
+    this.map.setFog({
+      range: [0.5, 10], // Fog starts at 0.5 and fully covers by distance 10
+      color: 'rgba(255, 255, 255, 0.5)', // Light fog color with transparency
+      'horizon-blend': 0.05, // Blend between sky and fog (0-1, lower = less blend)
+      'high-color': '#a8c8e0', // Color at high altitudes
+      'space-color': '#d4e4f0', // Sky color
+      'star-intensity': 0, // No stars (0-1)
     });
 
     // Add sky layer with better lighting for terrain
@@ -314,6 +324,8 @@ export class Map implements OnInit, OnDestroy {
           maxWidth: '300px',
           className: 'map-image-popup',
           closeOnClick: false, // Keep popup open when navigating
+          altitude: 1,
+          anchor: 'bottom',
         })
           .on('close', () => {
             this.currentPopup = undefined;
