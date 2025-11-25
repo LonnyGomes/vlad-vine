@@ -45,9 +45,9 @@ export class TimeChart implements AfterViewInit, OnDestroy {
       return;
     }
 
-    // Process data: create heatmap data [hour, dayOfWeek, count]
+    // Process data: create heatmap data [dayOfWeek, hour, count]
     const timeData: number[][] = [];
-    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
     // Initialize counts
     const counts: { [key: string]: number } = {};
@@ -56,14 +56,14 @@ export class TimeChart implements AfterViewInit, OnDestroy {
       const date = new Date(img.timestamp);
       const day = date.getDay(); // 0-6 (Sunday-Saturday)
       const hour = date.getHours(); // 0-23
-      const key = `${hour}-${day}`;
+      const key = `${day}-${hour}`;
       counts[key] = (counts[key] || 0) + 1;
     });
 
-    // Convert to array format for heatmap [x (hour), y (day), value (count)]
+    // Convert to array format for heatmap [x (day), y (hour), value (count)]
     Object.keys(counts).forEach((key) => {
-      const [hour, day] = key.split('-').map(Number);
-      timeData.push([Number(hour), Number(day), counts[key]]);
+      const [day, hour] = key.split('-').map(Number);
+      timeData.push([Number(day), Number(hour), counts[key]]);
     });
 
     if (!timeData.length) {
@@ -78,25 +78,23 @@ export class TimeChart implements AfterViewInit, OnDestroy {
         marginTop: 20,
         marginRight: 20,
         marginBottom: 60,
-        marginLeft: 120,
+        marginLeft: 70,
       },
       title: {
         text: '',
       },
       xAxis: {
         title: {
-          text: 'Hour of Day',
+          text: 'Day of Week',
           style: {
             color: getCSSColor('--text-color'),
             fontWeight: 'bold',
-            fontSize: '14px',
+            fontSize: '16px',
           },
         },
-        min: 0,
-        max: 23,
-        tickInterval: 1,
-        lineColor: getCSSColor('--text-color'),
-        tickColor: getCSSColor('--text-color'),
+        categories: days,
+        lineColor: 'rgba(128, 128, 128, 0.3)',
+        tickColor: 'rgba(128, 128, 128, 0.3)',
         labels: {
           style: {
             color: getCSSColor('--text-color'),
@@ -105,17 +103,20 @@ export class TimeChart implements AfterViewInit, OnDestroy {
       },
       yAxis: {
         title: {
-          text: 'Day of Week',
+          text: 'Hour of Day',
           style: {
             color: getCSSColor('--text-color'),
             fontWeight: 'bold',
-            fontSize: '14px',
+            fontSize: '16px',
           },
         },
-        categories: days,
-        reversed: false,
-        lineColor: getCSSColor('--text-color'),
-        tickColor: getCSSColor('--text-color'),
+        min: 0,
+        max: 23,
+        tickInterval: 2,
+        reversed: true,
+        lineColor: 'rgba(128, 128, 128, 0.3)',
+        tickColor: 'rgba(128, 128, 128, 0.3)',
+        gridLineColor: 'rgba(128, 128, 128, 0.2)',
         labels: {
           style: {
             color: getCSSColor('--text-color'),
@@ -124,8 +125,8 @@ export class TimeChart implements AfterViewInit, OnDestroy {
       },
       tooltip: {
         formatter: function (this: any) {
-          const hour = this.point.x;
-          const day = days[this.point.y];
+          const day = days[this.point.x];
+          const hour = this.point.y;
           const count = this.point.value;
           return `<b>${day}</b><br/>Hour: ${hour}:00<br/>Photos: ${count}`;
         },
