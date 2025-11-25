@@ -42,6 +42,8 @@ export class Map implements OnInit, OnDestroy {
   constructor() {
     effect(() => {
       this.updateMapSelection();
+      // Precache next and previous thumbnails when map index changes
+      this.precacheNextThumbnails();
     });
 
     // Listen for dark mode changes and update map style
@@ -343,6 +345,29 @@ export class Map implements OnInit, OnDestroy {
             </div>
           </div>`,
       );
+    }
+  }
+
+  private precacheNextThumbnails() {
+    const images = this.imgFeed.images();
+    const currentIndex = this.imgFeed.mapIndex();
+
+    if (currentIndex === -1 || images.length === 0) return;
+
+    // Precache next image
+    const nextIndex = (currentIndex + 1) % images.length;
+    const nextImage = images[nextIndex];
+    if (nextImage?.imageThumb) {
+      const nextImg = new Image();
+      nextImg.src = nextImage.imageThumb;
+    }
+
+    // Precache previous image
+    const prevIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
+    const prevImage = images[prevIndex];
+    if (prevImage?.imageThumb) {
+      const prevImg = new Image();
+      prevImg.src = prevImage.imageThumb;
     }
   }
 
