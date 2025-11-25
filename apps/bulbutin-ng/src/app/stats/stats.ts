@@ -5,11 +5,12 @@ import { AltitudeChart } from '../altitude-chart/altitude-chart';
 import { CountryChart } from '../country-chart/country-chart';
 import { ModelChart } from '../model-chart/model-chart';
 import { StateChart } from '../state-chart/state-chart';
+import { TimeChart } from '../time-chart/time-chart';
 import { DecimalPipe } from '@angular/common';
 
 @Component({
   selector: 'app-stats',
-  imports: [StatsCard, AltitudeChart, CountryChart, ModelChart, StateChart, DecimalPipe],
+  imports: [StatsCard, AltitudeChart, CountryChart, ModelChart, StateChart, TimeChart, DecimalPipe],
   templateUrl: './stats.html',
   styleUrl: './stats.scss',
 })
