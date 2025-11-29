@@ -33,7 +33,87 @@
   ],
   "images": [
     {
-      "id": 36,
+      "id": 4,
+      "image": "D2D215CC-C476-4C4A-9601-CE39746E4038.jpg",
+      "imageThumb": "thumb-D2D215CC-C476-4C4A-9601-CE39746E4038.webp",
+      "timestamp": "2025-11-29T06:42:00.000Z",
+      "speed": 0,
+      "make": "samsung",
+      "model": "Galaxy S24+",
+      "latitude": 33.02426944444444,
+      "longitude": -97.27831944444445,
+      "geoName": "Fort Worth",
+      "formattedName": "Fort Worth, Texas",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Texas",
+      "adminName2": "Denton County",
+      "geoDistance": 0,
+      "distance": 1201
+    },
+    {
+      "id": 77,
+      "image": "Resized_20251128_141459.jpeg",
+      "imageThumb": "thumb-Resized_20251128_141459.webp",
+      "timestamp": "2025-11-28T20:51:30.000Z",
+      "speed": 0,
+      "make": "samsung",
+      "model": "Galaxy S24+",
+      "latitude": 32.41321666666666,
+      "longitude": -99.77359444444444,
+      "geoName": "Abilene",
+      "formattedName": "Abilene, Texas",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Texas",
+      "adminName2": "Taylor County",
+      "geoDistance": 0,
+      "distance": 1350
+    },
+    {
+      "id": 78,
+      "image": "Resized_PSX_20251128_144434.jpeg",
+      "imageThumb": "thumb-Resized_PSX_20251128_144434.webp",
+      "timestamp": "2025-11-28T20:51:26.000Z",
+      "speed": 0,
+      "make": "samsung",
+      "model": "Galaxy S24+",
+      "latitude": 32.41321666666666,
+      "longitude": -99.77359444444444,
+      "geoName": "Abilene",
+      "formattedName": "Abilene, Texas",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Texas",
+      "adminName2": "Taylor County",
+      "geoDistance": 0,
+      "distance": 1350
+    },
+    {
+      "id": 76,
+      "image": "PSX_20251128_143811.jpg",
+      "imageThumb": "thumb-PSX_20251128_143811.webp",
+      "timestamp": "2025-11-28T19:10:03.000Z",
+      "speed": 0,
+      "make": "samsung",
+      "model": "Galaxy S24+",
+      "latitude": 32.41321666666666,
+      "longitude": -99.77359444444444,
+      "geoName": "Abilene",
+      "formattedName": "Abilene, Texas",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Texas",
+      "adminName2": "Taylor County",
+      "geoDistance": 0,
+      "distance": 1350
+    },
+    {
+      "id": 37,
       "image": "IMG_0815.jpeg",
       "imageThumb": "thumb-IMG_0815.webp",
       "altitude": 13,
@@ -53,7 +133,7 @@
       "distance": 0
     },
     {
-      "id": 35,
+      "id": 36,
       "image": "IMG_0798.jpeg",
       "imageThumb": "thumb-IMG_0798.webp",
       "altitude": 15,
@@ -149,7 +229,7 @@
       "distance": 1502
     },
     {
-      "id": 74,
+      "id": 75,
       "image": "IMG_9666.JPG",
       "imageThumb": "thumb-IMG_9666.webp",
       "altitude": 23,
@@ -170,7 +250,7 @@
       "distance": 3665
     },
     {
-      "id": 73,
+      "id": 74,
       "image": "IMG_9661.JPG",
       "imageThumb": "thumb-IMG_9661.webp",
       "altitude": 15,
@@ -191,7 +271,7 @@
       "distance": 3665
     },
     {
-      "id": 72,
+      "id": 73,
       "image": "IMG_9658.JPG",
       "imageThumb": "thumb-IMG_9658.webp",
       "altitude": 19,
@@ -212,7 +292,7 @@
       "distance": 3665
     },
     {
-      "id": 71,
+      "id": 72,
       "image": "IMG_9653.JPG",
       "imageThumb": "thumb-IMG_9653.webp",
       "altitude": 22,
@@ -233,7 +313,7 @@
       "distance": 3664
     },
     {
-      "id": 65,
+      "id": 66,
       "image": "IMG_8224.JPG",
       "imageThumb": "thumb-IMG_8224.webp",
       "altitude": 10,
@@ -254,7 +334,7 @@
       "distance": 111
     },
     {
-      "id": 64,
+      "id": 65,
       "image": "IMG_8209.JPG",
       "imageThumb": "thumb-IMG_8209.webp",
       "altitude": 10,
@@ -275,7 +355,7 @@
       "distance": 111
     },
     {
-      "id": 41,
+      "id": 42,
       "image": "IMG_0884.jpeg",
       "imageThumb": "thumb-IMG_0884.webp",
       "timestamp": "2023-11-24T15:30:24.000Z",
@@ -294,7 +374,7 @@
       "distance": 3381
     },
     {
-      "id": 40,
+      "id": 41,
       "image": "IMG_0858.jpeg",
       "imageThumb": "thumb-IMG_0858.webp",
       "timestamp": "2023-11-22T18:19:22.000Z",
@@ -313,7 +393,7 @@
       "distance": 3380
     },
     {
-      "id": 39,
+      "id": 40,
       "image": "IMG_0835.jpeg",
       "imageThumb": "thumb-IMG_0835.webp",
       "timestamp": "2023-11-22T17:30:06.000Z",
@@ -332,7 +412,7 @@
       "distance": 3381
     },
     {
-      "id": 61,
+      "id": 62,
       "image": "IMG_3486.jpeg",
       "imageThumb": "thumb-IMG_3486.webp",
       "altitude": 370,
@@ -353,7 +433,7 @@
       "distance": 2070
     },
     {
-      "id": 60,
+      "id": 61,
       "image": "IMG_3275.jpeg",
       "imageThumb": "thumb-IMG_3275.webp",
       "altitude": 4530,
@@ -374,7 +454,7 @@
       "distance": 1945
     },
     {
-      "id": 59,
+      "id": 60,
       "image": "IMG_3196.jpeg",
       "imageThumb": "thumb-IMG_3196.webp",
       "altitude": 5293,
@@ -395,7 +475,7 @@
       "distance": 1946
     },
     {
-      "id": 58,
+      "id": 59,
       "image": "IMG_2982.jpeg",
       "imageThumb": "thumb-IMG_2982.webp",
       "altitude": 1253,
@@ -416,7 +496,7 @@
       "distance": 2064
     },
     {
-      "id": 57,
+      "id": 58,
       "image": "IMG_2973.jpeg",
       "imageThumb": "thumb-IMG_2973.webp",
       "altitude": 1284,
@@ -437,7 +517,7 @@
       "distance": 2064
     },
     {
-      "id": 56,
+      "id": 57,
       "image": "IMG_2521.jpeg",
       "imageThumb": "thumb-IMG_2521.webp",
       "altitude": 407,
@@ -458,7 +538,7 @@
       "distance": 3822
     },
     {
-      "id": 55,
+      "id": 56,
       "image": "IMG_2484.jpeg",
       "imageThumb": "thumb-IMG_2484.webp",
       "altitude": 379,
@@ -479,7 +559,7 @@
       "distance": 3821
     },
     {
-      "id": 54,
+      "id": 55,
       "image": "IMG_2458.jpeg",
       "imageThumb": "thumb-IMG_2458.webp",
       "altitude": 422,
@@ -500,7 +580,7 @@
       "distance": 3822
     },
     {
-      "id": 53,
+      "id": 54,
       "image": "IMG_1944.jpeg",
       "imageThumb": "thumb-IMG_1944.webp",
       "altitude": 242,
@@ -521,7 +601,7 @@
       "distance": 3830
     },
     {
-      "id": 51,
+      "id": 52,
       "image": "IMG_1889.jpeg",
       "imageThumb": "thumb-IMG_1889.webp",
       "altitude": 96,
@@ -542,7 +622,7 @@
       "distance": 3828
     },
     {
-      "id": 50,
+      "id": 51,
       "image": "IMG_1712.jpeg",
       "imageThumb": "thumb-IMG_1712.webp",
       "altitude": 190,
@@ -563,7 +643,7 @@
       "distance": 3830
     },
     {
-      "id": 49,
+      "id": 50,
       "image": "IMG_1663.jpeg",
       "imageThumb": "thumb-IMG_1663.webp",
       "altitude": 190,
@@ -584,7 +664,7 @@
       "distance": 3830
     },
     {
-      "id": 48,
+      "id": 49,
       "image": "IMG_1658.jpeg",
       "imageThumb": "thumb-IMG_1658.webp",
       "timestamp": "2023-09-13T20:17:12.000Z",
@@ -604,7 +684,7 @@
       "distance": 3830
     },
     {
-      "id": 47,
+      "id": 48,
       "image": "IMG_1655.jpeg",
       "imageThumb": "thumb-IMG_1655.webp",
       "altitude": 190,
@@ -625,7 +705,7 @@
       "distance": 3830
     },
     {
-      "id": 46,
+      "id": 47,
       "image": "IMG_1200.jpeg",
       "imageThumb": "thumb-IMG_1200.webp",
       "altitude": 108,
@@ -646,7 +726,7 @@
       "distance": 3829
     },
     {
-      "id": 45,
+      "id": 46,
       "image": "IMG_1196.jpeg",
       "imageThumb": "thumb-IMG_1196.webp",
       "altitude": 121,
@@ -667,7 +747,7 @@
       "distance": 3829
     },
     {
-      "id": 52,
+      "id": 53,
       "image": "IMG_1929.JPG",
       "imageThumb": "thumb-IMG_1929.webp",
       "altitude": 389,
@@ -688,7 +768,7 @@
       "distance": 3829
     },
     {
-      "id": 44,
+      "id": 45,
       "image": "IMG_1155.jpeg",
       "imageThumb": "thumb-IMG_1155.webp",
       "altitude": 157,
@@ -709,7 +789,7 @@
       "distance": 3830
     },
     {
-      "id": 43,
+      "id": 44,
       "image": "IMG_1149.jpeg",
       "imageThumb": "thumb-IMG_1149.webp",
       "altitude": 156,
@@ -730,7 +810,7 @@
       "distance": 3830
     },
     {
-      "id": 42,
+      "id": 43,
       "image": "IMG_0947.jpeg",
       "imageThumb": "thumb-IMG_0947.webp",
       "altitude": 343,
@@ -751,7 +831,7 @@
       "distance": 3827
     },
     {
-      "id": 38,
+      "id": 39,
       "image": "IMG_0829.jpeg",
       "imageThumb": "thumb-IMG_0829.webp",
       "altitude": 113,
@@ -772,7 +852,7 @@
       "distance": 3830
     },
     {
-      "id": 37,
+      "id": 38,
       "image": "IMG_0819.jpeg",
       "imageThumb": "thumb-IMG_0819.webp",
       "altitude": 84,
@@ -793,7 +873,7 @@
       "distance": 3830
     },
     {
-      "id": 34,
+      "id": 35,
       "image": "IMG_0781.jpeg",
       "imageThumb": "thumb-IMG_0781.webp",
       "altitude": 98,
@@ -814,7 +894,7 @@
       "distance": 3829
     },
     {
-      "id": 33,
+      "id": 34,
       "image": "IMG_0717.jpeg",
       "imageThumb": "thumb-IMG_0717.webp",
       "altitude": 105,
@@ -835,7 +915,7 @@
       "distance": 3829
     },
     {
-      "id": 32,
+      "id": 33,
       "image": "IMG_0713.jpeg",
       "imageThumb": "thumb-IMG_0713.webp",
       "altitude": 108,
@@ -856,7 +936,7 @@
       "distance": 3829
     },
     {
-      "id": 31,
+      "id": 32,
       "image": "IMG_0703.jpeg",
       "imageThumb": "thumb-IMG_0703.webp",
       "altitude": 107,
@@ -877,7 +957,7 @@
       "distance": 3829
     },
     {
-      "id": 30,
+      "id": 31,
       "image": "IMG_0552.jpeg",
       "imageThumb": "thumb-IMG_0552.webp",
       "altitude": 119,
@@ -898,7 +978,7 @@
       "distance": 3831
     },
     {
-      "id": 29,
+      "id": 30,
       "image": "IMG_0546.jpeg",
       "imageThumb": "thumb-IMG_0546.webp",
       "altitude": 96,
@@ -919,7 +999,7 @@
       "distance": 3829
     },
     {
-      "id": 28,
+      "id": 29,
       "image": "IMG_0528.jpeg",
       "imageThumb": "thumb-IMG_0528.webp",
       "altitude": 97,
@@ -940,7 +1020,7 @@
       "distance": 3829
     },
     {
-      "id": 27,
+      "id": 28,
       "image": "IMG_0524.jpeg",
       "imageThumb": "thumb-IMG_0524.webp",
       "altitude": 94,
@@ -961,7 +1041,7 @@
       "distance": 3829
     },
     {
-      "id": 26,
+      "id": 27,
       "image": "IMG_0516.jpeg",
       "imageThumb": "thumb-IMG_0516.webp",
       "altitude": 79,
@@ -982,7 +1062,7 @@
       "distance": 3828
     },
     {
-      "id": 25,
+      "id": 26,
       "image": "IMG_0489.jpeg",
       "imageThumb": "thumb-IMG_0489.webp",
       "altitude": 269,
@@ -1003,7 +1083,7 @@
       "distance": 3859
     },
     {
-      "id": 24,
+      "id": 25,
       "image": "IMG_0332.jpeg",
       "imageThumb": "thumb-IMG_0332.webp",
       "altitude": 62,
@@ -1023,7 +1103,7 @@
       "distance": 3862
     },
     {
-      "id": 23,
+      "id": 24,
       "image": "IMG_0328.jpeg",
       "imageThumb": "thumb-IMG_0328.webp",
       "altitude": 63,
@@ -1043,7 +1123,7 @@
       "distance": 3862
     },
     {
-      "id": 22,
+      "id": 23,
       "image": "IMG_0325.jpeg",
       "imageThumb": "thumb-IMG_0325.webp",
       "altitude": 60,
@@ -1063,7 +1143,7 @@
       "distance": 3862
     },
     {
-      "id": 21,
+      "id": 22,
       "image": "IMG_0303.jpeg",
       "imageThumb": "thumb-IMG_0303.webp",
       "altitude": 60,
@@ -1083,7 +1163,7 @@
       "distance": 3862
     },
     {
-      "id": 20,
+      "id": 21,
       "image": "IMG_0287.jpeg",
       "imageThumb": "thumb-IMG_0287.webp",
       "altitude": 75,
@@ -1103,7 +1183,7 @@
       "distance": 3862
     },
     {
-      "id": 19,
+      "id": 20,
       "image": "IMG_0278.jpeg",
       "imageThumb": "thumb-IMG_0278.webp",
       "altitude": 74,
@@ -1123,7 +1203,7 @@
       "distance": 3862
     },
     {
-      "id": 18,
+      "id": 19,
       "image": "IMG_0271.jpeg",
       "imageThumb": "thumb-IMG_0271.webp",
       "altitude": 51,
@@ -1143,7 +1223,7 @@
       "distance": 3862
     },
     {
-      "id": 17,
+      "id": 18,
       "image": "IMG_0262.jpeg",
       "imageThumb": "thumb-IMG_0262.webp",
       "altitude": 138,
@@ -1163,7 +1243,7 @@
       "distance": 3862
     },
     {
-      "id": 16,
+      "id": 17,
       "image": "IMG_0225.jpeg",
       "imageThumb": "thumb-IMG_0225.webp",
       "altitude": 164,
@@ -1183,7 +1263,7 @@
       "distance": 3863
     },
     {
-      "id": 70,
+      "id": 71,
       "image": "IMG_8841.jpeg",
       "imageThumb": "thumb-IMG_8841.webp",
       "altitude": 8,
@@ -1204,7 +1284,7 @@
       "distance": 360
     },
     {
-      "id": 69,
+      "id": 70,
       "image": "IMG_8829.jpeg",
       "imageThumb": "thumb-IMG_8829.webp",
       "altitude": 21,
@@ -1225,7 +1305,7 @@
       "distance": 360
     },
     {
-      "id": 68,
+      "id": 69,
       "image": "IMG_8822.jpeg",
       "imageThumb": "thumb-IMG_8822.webp",
       "altitude": 16,
@@ -1246,7 +1326,7 @@
       "distance": 360
     },
     {
-      "id": 67,
+      "id": 68,
       "image": "IMG_8654.jpg",
       "imageThumb": "thumb-IMG_8654.webp",
       "altitude": 18,
@@ -1267,7 +1347,7 @@
       "distance": 105
     },
     {
-      "id": 66,
+      "id": 67,
       "image": "IMG_8642.jpg",
       "imageThumb": "thumb-IMG_8642.webp",
       "altitude": 25,
@@ -1288,7 +1368,7 @@
       "distance": 105
     },
     {
-      "id": 12,
+      "id": 13,
       "image": "IMG_0009.JPG",
       "imageThumb": "thumb-IMG_0009.webp",
       "altitude": 454,
@@ -1309,7 +1389,7 @@
       "distance": 297
     },
     {
-      "id": 11,
+      "id": 12,
       "image": "IMG_0008.JPG",
       "imageThumb": "thumb-IMG_0008.webp",
       "altitude": 541,
@@ -1330,7 +1410,7 @@
       "distance": 309
     },
     {
-      "id": 7,
+      "id": 8,
       "image": "IMG_0004.JPG",
       "imageThumb": "thumb-IMG_0004.webp",
       "altitude": 825,
@@ -1351,7 +1431,7 @@
       "distance": 241
     },
     {
-      "id": 5,
+      "id": 6,
       "image": "IMG_0002.JPG",
       "imageThumb": "thumb-IMG_0002.webp",
       "altitude": 722,
@@ -1372,7 +1452,7 @@
       "distance": 244
     },
     {
-      "id": 10,
+      "id": 11,
       "image": "IMG_0007.JPG",
       "imageThumb": "thumb-IMG_0007.webp",
       "altitude": 9,
@@ -1393,7 +1473,7 @@
       "distance": 266
     },
     {
-      "id": 14,
+      "id": 15,
       "image": "IMG_0011.JPG",
       "imageThumb": "thumb-IMG_0011.webp",
       "altitude": 11,
@@ -1414,7 +1494,7 @@
       "distance": 264
     },
     {
-      "id": 4,
+      "id": 5,
       "image": "IMG_0001.JPG",
       "imageThumb": "thumb-IMG_0001.webp",
       "altitude": 2,
@@ -1435,7 +1515,7 @@
       "distance": 265
     },
     {
-      "id": 9,
+      "id": 10,
       "image": "IMG_0006.JPG",
       "imageThumb": "thumb-IMG_0006.webp",
       "altitude": 9,
@@ -1456,7 +1536,7 @@
       "distance": 265
     },
     {
-      "id": 8,
+      "id": 9,
       "image": "IMG_0005.JPG",
       "imageThumb": "thumb-IMG_0005.webp",
       "altitude": 10,
@@ -1477,7 +1557,7 @@
       "distance": 265
     },
     {
-      "id": 13,
+      "id": 14,
       "image": "IMG_0010.JPG",
       "imageThumb": "thumb-IMG_0010.webp",
       "altitude": 7,
@@ -1498,7 +1578,7 @@
       "distance": 264
     },
     {
-      "id": 15,
+      "id": 16,
       "image": "IMG_0012.JPG",
       "imageThumb": "thumb-IMG_0012.webp",
       "altitude": 3,
@@ -1519,7 +1599,7 @@
       "distance": 259
     },
     {
-      "id": 6,
+      "id": 7,
       "image": "IMG_0003.JPG",
       "imageThumb": "thumb-IMG_0003.webp",
       "altitude": 6,
@@ -1540,7 +1620,7 @@
       "distance": 259
     },
     {
-      "id": 63,
+      "id": 64,
       "image": "IMG_5684.jpeg",
       "imageThumb": "thumb-IMG_5684.webp",
       "timestamp": "2023-05-28T00:24:21.000Z",
@@ -1560,7 +1640,7 @@
       "distance": 195
     },
     {
-      "id": 62,
+      "id": 63,
       "image": "IMG_5682.jpeg",
       "imageThumb": "thumb-IMG_5682.webp",
       "timestamp": "2023-05-28T00:19:40.000Z",
@@ -1581,6 +1661,7 @@
     }
   ],
   "usTotals": [
+    "Texas",
     "District of Columbia",
     "Colorado",
     "Maryland",
@@ -1601,13 +1682,73 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
+            -97.27831944444445,
+            33.02426944444444
+          ]
+        },
+        "properties": {
+          "title": "Fort Worth, Texas",
+          "id": 4,
+          "image": "D2D215CC-C476-4C4A-9601-CE39746E4038.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.77359444444444,
+            32.41321666666666
+          ]
+        },
+        "properties": {
+          "title": "Abilene, Texas",
+          "id": 77,
+          "image": "Resized_20251128_141459.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.77359444444444,
+            32.41321666666666
+          ]
+        },
+        "properties": {
+          "title": "Abilene, Texas",
+          "id": 78,
+          "image": "Resized_PSX_20251128_144434.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -99.77359444444444,
+            32.41321666666666
+          ]
+        },
+        "properties": {
+          "title": "Abilene, Texas",
+          "id": 76,
+          "image": "PSX_20251128_143811.jpg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
             -77.01767777777778,
             38.892136111111114
           ]
         },
         "properties": {
           "title": "Washington, District of Columbia",
-          "id": 36,
+          "id": 37,
           "image": "IMG_0815.jpeg"
         }
       },
@@ -1622,7 +1763,7 @@
         },
         "properties": {
           "title": "Washington, District of Columbia",
-          "id": 35,
+          "id": 36,
           "image": "IMG_0798.jpeg"
         }
       },
@@ -1697,7 +1838,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 74,
+          "id": 75,
           "image": "IMG_9666.JPG"
         }
       },
@@ -1712,7 +1853,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 73,
+          "id": 74,
           "image": "IMG_9661.JPG"
         }
       },
@@ -1727,7 +1868,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 72,
+          "id": 73,
           "image": "IMG_9658.JPG"
         }
       },
@@ -1742,7 +1883,7 @@
         },
         "properties": {
           "title": "The Power Station, United Kingdom",
-          "id": 71,
+          "id": 72,
           "image": "IMG_9653.JPG"
         }
       },
@@ -1757,7 +1898,7 @@
         },
         "properties": {
           "title": "Newark, Maryland",
-          "id": 65,
+          "id": 66,
           "image": "IMG_8224.JPG"
         }
       },
@@ -1772,7 +1913,7 @@
         },
         "properties": {
           "title": "Newark, Maryland",
-          "id": 64,
+          "id": 65,
           "image": "IMG_8209.JPG"
         }
       },
@@ -1787,7 +1928,7 @@
         },
         "properties": {
           "title": "Goldsmith House, Ireland",
-          "id": 41,
+          "id": 42,
           "image": "IMG_0884.jpeg"
         }
       },
@@ -1802,7 +1943,7 @@
         },
         "properties": {
           "title": "Bow Bridge Place, Ireland",
-          "id": 40,
+          "id": 41,
           "image": "IMG_0858.jpeg"
         }
       },
@@ -1817,7 +1958,7 @@
         },
         "properties": {
           "title": "Goldsmith House, Ireland",
-          "id": 39,
+          "id": 40,
           "image": "IMG_0835.jpeg"
         }
       },
@@ -1832,7 +1973,7 @@
         },
         "properties": {
           "title": "Parker, Arizona",
-          "id": 61,
+          "id": 62,
           "image": "IMG_3486.jpeg"
         }
       },
@@ -1847,7 +1988,7 @@
         },
         "properties": {
           "title": "Springdale, Utah",
-          "id": 60,
+          "id": 61,
           "image": "IMG_3275.jpeg"
         }
       },
@@ -1862,7 +2003,7 @@
         },
         "properties": {
           "title": "Springdale, Utah",
-          "id": 59,
+          "id": 60,
           "image": "IMG_3196.jpeg"
         }
       },
@@ -1877,7 +2018,7 @@
         },
         "properties": {
           "title": "Boulder City, Nevada",
-          "id": 58,
+          "id": 59,
           "image": "IMG_2982.jpeg"
         }
       },
@@ -1892,7 +2033,7 @@
         },
         "properties": {
           "title": "Boulder City, Nevada",
-          "id": 57,
+          "id": 58,
           "image": "IMG_2973.jpeg"
         }
       },
@@ -1907,7 +2048,7 @@
         },
         "properties": {
           "title": "Versailles, France",
-          "id": 56,
+          "id": 57,
           "image": "IMG_2521.jpeg"
         }
       },
@@ -1922,7 +2063,7 @@
         },
         "properties": {
           "title": "Versailles, France",
-          "id": 55,
+          "id": 56,
           "image": "IMG_2484.jpeg"
         }
       },
@@ -1937,7 +2078,7 @@
         },
         "properties": {
           "title": "Versailles, France",
-          "id": 54,
+          "id": 55,
           "image": "IMG_2458.jpeg"
         }
       },
@@ -1952,7 +2093,7 @@
         },
         "properties": {
           "title": "Panthéon, France",
-          "id": 53,
+          "id": 54,
           "image": "IMG_1944.jpeg"
         }
       },
@@ -1967,7 +2108,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 51,
+          "id": 52,
           "image": "IMG_1889.jpeg"
         }
       },
@@ -1982,7 +2123,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 50,
+          "id": 51,
           "image": "IMG_1712.jpeg"
         }
       },
@@ -1997,7 +2138,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 49,
+          "id": 50,
           "image": "IMG_1663.jpeg"
         }
       },
@@ -2012,7 +2153,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 48,
+          "id": 49,
           "image": "IMG_1658.jpeg"
         }
       },
@@ -2027,7 +2168,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 47,
+          "id": 48,
           "image": "IMG_1655.jpeg"
         }
       },
@@ -2042,7 +2183,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 46,
+          "id": 47,
           "image": "IMG_1200.jpeg"
         }
       },
@@ -2057,7 +2198,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 45,
+          "id": 46,
           "image": "IMG_1196.jpeg"
         }
       },
@@ -2072,7 +2213,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 52,
+          "id": 53,
           "image": "IMG_1929.JPG"
         }
       },
@@ -2087,7 +2228,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 44,
+          "id": 45,
           "image": "IMG_1155.jpeg"
         }
       },
@@ -2102,7 +2243,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 43,
+          "id": 44,
           "image": "IMG_1149.jpeg"
         }
       },
@@ -2117,7 +2258,7 @@
         },
         "properties": {
           "title": "L'Arc de Triomphe de l'Etoile, France",
-          "id": 42,
+          "id": 43,
           "image": "IMG_0947.jpeg"
         }
       },
@@ -2132,7 +2273,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 38,
+          "id": 39,
           "image": "IMG_0829.jpeg"
         }
       },
@@ -2147,7 +2288,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 37,
+          "id": 38,
           "image": "IMG_0819.jpeg"
         }
       },
@@ -2162,7 +2303,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 34,
+          "id": 35,
           "image": "IMG_0781.jpeg"
         }
       },
@@ -2177,7 +2318,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 33,
+          "id": 34,
           "image": "IMG_0717.jpeg"
         }
       },
@@ -2192,7 +2333,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 32,
+          "id": 33,
           "image": "IMG_0713.jpeg"
         }
       },
@@ -2207,7 +2348,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 31,
+          "id": 32,
           "image": "IMG_0703.jpeg"
         }
       },
@@ -2222,7 +2363,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 30,
+          "id": 31,
           "image": "IMG_0552.jpeg"
         }
       },
@@ -2237,7 +2378,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 29,
+          "id": 30,
           "image": "IMG_0546.jpeg"
         }
       },
@@ -2252,7 +2393,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 28,
+          "id": 29,
           "image": "IMG_0528.jpeg"
         }
       },
@@ -2267,7 +2408,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 27,
+          "id": 28,
           "image": "IMG_0524.jpeg"
         }
       },
@@ -2282,7 +2423,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 26,
+          "id": 27,
           "image": "IMG_0516.jpeg"
         }
       },
@@ -2297,7 +2438,7 @@
         },
         "properties": {
           "title": "Tubeke, Belgium",
-          "id": 25,
+          "id": 26,
           "image": "IMG_0489.jpeg"
         }
       },
@@ -2312,7 +2453,7 @@
         },
         "properties": {
           "title": "Bruxelles, Belgium",
-          "id": 24,
+          "id": 25,
           "image": "IMG_0332.jpeg"
         }
       },
@@ -2327,7 +2468,7 @@
         },
         "properties": {
           "title": "Bruxelles, Belgium",
-          "id": 23,
+          "id": 24,
           "image": "IMG_0328.jpeg"
         }
       },
@@ -2342,7 +2483,7 @@
         },
         "properties": {
           "title": "Bruxelles, Belgium",
-          "id": 22,
+          "id": 23,
           "image": "IMG_0325.jpeg"
         }
       },
@@ -2357,7 +2498,7 @@
         },
         "properties": {
           "title": "Bruxelles, Belgium",
-          "id": 21,
+          "id": 22,
           "image": "IMG_0303.jpeg"
         }
       },
@@ -2372,7 +2513,7 @@
         },
         "properties": {
           "title": "Bruxelles, Belgium",
-          "id": 20,
+          "id": 21,
           "image": "IMG_0287.jpeg"
         }
       },
@@ -2387,7 +2528,7 @@
         },
         "properties": {
           "title": "Bruxelles, Belgium",
-          "id": 19,
+          "id": 20,
           "image": "IMG_0278.jpeg"
         }
       },
@@ -2402,7 +2543,7 @@
         },
         "properties": {
           "title": "Bruxelles, Belgium",
-          "id": 18,
+          "id": 19,
           "image": "IMG_0271.jpeg"
         }
       },
@@ -2417,7 +2558,7 @@
         },
         "properties": {
           "title": "Bruxelles, Belgium",
-          "id": 17,
+          "id": 18,
           "image": "IMG_0262.jpeg"
         }
       },
@@ -2432,7 +2573,7 @@
         },
         "properties": {
           "title": "Bruxelles, Belgium",
-          "id": 16,
+          "id": 17,
           "image": "IMG_0225.jpeg"
         }
       },
@@ -2447,7 +2588,7 @@
         },
         "properties": {
           "title": "North Myrtle Beach, South Carolina",
-          "id": 70,
+          "id": 71,
           "image": "IMG_8841.jpeg"
         }
       },
@@ -2462,7 +2603,7 @@
         },
         "properties": {
           "title": "North Myrtle Beach, South Carolina",
-          "id": 69,
+          "id": 70,
           "image": "IMG_8829.jpeg"
         }
       },
@@ -2477,7 +2618,7 @@
         },
         "properties": {
           "title": "North Myrtle Beach, South Carolina",
-          "id": 68,
+          "id": 69,
           "image": "IMG_8822.jpeg"
         }
       },
@@ -2492,7 +2633,7 @@
         },
         "properties": {
           "title": "Rehoboth Beach, Delaware",
-          "id": 67,
+          "id": 68,
           "image": "IMG_8654.jpg"
         }
       },
@@ -2507,7 +2648,7 @@
         },
         "properties": {
           "title": "Rehoboth Beach, Delaware",
-          "id": 66,
+          "id": 67,
           "image": "IMG_8642.jpg"
         }
       },
@@ -2522,7 +2663,7 @@
         },
         "properties": {
           "title": "Rochester, New York",
-          "id": 12,
+          "id": 13,
           "image": "IMG_0009.JPG"
         }
       },
@@ -2537,7 +2678,7 @@
         },
         "properties": {
           "title": "Niagara Falls, New York",
-          "id": 11,
+          "id": 12,
           "image": "IMG_0008.JPG"
         }
       },
@@ -2552,7 +2693,7 @@
         },
         "properties": {
           "title": "Watkins Glen, New York",
-          "id": 7,
+          "id": 8,
           "image": "IMG_0004.JPG"
         }
       },
@@ -2567,7 +2708,7 @@
         },
         "properties": {
           "title": "Hammondsport, New York",
-          "id": 5,
+          "id": 6,
           "image": "IMG_0002.JPG"
         }
       },
@@ -2582,7 +2723,7 @@
         },
         "properties": {
           "title": "Buxton, North Carolina",
-          "id": 10,
+          "id": 11,
           "image": "IMG_0007.JPG"
         }
       },
@@ -2597,7 +2738,7 @@
         },
         "properties": {
           "title": "Buxton, North Carolina",
-          "id": 14,
+          "id": 15,
           "image": "IMG_0011.JPG"
         }
       },
@@ -2612,7 +2753,7 @@
         },
         "properties": {
           "title": "Hatteras, North Carolina",
-          "id": 4,
+          "id": 5,
           "image": "IMG_0001.JPG"
         }
       },
@@ -2627,7 +2768,7 @@
         },
         "properties": {
           "title": "Hatteras, North Carolina",
-          "id": 9,
+          "id": 10,
           "image": "IMG_0006.JPG"
         }
       },
@@ -2642,7 +2783,7 @@
         },
         "properties": {
           "title": "Hatteras, North Carolina",
-          "id": 8,
+          "id": 9,
           "image": "IMG_0005.JPG"
         }
       },
@@ -2657,7 +2798,7 @@
         },
         "properties": {
           "title": "Hatteras, North Carolina",
-          "id": 13,
+          "id": 14,
           "image": "IMG_0010.JPG"
         }
       },
@@ -2672,7 +2813,7 @@
         },
         "properties": {
           "title": "Avon, North Carolina",
-          "id": 15,
+          "id": 16,
           "image": "IMG_0012.JPG"
         }
       },
@@ -2687,7 +2828,7 @@
         },
         "properties": {
           "title": "Avon, North Carolina",
-          "id": 6,
+          "id": 7,
           "image": "IMG_0003.JPG"
         }
       },
@@ -2702,7 +2843,7 @@
         },
         "properties": {
           "title": "Wellsboro, Pennsylvania",
-          "id": 63,
+          "id": 64,
           "image": "IMG_5684.jpeg"
         }
       },
@@ -2717,11 +2858,11 @@
         },
         "properties": {
           "title": "Wellsboro, Pennsylvania",
-          "id": 62,
+          "id": 63,
           "image": "IMG_5682.jpeg"
         }
       }
     ]
   },
-  "distanceTraveled": 30549
+  "distanceTraveled": 32049
 }
