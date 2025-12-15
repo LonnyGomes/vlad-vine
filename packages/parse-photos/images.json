@@ -2,9 +2,14 @@
   "altitudeStats": {
     "min": 2,
     "max": 7972,
-    "average": 616
+    "average": 594
   },
   "countryTotals": [
+    {
+      "countryCode": "XX",
+      "countryName": "Unknown",
+      "flag": "🏳️"
+    },
     {
       "countryCode": "US",
       "countryName": "United States",
@@ -43,7 +48,90 @@
   ],
   "images": [
     {
-      "id": 52,
+      "id": 57,
+      "image": "IMG_1365.jpeg",
+      "imageThumb": "thumb-IMG_1365.webp",
+      "altitude": 4,
+      "timestamp": "2025-12-15T13:20:56.000Z",
+      "speed": 3.2275101586377097,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 24.598980555555553,
+      "longitude": -79.89399722222223,
+      "geoName": "Unknown",
+      "formattedName": "Unknown, Unknown",
+      "countryCode": "XX",
+      "countryName": "Unknown",
+      "flag": "🏳️",
+      "adminName1": "",
+      "geoDistance": 0,
+      "distance": 1002
+    },
+    {
+      "id": 56,
+      "image": "IMG_1266.jpeg",
+      "imageThumb": "thumb-IMG_1266.webp",
+      "altitude": 8,
+      "timestamp": "2025-12-14T17:25:08.000Z",
+      "speed": 0.7484995657751797,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 25.77979722222222,
+      "longitude": -80.13072222222222,
+      "geoName": "Miami Beach",
+      "formattedName": "Miami Beach, Florida",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Florida",
+      "adminName2": "Miami-Dade County",
+      "geoDistance": 0,
+      "distance": 924
+    },
+    {
+      "id": 55,
+      "image": "IMG_1263.jpeg",
+      "imageThumb": "thumb-IMG_1263.webp",
+      "altitude": 8,
+      "timestamp": "2025-12-14T17:21:25.000Z",
+      "speed": 0.05498330619031461,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 25.778130555555556,
+      "longitude": -80.13099722222222,
+      "geoName": "Miami Beach",
+      "formattedName": "Miami Beach, Florida",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Florida",
+      "adminName2": "Miami-Dade County",
+      "geoDistance": 0,
+      "distance": 924
+    },
+    {
+      "id": 54,
+      "image": "IMG_1258.jpeg",
+      "imageThumb": "thumb-IMG_1258.webp",
+      "altitude": 71,
+      "timestamp": "2025-12-14T17:13:37.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 25.775127777777776,
+      "longitude": -80.13116388888888,
+      "geoName": "Miami Beach",
+      "formattedName": "Miami Beach, Florida",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "Florida",
+      "adminName2": "Miami-Dade County",
+      "geoDistance": 0,
+      "distance": 924
+    },
+    {
+      "id": 51,
       "image": "IMG_1182.jpeg",
       "imageThumb": "thumb-IMG_1182.webp",
       "altitude": 10,
@@ -53,27 +141,6 @@
       "model": "iPhone 17 Pro",
       "latitude": 25.766994444444443,
       "longitude": -80.19336666666668,
-      "geoName": "Miami",
-      "formattedName": "Miami, Florida",
-      "countryCode": "US",
-      "countryName": "United States",
-      "flag": "🇺🇸",
-      "adminName1": "Florida",
-      "adminName2": "Miami-Dade County",
-      "geoDistance": 0,
-      "distance": 925
-    },
-    {
-      "id": 51,
-      "image": "IMG_1176.jpeg",
-      "imageThumb": "thumb-IMG_1176.webp",
-      "altitude": 9,
-      "timestamp": "2025-12-13T17:24:06.000Z",
-      "speed": 1.4199527878718798,
-      "make": "Apple",
-      "model": "iPhone 17 Pro",
-      "latitude": 25.766802777777777,
-      "longitude": -80.19355833333334,
       "geoName": "Miami",
       "formattedName": "Miami, Florida",
       "countryCode": "US",
@@ -126,7 +193,7 @@
       "distance": 1201
     },
     {
-      "id": 86,
+      "id": 89,
       "image": "Resized_20251128_141459.jpeg",
       "imageThumb": "thumb-Resized_20251128_141459.webp",
       "timestamp": "2025-11-28T20:51:30.000Z",
@@ -146,7 +213,7 @@
       "distance": 1350
     },
     {
-      "id": 87,
+      "id": 90,
       "image": "Resized_PSX_20251128_144434.jpeg",
       "imageThumb": "thumb-Resized_PSX_20251128_144434.webp",
       "timestamp": "2025-11-28T20:51:26.000Z",
@@ -166,7 +233,7 @@
       "distance": 1350
     },
     {
-      "id": 85,
+      "id": 88,
       "image": "PSX_20251128_143811.jpg",
       "imageThumb": "thumb-PSX_20251128_143811.webp",
       "timestamp": "2025-11-28T19:10:03.000Z",
@@ -306,7 +373,7 @@
       "distance": 9660
     },
     {
-      "id": 80,
+      "id": 83,
       "image": "IMG_9213.jpeg",
       "imageThumb": "thumb-IMG_9213.webp",
       "altitude": 10,
@@ -327,7 +394,7 @@
       "distance": 10207
     },
     {
-      "id": 79,
+      "id": 82,
       "image": "IMG_9109.jpeg",
       "imageThumb": "thumb-IMG_9109.webp",
       "altitude": 33,
@@ -424,7 +491,7 @@
       "distance": 1502
     },
     {
-      "id": 84,
+      "id": 87,
       "image": "IMG_9666.JPG",
       "imageThumb": "thumb-IMG_9666.webp",
       "altitude": 23,
@@ -445,7 +512,7 @@
       "distance": 3665
     },
     {
-      "id": 83,
+      "id": 86,
       "image": "IMG_9661.JPG",
       "imageThumb": "thumb-IMG_9661.webp",
       "altitude": 15,
@@ -466,7 +533,7 @@
       "distance": 3665
     },
     {
-      "id": 82,
+      "id": 85,
       "image": "IMG_9658.JPG",
       "imageThumb": "thumb-IMG_9658.webp",
       "altitude": 19,
@@ -487,7 +554,7 @@
       "distance": 3665
     },
     {
-      "id": 81,
+      "id": 84,
       "image": "IMG_9653.JPG",
       "imageThumb": "thumb-IMG_9653.webp",
       "altitude": 22,
@@ -508,7 +575,7 @@
       "distance": 3664
     },
     {
-      "id": 73,
+      "id": 76,
       "image": "IMG_8224.JPG",
       "imageThumb": "thumb-IMG_8224.webp",
       "altitude": 10,
@@ -529,7 +596,7 @@
       "distance": 111
     },
     {
-      "id": 72,
+      "id": 75,
       "image": "IMG_8209.JPG",
       "imageThumb": "thumb-IMG_8209.webp",
       "altitude": 10,
@@ -607,7 +674,7 @@
       "distance": 3381
     },
     {
-      "id": 69,
+      "id": 72,
       "image": "IMG_3486.jpeg",
       "imageThumb": "thumb-IMG_3486.webp",
       "altitude": 370,
@@ -628,7 +695,7 @@
       "distance": 2070
     },
     {
-      "id": 68,
+      "id": 71,
       "image": "IMG_3275.jpeg",
       "imageThumb": "thumb-IMG_3275.webp",
       "altitude": 4530,
@@ -649,7 +716,7 @@
       "distance": 1945
     },
     {
-      "id": 67,
+      "id": 70,
       "image": "IMG_3196.jpeg",
       "imageThumb": "thumb-IMG_3196.webp",
       "altitude": 5293,
@@ -670,7 +737,7 @@
       "distance": 1946
     },
     {
-      "id": 66,
+      "id": 69,
       "image": "IMG_2982.jpeg",
       "imageThumb": "thumb-IMG_2982.webp",
       "altitude": 1253,
@@ -691,7 +758,7 @@
       "distance": 2064
     },
     {
-      "id": 65,
+      "id": 68,
       "image": "IMG_2973.jpeg",
       "imageThumb": "thumb-IMG_2973.webp",
       "altitude": 1284,
@@ -712,7 +779,7 @@
       "distance": 2064
     },
     {
-      "id": 64,
+      "id": 67,
       "image": "IMG_2521.jpeg",
       "imageThumb": "thumb-IMG_2521.webp",
       "altitude": 407,
@@ -733,7 +800,7 @@
       "distance": 3822
     },
     {
-      "id": 63,
+      "id": 66,
       "image": "IMG_2484.jpeg",
       "imageThumb": "thumb-IMG_2484.webp",
       "altitude": 379,
@@ -754,7 +821,7 @@
       "distance": 3821
     },
     {
-      "id": 62,
+      "id": 65,
       "image": "IMG_2458.jpeg",
       "imageThumb": "thumb-IMG_2458.webp",
       "altitude": 422,
@@ -775,7 +842,7 @@
       "distance": 3822
     },
     {
-      "id": 61,
+      "id": 64,
       "image": "IMG_1944.jpeg",
       "imageThumb": "thumb-IMG_1944.webp",
       "altitude": 242,
@@ -796,7 +863,7 @@
       "distance": 3830
     },
     {
-      "id": 59,
+      "id": 62,
       "image": "IMG_1889.jpeg",
       "imageThumb": "thumb-IMG_1889.webp",
       "altitude": 96,
@@ -817,7 +884,7 @@
       "distance": 3828
     },
     {
-      "id": 58,
+      "id": 61,
       "image": "IMG_1712.jpeg",
       "imageThumb": "thumb-IMG_1712.webp",
       "altitude": 190,
@@ -838,7 +905,7 @@
       "distance": 3830
     },
     {
-      "id": 57,
+      "id": 60,
       "image": "IMG_1663.jpeg",
       "imageThumb": "thumb-IMG_1663.webp",
       "altitude": 190,
@@ -859,7 +926,7 @@
       "distance": 3830
     },
     {
-      "id": 56,
+      "id": 59,
       "image": "IMG_1658.jpeg",
       "imageThumb": "thumb-IMG_1658.webp",
       "timestamp": "2023-09-13T20:17:12.000Z",
@@ -879,7 +946,7 @@
       "distance": 3830
     },
     {
-      "id": 55,
+      "id": 58,
       "image": "IMG_1655.jpeg",
       "imageThumb": "thumb-IMG_1655.webp",
       "altitude": 190,
@@ -900,7 +967,7 @@
       "distance": 3830
     },
     {
-      "id": 54,
+      "id": 53,
       "image": "IMG_1200.jpeg",
       "imageThumb": "thumb-IMG_1200.webp",
       "altitude": 108,
@@ -921,7 +988,7 @@
       "distance": 3829
     },
     {
-      "id": 53,
+      "id": 52,
       "image": "IMG_1196.jpeg",
       "imageThumb": "thumb-IMG_1196.webp",
       "altitude": 121,
@@ -942,7 +1009,7 @@
       "distance": 3829
     },
     {
-      "id": 60,
+      "id": 63,
       "image": "IMG_1929.JPG",
       "imageThumb": "thumb-IMG_1929.webp",
       "altitude": 389,
@@ -1458,7 +1525,7 @@
       "distance": 3863
     },
     {
-      "id": 78,
+      "id": 81,
       "image": "IMG_8841.jpeg",
       "imageThumb": "thumb-IMG_8841.webp",
       "altitude": 8,
@@ -1479,7 +1546,7 @@
       "distance": 360
     },
     {
-      "id": 77,
+      "id": 80,
       "image": "IMG_8829.jpeg",
       "imageThumb": "thumb-IMG_8829.webp",
       "altitude": 21,
@@ -1500,7 +1567,7 @@
       "distance": 360
     },
     {
-      "id": 76,
+      "id": 79,
       "image": "IMG_8822.jpeg",
       "imageThumb": "thumb-IMG_8822.webp",
       "altitude": 16,
@@ -1521,7 +1588,7 @@
       "distance": 360
     },
     {
-      "id": 75,
+      "id": 78,
       "image": "IMG_8654.jpg",
       "imageThumb": "thumb-IMG_8654.webp",
       "altitude": 18,
@@ -1542,7 +1609,7 @@
       "distance": 105
     },
     {
-      "id": 74,
+      "id": 77,
       "image": "IMG_8642.jpg",
       "imageThumb": "thumb-IMG_8642.webp",
       "altitude": 25,
@@ -1815,7 +1882,7 @@
       "distance": 259
     },
     {
-      "id": 71,
+      "id": 74,
       "image": "IMG_5684.jpeg",
       "imageThumb": "thumb-IMG_5684.webp",
       "timestamp": "2023-05-28T00:24:21.000Z",
@@ -1835,7 +1902,7 @@
       "distance": 195
     },
     {
-      "id": 70,
+      "id": 73,
       "image": "IMG_5682.jpeg",
       "imageThumb": "thumb-IMG_5682.webp",
       "timestamp": "2023-05-28T00:19:40.000Z",
@@ -1879,14 +1946,14 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -80.19336666666668,
-            25.766994444444443
+            -79.89399722222223,
+            24.598980555555553
           ]
         },
         "properties": {
-          "title": "Miami, Florida",
-          "id": 52,
-          "image": "IMG_1182.jpeg"
+          "title": "Unknown, Unknown",
+          "id": 57,
+          "image": "IMG_1365.jpeg"
         }
       },
       {
@@ -1894,14 +1961,59 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -80.19355833333334,
-            25.766802777777777
+            -80.13072222222222,
+            25.77979722222222
+          ]
+        },
+        "properties": {
+          "title": "Miami Beach, Florida",
+          "id": 56,
+          "image": "IMG_1266.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.13099722222222,
+            25.778130555555556
+          ]
+        },
+        "properties": {
+          "title": "Miami Beach, Florida",
+          "id": 55,
+          "image": "IMG_1263.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.13116388888888,
+            25.775127777777776
+          ]
+        },
+        "properties": {
+          "title": "Miami Beach, Florida",
+          "id": 54,
+          "image": "IMG_1258.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -80.19336666666668,
+            25.766994444444443
           ]
         },
         "properties": {
           "title": "Miami, Florida",
           "id": 51,
-          "image": "IMG_1176.jpeg"
+          "image": "IMG_1182.jpeg"
         }
       },
       {
@@ -1945,7 +2057,7 @@
         },
         "properties": {
           "title": "Abilene, Texas",
-          "id": 86,
+          "id": 89,
           "image": "Resized_20251128_141459.jpeg"
         }
       },
@@ -1960,7 +2072,7 @@
         },
         "properties": {
           "title": "Abilene, Texas",
-          "id": 87,
+          "id": 90,
           "image": "Resized_PSX_20251128_144434.jpeg"
         }
       },
@@ -1975,7 +2087,7 @@
         },
         "properties": {
           "title": "Abilene, Texas",
-          "id": 85,
+          "id": 88,
           "image": "PSX_20251128_143811.jpg"
         }
       },
@@ -2080,7 +2192,7 @@
         },
         "properties": {
           "title": "Central Lombok Regency, Indonesia",
-          "id": 80,
+          "id": 83,
           "image": "IMG_9213.jpeg"
         }
       },
@@ -2095,7 +2207,7 @@
         },
         "properties": {
           "title": "Central Lombok Regency, Indonesia",
-          "id": 79,
+          "id": 82,
           "image": "IMG_9109.jpeg"
         }
       },
@@ -2170,7 +2282,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 84,
+          "id": 87,
           "image": "IMG_9666.JPG"
         }
       },
@@ -2185,7 +2297,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 83,
+          "id": 86,
           "image": "IMG_9661.JPG"
         }
       },
@@ -2200,7 +2312,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 82,
+          "id": 85,
           "image": "IMG_9658.JPG"
         }
       },
@@ -2215,7 +2327,7 @@
         },
         "properties": {
           "title": "The Power Station, United Kingdom",
-          "id": 81,
+          "id": 84,
           "image": "IMG_9653.JPG"
         }
       },
@@ -2230,7 +2342,7 @@
         },
         "properties": {
           "title": "Newark, Maryland",
-          "id": 73,
+          "id": 76,
           "image": "IMG_8224.JPG"
         }
       },
@@ -2245,7 +2357,7 @@
         },
         "properties": {
           "title": "Newark, Maryland",
-          "id": 72,
+          "id": 75,
           "image": "IMG_8209.JPG"
         }
       },
@@ -2305,7 +2417,7 @@
         },
         "properties": {
           "title": "Parker, Arizona",
-          "id": 69,
+          "id": 72,
           "image": "IMG_3486.jpeg"
         }
       },
@@ -2320,7 +2432,7 @@
         },
         "properties": {
           "title": "Springdale, Utah",
-          "id": 68,
+          "id": 71,
           "image": "IMG_3275.jpeg"
         }
       },
@@ -2335,7 +2447,7 @@
         },
         "properties": {
           "title": "Springdale, Utah",
-          "id": 67,
+          "id": 70,
           "image": "IMG_3196.jpeg"
         }
       },
@@ -2350,7 +2462,7 @@
         },
         "properties": {
           "title": "Boulder City, Nevada",
-          "id": 66,
+          "id": 69,
           "image": "IMG_2982.jpeg"
         }
       },
@@ -2365,7 +2477,7 @@
         },
         "properties": {
           "title": "Boulder City, Nevada",
-          "id": 65,
+          "id": 68,
           "image": "IMG_2973.jpeg"
         }
       },
@@ -2380,7 +2492,7 @@
         },
         "properties": {
           "title": "Versailles, France",
-          "id": 64,
+          "id": 67,
           "image": "IMG_2521.jpeg"
         }
       },
@@ -2395,7 +2507,7 @@
         },
         "properties": {
           "title": "Versailles, France",
-          "id": 63,
+          "id": 66,
           "image": "IMG_2484.jpeg"
         }
       },
@@ -2410,7 +2522,7 @@
         },
         "properties": {
           "title": "Versailles, France",
-          "id": 62,
+          "id": 65,
           "image": "IMG_2458.jpeg"
         }
       },
@@ -2425,7 +2537,7 @@
         },
         "properties": {
           "title": "Panthéon, France",
-          "id": 61,
+          "id": 64,
           "image": "IMG_1944.jpeg"
         }
       },
@@ -2440,7 +2552,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 59,
+          "id": 62,
           "image": "IMG_1889.jpeg"
         }
       },
@@ -2455,7 +2567,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 58,
+          "id": 61,
           "image": "IMG_1712.jpeg"
         }
       },
@@ -2470,7 +2582,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 57,
+          "id": 60,
           "image": "IMG_1663.jpeg"
         }
       },
@@ -2485,7 +2597,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 56,
+          "id": 59,
           "image": "IMG_1658.jpeg"
         }
       },
@@ -2500,7 +2612,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 55,
+          "id": 58,
           "image": "IMG_1655.jpeg"
         }
       },
@@ -2515,7 +2627,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 54,
+          "id": 53,
           "image": "IMG_1200.jpeg"
         }
       },
@@ -2530,7 +2642,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 53,
+          "id": 52,
           "image": "IMG_1196.jpeg"
         }
       },
@@ -2545,7 +2657,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 60,
+          "id": 63,
           "image": "IMG_1929.JPG"
         }
       },
@@ -2920,7 +3032,7 @@
         },
         "properties": {
           "title": "North Myrtle Beach, South Carolina",
-          "id": 78,
+          "id": 81,
           "image": "IMG_8841.jpeg"
         }
       },
@@ -2935,7 +3047,7 @@
         },
         "properties": {
           "title": "North Myrtle Beach, South Carolina",
-          "id": 77,
+          "id": 80,
           "image": "IMG_8829.jpeg"
         }
       },
@@ -2950,7 +3062,7 @@
         },
         "properties": {
           "title": "North Myrtle Beach, South Carolina",
-          "id": 76,
+          "id": 79,
           "image": "IMG_8822.jpeg"
         }
       },
@@ -2965,7 +3077,7 @@
         },
         "properties": {
           "title": "Rehoboth Beach, Delaware",
-          "id": 75,
+          "id": 78,
           "image": "IMG_8654.jpg"
         }
       },
@@ -2980,7 +3092,7 @@
         },
         "properties": {
           "title": "Rehoboth Beach, Delaware",
-          "id": 74,
+          "id": 77,
           "image": "IMG_8642.jpg"
         }
       },
@@ -3175,7 +3287,7 @@
         },
         "properties": {
           "title": "Wellsboro, Pennsylvania",
-          "id": 71,
+          "id": 74,
           "image": "IMG_5684.jpeg"
         }
       },
@@ -3190,11 +3302,11 @@
         },
         "properties": {
           "title": "Wellsboro, Pennsylvania",
-          "id": 70,
+          "id": 73,
           "image": "IMG_5682.jpeg"
         }
       }
     ]
   },
-  "distanceTraveled": 52536
+  "distanceTraveled": 52623
 }
