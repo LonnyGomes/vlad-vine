@@ -18,7 +18,8 @@ async function extractMetadata(
 ): Promise<ImageResult> {
   const metadata = await exifr.parse(imagePath);
   const image = path.basename(imagePath);
-  const metersToFeet = (meters: number): number => Math.round(meters * 3.28084);
+  const metersToFeet = (meters: number, isBlelowSeaLevel: number): number =>
+    Math.round(meters * 3.28084) * (isBlelowSeaLevel === 1 ? -1 : 1);
   const kmhToMph = (kmh: number): number => {
     return kmh * 0.621371;
   };
@@ -26,6 +27,7 @@ async function extractMetadata(
   const {
     GPSSpeed,
     GPSAltitude,
+    GPSAltitudeRef,
     latitude,
     longitude,
     DateTimeOriginal,
@@ -34,6 +36,13 @@ async function extractMetadata(
   } = metadata;
 
   const distance = haversineDistance(longitude, latitude, ...homeCoords);
+
+  // convert value to number
+  const isBelowSeaLevel =
+    GPSAltitudeRef !== undefined ? Number(GPSAltitudeRef) : undefined;
+  console.log(
+    `types of: ${typeof GPSAltitudeRef} ${GPSAltitudeRef}, ${isBelowSeaLevel}`,
+  );
 
   const output = JSON.stringify(metadata, null, 2);
   if (!DateTimeOriginal) {
@@ -73,7 +82,9 @@ async function extractMetadata(
     id,
     image,
     imageThumb,
-    altitude: GPSAltitude ? metersToFeet(GPSAltitude) : undefined,
+    altitude: GPSAltitude
+      ? metersToFeet(GPSAltitude, isBelowSeaLevel ?? 0)
+      : undefined,
     timestamp: DateTimeOriginal,
     speed: GPSSpeed ? kmhToMph(GPSSpeed) : 0,
     make: Make,
