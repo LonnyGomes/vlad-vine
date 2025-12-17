@@ -1,14 +1,19 @@
 {
   "altitudeStats": {
-    "min": 2,
+    "min": -6,
     "max": 7972,
-    "average": 594
+    "average": 550
   },
   "countryTotals": [
     {
       "countryCode": "XX",
       "countryName": "Unknown",
       "flag": "🏳️"
+    },
+    {
+      "countryCode": "BS",
+      "countryName": "Bahamas",
+      "flag": "🇧🇸"
     },
     {
       "countryCode": "US",
@@ -47,6 +52,146 @@
     }
   ],
   "images": [
+    {
+      "id": 64,
+      "image": "IMG_1584.jpeg",
+      "imageThumb": "thumb-IMG_1584.webp",
+      "altitude": 235,
+      "timestamp": "2025-12-17T15:17:12.000Z",
+      "speed": 6.405478882755608,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 23.718666666666664,
+      "longitude": -73.56613888888889,
+      "geoName": "Unknown",
+      "formattedName": "Unknown, Unknown",
+      "countryCode": "XX",
+      "countryName": "Unknown",
+      "flag": "🏳️",
+      "adminName1": "",
+      "geoDistance": 0,
+      "distance": 1068
+    },
+    {
+      "id": 63,
+      "image": "IMG_1538.jpeg",
+      "imageThumb": "thumb-IMG_1538.webp",
+      "altitude": 7,
+      "timestamp": "2025-12-16T20:40:48.000Z",
+      "speed": 0.03382132861284079,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 25.820244444444445,
+      "longitude": -77.9369138888889,
+      "geoName": "Bullock Harbour",
+      "formattedName": "Bullock Harbour, Bahamas",
+      "countryCode": "BS",
+      "countryName": "Bahamas",
+      "flag": "🇧🇸",
+      "adminName1": "",
+      "geoDistance": 0,
+      "distance": 905
+    },
+    {
+      "id": 62,
+      "image": "IMG_1513.jpeg",
+      "imageThumb": "thumb-IMG_1513.webp",
+      "altitude": 21,
+      "timestamp": "2025-12-16T20:29:01.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 25.817197222222223,
+      "longitude": -77.93699722222223,
+      "geoName": "Bullock Harbour",
+      "formattedName": "Bullock Harbour, Bahamas",
+      "countryCode": "BS",
+      "countryName": "Bahamas",
+      "flag": "🇧🇸",
+      "adminName1": "",
+      "geoDistance": 0,
+      "distance": 905
+    },
+    {
+      "id": 61,
+      "image": "IMG_1510.jpeg",
+      "imageThumb": "thumb-IMG_1510.webp",
+      "altitude": 20,
+      "timestamp": "2025-12-16T20:23:33.000Z",
+      "speed": 0.21449851120521723,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 25.816508333333335,
+      "longitude": -77.93700277777778,
+      "geoName": "Bullock Harbour",
+      "formattedName": "Bullock Harbour, Bahamas",
+      "countryCode": "BS",
+      "countryName": "Bahamas",
+      "flag": "🇧🇸",
+      "adminName1": "Berry Islands",
+      "geoDistance": 0,
+      "distance": 905
+    },
+    {
+      "id": 60,
+      "image": "IMG_1470.jpeg",
+      "imageThumb": "thumb-IMG_1470.webp",
+      "altitude": 7,
+      "timestamp": "2025-12-16T18:09:18.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 25.817944444444443,
+      "longitude": -77.93353333333334,
+      "geoName": "Bullock Harbour",
+      "formattedName": "Bullock Harbour, Bahamas",
+      "countryCode": "BS",
+      "countryName": "Bahamas",
+      "flag": "🇧🇸",
+      "adminName1": "",
+      "geoDistance": 0,
+      "distance": 905
+    },
+    {
+      "id": 59,
+      "image": "IMG_1440.jpeg",
+      "imageThumb": "thumb-IMG_1440.webp",
+      "altitude": 10,
+      "timestamp": "2025-12-16T16:17:36.000Z",
+      "speed": 0.011237413003908433,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 25.81796388888889,
+      "longitude": -77.93379166666666,
+      "geoName": "Bullock Harbour",
+      "formattedName": "Bullock Harbour, Bahamas",
+      "countryCode": "BS",
+      "countryName": "Bahamas",
+      "flag": "🇧🇸",
+      "adminName1": "",
+      "geoDistance": 0,
+      "distance": 905
+    },
+    {
+      "id": 58,
+      "image": "IMG_1438.jpeg",
+      "imageThumb": "thumb-IMG_1438.webp",
+      "altitude": 12,
+      "timestamp": "2025-12-16T16:14:15.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 25.818572222222222,
+      "longitude": -77.93351666666668,
+      "geoName": "Bullock Harbour",
+      "formattedName": "Bullock Harbour, Bahamas",
+      "countryCode": "BS",
+      "countryName": "Bahamas",
+      "flag": "🇧🇸",
+      "adminName1": "",
+      "geoDistance": 0,
+      "distance": 905
+    },
     {
       "id": 57,
       "image": "IMG_1365.jpeg",
@@ -193,7 +338,7 @@
       "distance": 1201
     },
     {
-      "id": 89,
+      "id": 96,
       "image": "Resized_20251128_141459.jpeg",
       "imageThumb": "thumb-Resized_20251128_141459.webp",
       "timestamp": "2025-11-28T20:51:30.000Z",
@@ -213,7 +358,7 @@
       "distance": 1350
     },
     {
-      "id": 90,
+      "id": 97,
       "image": "Resized_PSX_20251128_144434.jpeg",
       "imageThumb": "thumb-Resized_PSX_20251128_144434.webp",
       "timestamp": "2025-11-28T20:51:26.000Z",
@@ -233,7 +378,7 @@
       "distance": 1350
     },
     {
-      "id": 88,
+      "id": 95,
       "image": "PSX_20251128_143811.jpg",
       "imageThumb": "thumb-PSX_20251128_143811.webp",
       "timestamp": "2025-11-28T19:10:03.000Z",
@@ -373,7 +518,7 @@
       "distance": 9660
     },
     {
-      "id": 83,
+      "id": 90,
       "image": "IMG_9213.jpeg",
       "imageThumb": "thumb-IMG_9213.webp",
       "altitude": 10,
@@ -394,7 +539,7 @@
       "distance": 10207
     },
     {
-      "id": 82,
+      "id": 89,
       "image": "IMG_9109.jpeg",
       "imageThumb": "thumb-IMG_9109.webp",
       "altitude": 33,
@@ -491,7 +636,7 @@
       "distance": 1502
     },
     {
-      "id": 87,
+      "id": 94,
       "image": "IMG_9666.JPG",
       "imageThumb": "thumb-IMG_9666.webp",
       "altitude": 23,
@@ -512,7 +657,7 @@
       "distance": 3665
     },
     {
-      "id": 86,
+      "id": 93,
       "image": "IMG_9661.JPG",
       "imageThumb": "thumb-IMG_9661.webp",
       "altitude": 15,
@@ -533,7 +678,7 @@
       "distance": 3665
     },
     {
-      "id": 85,
+      "id": 92,
       "image": "IMG_9658.JPG",
       "imageThumb": "thumb-IMG_9658.webp",
       "altitude": 19,
@@ -554,7 +699,7 @@
       "distance": 3665
     },
     {
-      "id": 84,
+      "id": 91,
       "image": "IMG_9653.JPG",
       "imageThumb": "thumb-IMG_9653.webp",
       "altitude": 22,
@@ -575,7 +720,7 @@
       "distance": 3664
     },
     {
-      "id": 76,
+      "id": 83,
       "image": "IMG_8224.JPG",
       "imageThumb": "thumb-IMG_8224.webp",
       "altitude": 10,
@@ -596,7 +741,7 @@
       "distance": 111
     },
     {
-      "id": 75,
+      "id": 82,
       "image": "IMG_8209.JPG",
       "imageThumb": "thumb-IMG_8209.webp",
       "altitude": 10,
@@ -674,7 +819,7 @@
       "distance": 3381
     },
     {
-      "id": 72,
+      "id": 79,
       "image": "IMG_3486.jpeg",
       "imageThumb": "thumb-IMG_3486.webp",
       "altitude": 370,
@@ -695,7 +840,7 @@
       "distance": 2070
     },
     {
-      "id": 71,
+      "id": 78,
       "image": "IMG_3275.jpeg",
       "imageThumb": "thumb-IMG_3275.webp",
       "altitude": 4530,
@@ -716,7 +861,7 @@
       "distance": 1945
     },
     {
-      "id": 70,
+      "id": 77,
       "image": "IMG_3196.jpeg",
       "imageThumb": "thumb-IMG_3196.webp",
       "altitude": 5293,
@@ -737,7 +882,7 @@
       "distance": 1946
     },
     {
-      "id": 69,
+      "id": 76,
       "image": "IMG_2982.jpeg",
       "imageThumb": "thumb-IMG_2982.webp",
       "altitude": 1253,
@@ -758,7 +903,7 @@
       "distance": 2064
     },
     {
-      "id": 68,
+      "id": 75,
       "image": "IMG_2973.jpeg",
       "imageThumb": "thumb-IMG_2973.webp",
       "altitude": 1284,
@@ -779,7 +924,7 @@
       "distance": 2064
     },
     {
-      "id": 67,
+      "id": 74,
       "image": "IMG_2521.jpeg",
       "imageThumb": "thumb-IMG_2521.webp",
       "altitude": 407,
@@ -800,7 +945,7 @@
       "distance": 3822
     },
     {
-      "id": 66,
+      "id": 73,
       "image": "IMG_2484.jpeg",
       "imageThumb": "thumb-IMG_2484.webp",
       "altitude": 379,
@@ -821,7 +966,7 @@
       "distance": 3821
     },
     {
-      "id": 65,
+      "id": 72,
       "image": "IMG_2458.jpeg",
       "imageThumb": "thumb-IMG_2458.webp",
       "altitude": 422,
@@ -842,7 +987,7 @@
       "distance": 3822
     },
     {
-      "id": 64,
+      "id": 71,
       "image": "IMG_1944.jpeg",
       "imageThumb": "thumb-IMG_1944.webp",
       "altitude": 242,
@@ -863,7 +1008,7 @@
       "distance": 3830
     },
     {
-      "id": 62,
+      "id": 69,
       "image": "IMG_1889.jpeg",
       "imageThumb": "thumb-IMG_1889.webp",
       "altitude": 96,
@@ -884,7 +1029,7 @@
       "distance": 3828
     },
     {
-      "id": 61,
+      "id": 68,
       "image": "IMG_1712.jpeg",
       "imageThumb": "thumb-IMG_1712.webp",
       "altitude": 190,
@@ -905,7 +1050,7 @@
       "distance": 3830
     },
     {
-      "id": 60,
+      "id": 67,
       "image": "IMG_1663.jpeg",
       "imageThumb": "thumb-IMG_1663.webp",
       "altitude": 190,
@@ -926,7 +1071,7 @@
       "distance": 3830
     },
     {
-      "id": 59,
+      "id": 66,
       "image": "IMG_1658.jpeg",
       "imageThumb": "thumb-IMG_1658.webp",
       "timestamp": "2023-09-13T20:17:12.000Z",
@@ -946,7 +1091,7 @@
       "distance": 3830
     },
     {
-      "id": 58,
+      "id": 65,
       "image": "IMG_1655.jpeg",
       "imageThumb": "thumb-IMG_1655.webp",
       "altitude": 190,
@@ -1009,7 +1154,7 @@
       "distance": 3829
     },
     {
-      "id": 63,
+      "id": 70,
       "image": "IMG_1929.JPG",
       "imageThumb": "thumb-IMG_1929.webp",
       "altitude": 389,
@@ -1525,7 +1670,7 @@
       "distance": 3863
     },
     {
-      "id": 81,
+      "id": 88,
       "image": "IMG_8841.jpeg",
       "imageThumb": "thumb-IMG_8841.webp",
       "altitude": 8,
@@ -1546,7 +1691,7 @@
       "distance": 360
     },
     {
-      "id": 80,
+      "id": 87,
       "image": "IMG_8829.jpeg",
       "imageThumb": "thumb-IMG_8829.webp",
       "altitude": 21,
@@ -1567,7 +1712,7 @@
       "distance": 360
     },
     {
-      "id": 79,
+      "id": 86,
       "image": "IMG_8822.jpeg",
       "imageThumb": "thumb-IMG_8822.webp",
       "altitude": 16,
@@ -1577,18 +1722,17 @@
       "model": "iPhone 11 Pro",
       "latitude": 33.83748333333334,
       "longitude": -78.610925,
-      "geoName": "North Myrtle Beach",
-      "formattedName": "North Myrtle Beach, South Carolina",
-      "countryCode": "US",
-      "countryName": "United States",
-      "flag": "🇺🇸",
-      "adminName1": "South Carolina",
-      "adminName2": "Horry County",
+      "geoName": "Unknown",
+      "formattedName": "Unknown, Unknown",
+      "countryCode": "XX",
+      "countryName": "Unknown",
+      "flag": "🏳️",
+      "adminName1": "",
       "geoDistance": 0,
       "distance": 360
     },
     {
-      "id": 78,
+      "id": 85,
       "image": "IMG_8654.jpg",
       "imageThumb": "thumb-IMG_8654.webp",
       "altitude": 18,
@@ -1609,7 +1753,7 @@
       "distance": 105
     },
     {
-      "id": 77,
+      "id": 84,
       "image": "IMG_8642.jpg",
       "imageThumb": "thumb-IMG_8642.webp",
       "altitude": 25,
@@ -1843,7 +1987,7 @@
       "id": 16,
       "image": "IMG_0012.JPG",
       "imageThumb": "thumb-IMG_0012.webp",
-      "altitude": 3,
+      "altitude": -3,
       "timestamp": "2023-06-01T15:29:35.000Z",
       "speed": 0.0728055210754035,
       "make": "Apple",
@@ -1864,7 +2008,7 @@
       "id": 7,
       "image": "IMG_0003.JPG",
       "imageThumb": "thumb-IMG_0003.webp",
-      "altitude": 6,
+      "altitude": -6,
       "timestamp": "2023-06-01T15:29:07.000Z",
       "speed": 0,
       "make": "Apple",
@@ -1882,7 +2026,7 @@
       "distance": 259
     },
     {
-      "id": 74,
+      "id": 81,
       "image": "IMG_5684.jpeg",
       "imageThumb": "thumb-IMG_5684.webp",
       "timestamp": "2023-05-28T00:24:21.000Z",
@@ -1902,7 +2046,7 @@
       "distance": 195
     },
     {
-      "id": 73,
+      "id": 80,
       "image": "IMG_5682.jpeg",
       "imageThumb": "thumb-IMG_5682.webp",
       "timestamp": "2023-05-28T00:19:40.000Z",
@@ -1941,6 +2085,111 @@
   "imagesPoints": {
     "type": "FeatureCollection",
     "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.56613888888889,
+            23.718666666666664
+          ]
+        },
+        "properties": {
+          "title": "Unknown, Unknown",
+          "id": 64,
+          "image": "IMG_1584.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.9369138888889,
+            25.820244444444445
+          ]
+        },
+        "properties": {
+          "title": "Bullock Harbour, Bahamas",
+          "id": 63,
+          "image": "IMG_1538.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.93699722222223,
+            25.817197222222223
+          ]
+        },
+        "properties": {
+          "title": "Bullock Harbour, Bahamas",
+          "id": 62,
+          "image": "IMG_1513.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.93700277777778,
+            25.816508333333335
+          ]
+        },
+        "properties": {
+          "title": "Bullock Harbour, Bahamas",
+          "id": 61,
+          "image": "IMG_1510.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.93353333333334,
+            25.817944444444443
+          ]
+        },
+        "properties": {
+          "title": "Bullock Harbour, Bahamas",
+          "id": 60,
+          "image": "IMG_1470.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.93379166666666,
+            25.81796388888889
+          ]
+        },
+        "properties": {
+          "title": "Bullock Harbour, Bahamas",
+          "id": 59,
+          "image": "IMG_1440.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.93351666666668,
+            25.818572222222222
+          ]
+        },
+        "properties": {
+          "title": "Bullock Harbour, Bahamas",
+          "id": 58,
+          "image": "IMG_1438.jpeg"
+        }
+      },
       {
         "type": "Feature",
         "geometry": {
@@ -2057,7 +2306,7 @@
         },
         "properties": {
           "title": "Abilene, Texas",
-          "id": 89,
+          "id": 96,
           "image": "Resized_20251128_141459.jpeg"
         }
       },
@@ -2072,7 +2321,7 @@
         },
         "properties": {
           "title": "Abilene, Texas",
-          "id": 90,
+          "id": 97,
           "image": "Resized_PSX_20251128_144434.jpeg"
         }
       },
@@ -2087,7 +2336,7 @@
         },
         "properties": {
           "title": "Abilene, Texas",
-          "id": 88,
+          "id": 95,
           "image": "PSX_20251128_143811.jpg"
         }
       },
@@ -2192,7 +2441,7 @@
         },
         "properties": {
           "title": "Central Lombok Regency, Indonesia",
-          "id": 83,
+          "id": 90,
           "image": "IMG_9213.jpeg"
         }
       },
@@ -2207,7 +2456,7 @@
         },
         "properties": {
           "title": "Central Lombok Regency, Indonesia",
-          "id": 82,
+          "id": 89,
           "image": "IMG_9109.jpeg"
         }
       },
@@ -2282,7 +2531,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 87,
+          "id": 94,
           "image": "IMG_9666.JPG"
         }
       },
@@ -2297,7 +2546,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 86,
+          "id": 93,
           "image": "IMG_9661.JPG"
         }
       },
@@ -2312,7 +2561,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 85,
+          "id": 92,
           "image": "IMG_9658.JPG"
         }
       },
@@ -2327,7 +2576,7 @@
         },
         "properties": {
           "title": "The Power Station, United Kingdom",
-          "id": 84,
+          "id": 91,
           "image": "IMG_9653.JPG"
         }
       },
@@ -2342,7 +2591,7 @@
         },
         "properties": {
           "title": "Newark, Maryland",
-          "id": 76,
+          "id": 83,
           "image": "IMG_8224.JPG"
         }
       },
@@ -2357,7 +2606,7 @@
         },
         "properties": {
           "title": "Newark, Maryland",
-          "id": 75,
+          "id": 82,
           "image": "IMG_8209.JPG"
         }
       },
@@ -2417,7 +2666,7 @@
         },
         "properties": {
           "title": "Parker, Arizona",
-          "id": 72,
+          "id": 79,
           "image": "IMG_3486.jpeg"
         }
       },
@@ -2432,7 +2681,7 @@
         },
         "properties": {
           "title": "Springdale, Utah",
-          "id": 71,
+          "id": 78,
           "image": "IMG_3275.jpeg"
         }
       },
@@ -2447,7 +2696,7 @@
         },
         "properties": {
           "title": "Springdale, Utah",
-          "id": 70,
+          "id": 77,
           "image": "IMG_3196.jpeg"
         }
       },
@@ -2462,7 +2711,7 @@
         },
         "properties": {
           "title": "Boulder City, Nevada",
-          "id": 69,
+          "id": 76,
           "image": "IMG_2982.jpeg"
         }
       },
@@ -2477,7 +2726,7 @@
         },
         "properties": {
           "title": "Boulder City, Nevada",
-          "id": 68,
+          "id": 75,
           "image": "IMG_2973.jpeg"
         }
       },
@@ -2492,7 +2741,7 @@
         },
         "properties": {
           "title": "Versailles, France",
-          "id": 67,
+          "id": 74,
           "image": "IMG_2521.jpeg"
         }
       },
@@ -2507,7 +2756,7 @@
         },
         "properties": {
           "title": "Versailles, France",
-          "id": 66,
+          "id": 73,
           "image": "IMG_2484.jpeg"
         }
       },
@@ -2522,7 +2771,7 @@
         },
         "properties": {
           "title": "Versailles, France",
-          "id": 65,
+          "id": 72,
           "image": "IMG_2458.jpeg"
         }
       },
@@ -2537,7 +2786,7 @@
         },
         "properties": {
           "title": "Panthéon, France",
-          "id": 64,
+          "id": 71,
           "image": "IMG_1944.jpeg"
         }
       },
@@ -2552,7 +2801,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 62,
+          "id": 69,
           "image": "IMG_1889.jpeg"
         }
       },
@@ -2567,7 +2816,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 61,
+          "id": 68,
           "image": "IMG_1712.jpeg"
         }
       },
@@ -2582,7 +2831,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 60,
+          "id": 67,
           "image": "IMG_1663.jpeg"
         }
       },
@@ -2597,7 +2846,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 59,
+          "id": 66,
           "image": "IMG_1658.jpeg"
         }
       },
@@ -2612,7 +2861,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 58,
+          "id": 65,
           "image": "IMG_1655.jpeg"
         }
       },
@@ -2657,7 +2906,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 63,
+          "id": 70,
           "image": "IMG_1929.JPG"
         }
       },
@@ -3032,7 +3281,7 @@
         },
         "properties": {
           "title": "North Myrtle Beach, South Carolina",
-          "id": 81,
+          "id": 88,
           "image": "IMG_8841.jpeg"
         }
       },
@@ -3047,7 +3296,7 @@
         },
         "properties": {
           "title": "North Myrtle Beach, South Carolina",
-          "id": 80,
+          "id": 87,
           "image": "IMG_8829.jpeg"
         }
       },
@@ -3061,8 +3310,8 @@
           ]
         },
         "properties": {
-          "title": "North Myrtle Beach, South Carolina",
-          "id": 79,
+          "title": "Unknown, Unknown",
+          "id": 86,
           "image": "IMG_8822.jpeg"
         }
       },
@@ -3077,7 +3326,7 @@
         },
         "properties": {
           "title": "Rehoboth Beach, Delaware",
-          "id": 78,
+          "id": 85,
           "image": "IMG_8654.jpg"
         }
       },
@@ -3092,7 +3341,7 @@
         },
         "properties": {
           "title": "Rehoboth Beach, Delaware",
-          "id": 77,
+          "id": 84,
           "image": "IMG_8642.jpg"
         }
       },
@@ -3287,7 +3536,7 @@
         },
         "properties": {
           "title": "Wellsboro, Pennsylvania",
-          "id": 74,
+          "id": 81,
           "image": "IMG_5684.jpeg"
         }
       },
@@ -3302,11 +3551,11 @@
         },
         "properties": {
           "title": "Wellsboro, Pennsylvania",
-          "id": 73,
+          "id": 80,
           "image": "IMG_5682.jpeg"
         }
       }
     ]
   },
-  "distanceTraveled": 52623
+  "distanceTraveled": 53082
 }
