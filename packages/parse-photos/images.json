@@ -2,9 +2,14 @@
   "altitudeStats": {
     "min": -6,
     "max": 7972,
-    "average": 550
+    "average": 508
   },
   "countryTotals": [
+    {
+      "countryCode": "DO",
+      "countryName": "Dominican Republic",
+      "flag": "🇩🇴"
+    },
     {
       "countryCode": "XX",
       "countryName": "Unknown",
@@ -53,11 +58,178 @@
   ],
   "images": [
     {
+      "id": 76,
+      "image": "IMG_1833.jpeg",
+      "imageThumb": "thumb-IMG_1833.webp",
+      "altitude": 157,
+      "timestamp": "2025-12-18T21:11:16.000Z",
+      "speed": 0.004615147288265573,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 19.80230277777778,
+      "longitude": -70.6997,
+      "geoName": "Puerto Plata",
+      "formattedName": "Puerto Plata, Dominican Republic",
+      "countryCode": "DO",
+      "countryName": "Dominican Republic",
+      "flag": "🇩🇴",
+      "adminName1": "Puerto Plata Province",
+      "geoDistance": 0,
+      "distance": 1372
+    },
+    {
+      "id": 75,
+      "image": "IMG_1816.jpeg",
+      "imageThumb": "thumb-IMG_1816.webp",
+      "altitude": 10,
+      "timestamp": "2025-12-18T19:00:45.000Z",
+      "speed": 0.12145005949134513,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 19.798405555555558,
+      "longitude": -70.69883611111112,
+      "geoName": "Puerto Plata",
+      "formattedName": "Puerto Plata, Dominican Republic",
+      "countryCode": "DO",
+      "countryName": "Dominican Republic",
+      "flag": "🇩🇴",
+      "adminName1": "Puerto Plata",
+      "adminName2": "Puerto Plata",
+      "geoDistance": 0,
+      "distance": 1372
+    },
+    {
+      "id": 74,
+      "image": "IMG_1802.jpeg",
+      "imageThumb": "thumb-IMG_1802.webp",
+      "altitude": 22,
+      "timestamp": "2025-12-18T18:34:11.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 19.79782777777778,
+      "longitude": -70.6931,
+      "geoName": "Puerto Plata",
+      "formattedName": "Puerto Plata, Dominican Republic",
+      "countryCode": "DO",
+      "countryName": "Dominican Republic",
+      "flag": "🇩🇴",
+      "adminName1": "Puerto Plata",
+      "adminName2": "Puerto Plata",
+      "geoDistance": 0,
+      "distance": 1372
+    },
+    {
+      "id": 73,
+      "image": "IMG_1783.jpeg",
+      "imageThumb": "thumb-IMG_1783.webp",
+      "altitude": 33,
+      "timestamp": "2025-12-18T18:10:40.000Z",
+      "speed": 0.007287132059164529,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 19.80507777777778,
+      "longitude": -70.69564166666667,
+      "geoName": "Puerto Plata",
+      "formattedName": "Puerto Plata, Dominican Republic",
+      "countryCode": "DO",
+      "countryName": "Dominican Republic",
+      "flag": "🇩🇴",
+      "adminName1": "Puerto Plata",
+      "adminName2": "Puerto Plata",
+      "geoDistance": 0,
+      "distance": 1371
+    },
+    {
+      "id": 72,
+      "image": "IMG_1753.jpeg",
+      "imageThumb": "thumb-IMG_1753.webp",
+      "altitude": 25,
+      "timestamp": "2025-12-18T17:43:33.000Z",
+      "speed": 0,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 19.798033333333336,
+      "longitude": -70.6933138888889,
+      "geoName": "Puerto Plata",
+      "formattedName": "Puerto Plata, Dominican Republic",
+      "countryCode": "DO",
+      "countryName": "Dominican Republic",
+      "flag": "🇩🇴",
+      "adminName1": "Puerto Plata",
+      "adminName2": "Puerto Plata",
+      "geoDistance": 0,
+      "distance": 1372
+    },
+    {
+      "id": 71,
+      "image": "IMG_1745.jpeg",
+      "imageThumb": "thumb-IMG_1745.webp",
+      "altitude": 31,
+      "timestamp": "2025-12-18T17:21:00.000Z",
+      "speed": 0.029397078426764412,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 19.799366666666668,
+      "longitude": -70.69111666666667,
+      "geoName": "Puerto Plata",
+      "formattedName": "Puerto Plata, Dominican Republic",
+      "countryCode": "DO",
+      "countryName": "Dominican Republic",
+      "flag": "🇩🇴",
+      "adminName1": "Puerto Plata Province",
+      "adminName2": "Puerto Plata",
+      "geoDistance": 0,
+      "distance": 1372
+    },
+    {
+      "id": 69,
+      "image": "IMG_1700.jpeg",
+      "imageThumb": "thumb-IMG_1700.webp",
+      "altitude": 15,
+      "timestamp": "2025-12-18T16:14:25.000Z",
+      "speed": 0.025853031321137202,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 19.798619444444448,
+      "longitude": -70.69361944444445,
+      "geoName": "Puerto Plata",
+      "formattedName": "Puerto Plata, Dominican Republic",
+      "countryCode": "DO",
+      "countryName": "Dominican Republic",
+      "flag": "🇩🇴",
+      "adminName1": "Puerto Plata",
+      "adminName2": "Puerto Plata",
+      "geoDistance": 0,
+      "distance": 1372
+    },
+    {
+      "id": 68,
+      "image": "IMG_1688.jpeg",
+      "imageThumb": "thumb-IMG_1688.webp",
+      "altitude": 22,
+      "timestamp": "2025-12-18T16:04:05.000Z",
+      "speed": 0.10777994381903194,
+      "make": "Apple",
+      "model": "iPhone 17 Pro",
+      "latitude": 19.798536111111112,
+      "longitude": -70.69425833333334,
+      "geoName": "Puerto Plata",
+      "formattedName": "Puerto Plata, Dominican Republic",
+      "countryCode": "DO",
+      "countryName": "Dominican Republic",
+      "flag": "🇩🇴",
+      "adminName1": "Puerto Plata",
+      "adminName2": "Puerto Plata",
+      "geoDistance": 0,
+      "distance": 1372
+    },
+    {
       "id": 64,
       "image": "IMG_1584.jpeg",
       "imageThumb": "thumb-IMG_1584.webp",
       "altitude": 235,
-      "timestamp": "2025-12-17T15:17:12.000Z",
+      "timestamp": "2025-12-17T14:17:12.000Z",
       "speed": 6.405478882755608,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -77,7 +249,7 @@
       "image": "IMG_1538.jpeg",
       "imageThumb": "thumb-IMG_1538.webp",
       "altitude": 7,
-      "timestamp": "2025-12-16T20:40:48.000Z",
+      "timestamp": "2025-12-16T19:40:48.000Z",
       "speed": 0.03382132861284079,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -97,7 +269,7 @@
       "image": "IMG_1513.jpeg",
       "imageThumb": "thumb-IMG_1513.webp",
       "altitude": 21,
-      "timestamp": "2025-12-16T20:29:01.000Z",
+      "timestamp": "2025-12-16T19:29:01.000Z",
       "speed": 0,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -117,7 +289,7 @@
       "image": "IMG_1510.jpeg",
       "imageThumb": "thumb-IMG_1510.webp",
       "altitude": 20,
-      "timestamp": "2025-12-16T20:23:33.000Z",
+      "timestamp": "2025-12-16T19:23:33.000Z",
       "speed": 0.21449851120521723,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -137,7 +309,7 @@
       "image": "IMG_1470.jpeg",
       "imageThumb": "thumb-IMG_1470.webp",
       "altitude": 7,
-      "timestamp": "2025-12-16T18:09:18.000Z",
+      "timestamp": "2025-12-16T17:09:18.000Z",
       "speed": 0,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -157,7 +329,7 @@
       "image": "IMG_1440.jpeg",
       "imageThumb": "thumb-IMG_1440.webp",
       "altitude": 10,
-      "timestamp": "2025-12-16T16:17:36.000Z",
+      "timestamp": "2025-12-16T15:17:36.000Z",
       "speed": 0.011237413003908433,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -177,7 +349,7 @@
       "image": "IMG_1438.jpeg",
       "imageThumb": "thumb-IMG_1438.webp",
       "altitude": 12,
-      "timestamp": "2025-12-16T16:14:15.000Z",
+      "timestamp": "2025-12-16T15:14:15.000Z",
       "speed": 0,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -197,7 +369,7 @@
       "image": "IMG_1365.jpeg",
       "imageThumb": "thumb-IMG_1365.webp",
       "altitude": 4,
-      "timestamp": "2025-12-15T13:20:56.000Z",
+      "timestamp": "2025-12-15T12:20:56.000Z",
       "speed": 3.2275101586377097,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -217,7 +389,7 @@
       "image": "IMG_1266.jpeg",
       "imageThumb": "thumb-IMG_1266.webp",
       "altitude": 8,
-      "timestamp": "2025-12-14T17:25:08.000Z",
+      "timestamp": "2025-12-14T16:25:08.000Z",
       "speed": 0.7484995657751797,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -238,7 +410,7 @@
       "image": "IMG_1263.jpeg",
       "imageThumb": "thumb-IMG_1263.webp",
       "altitude": 8,
-      "timestamp": "2025-12-14T17:21:25.000Z",
+      "timestamp": "2025-12-14T16:21:25.000Z",
       "speed": 0.05498330619031461,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -259,7 +431,7 @@
       "image": "IMG_1258.jpeg",
       "imageThumb": "thumb-IMG_1258.webp",
       "altitude": 71,
-      "timestamp": "2025-12-14T17:13:37.000Z",
+      "timestamp": "2025-12-14T16:13:37.000Z",
       "speed": 0,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -280,7 +452,7 @@
       "image": "IMG_1182.jpeg",
       "imageThumb": "thumb-IMG_1182.webp",
       "altitude": 10,
-      "timestamp": "2025-12-13T17:27:05.000Z",
+      "timestamp": "2025-12-13T16:27:05.000Z",
       "speed": 0,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -301,7 +473,7 @@
       "image": "IMG_1154.jpeg",
       "imageThumb": "thumb-IMG_1154.webp",
       "altitude": 286,
-      "timestamp": "2025-12-13T12:48:04.000Z",
+      "timestamp": "2025-12-13T11:48:04.000Z",
       "speed": 0,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -321,7 +493,7 @@
       "id": 4,
       "image": "D2D215CC-C476-4C4A-9601-CE39746E4038.jpg",
       "imageThumb": "thumb-D2D215CC-C476-4C4A-9601-CE39746E4038.webp",
-      "timestamp": "2025-11-29T06:42:00.000Z",
+      "timestamp": "2025-11-29T05:42:00.000Z",
       "speed": 0,
       "make": "samsung",
       "model": "Galaxy S24+",
@@ -338,10 +510,10 @@
       "distance": 1201
     },
     {
-      "id": 96,
+      "id": 104,
       "image": "Resized_20251128_141459.jpeg",
       "imageThumb": "thumb-Resized_20251128_141459.webp",
-      "timestamp": "2025-11-28T20:51:30.000Z",
+      "timestamp": "2025-11-28T19:51:30.000Z",
       "speed": 0,
       "make": "samsung",
       "model": "Galaxy S24+",
@@ -358,10 +530,10 @@
       "distance": 1350
     },
     {
-      "id": 97,
+      "id": 105,
       "image": "Resized_PSX_20251128_144434.jpeg",
       "imageThumb": "thumb-Resized_PSX_20251128_144434.webp",
-      "timestamp": "2025-11-28T20:51:26.000Z",
+      "timestamp": "2025-11-28T19:51:26.000Z",
       "speed": 0,
       "make": "samsung",
       "model": "Galaxy S24+",
@@ -378,10 +550,10 @@
       "distance": 1350
     },
     {
-      "id": 95,
+      "id": 103,
       "image": "PSX_20251128_143811.jpg",
       "imageThumb": "thumb-PSX_20251128_143811.webp",
-      "timestamp": "2025-11-28T19:10:03.000Z",
+      "timestamp": "2025-11-28T18:10:03.000Z",
       "speed": 0,
       "make": "samsung",
       "model": "Galaxy S24+",
@@ -402,7 +574,7 @@
       "image": "IMG_0815.jpeg",
       "imageThumb": "thumb-IMG_0815.webp",
       "altitude": 13,
-      "timestamp": "2025-11-18T22:02:54.000Z",
+      "timestamp": "2025-11-18T21:02:54.000Z",
       "speed": 0,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -422,7 +594,7 @@
       "image": "IMG_0798.jpeg",
       "imageThumb": "thumb-IMG_0798.webp",
       "altitude": 15,
-      "timestamp": "2025-11-18T21:48:04.000Z",
+      "timestamp": "2025-11-18T20:48:04.000Z",
       "speed": 0.002162369171465868,
       "make": "Apple",
       "model": "iPhone 17 Pro",
@@ -518,7 +690,7 @@
       "distance": 9660
     },
     {
-      "id": 90,
+      "id": 98,
       "image": "IMG_9213.jpeg",
       "imageThumb": "thumb-IMG_9213.webp",
       "altitude": 10,
@@ -539,7 +711,7 @@
       "distance": 10207
     },
     {
-      "id": 89,
+      "id": 97,
       "image": "IMG_9109.jpeg",
       "imageThumb": "thumb-IMG_9109.webp",
       "altitude": 33,
@@ -636,7 +808,7 @@
       "distance": 1502
     },
     {
-      "id": 94,
+      "id": 102,
       "image": "IMG_9666.JPG",
       "imageThumb": "thumb-IMG_9666.webp",
       "altitude": 23,
@@ -657,7 +829,7 @@
       "distance": 3665
     },
     {
-      "id": 93,
+      "id": 101,
       "image": "IMG_9661.JPG",
       "imageThumb": "thumb-IMG_9661.webp",
       "altitude": 15,
@@ -678,7 +850,7 @@
       "distance": 3665
     },
     {
-      "id": 92,
+      "id": 100,
       "image": "IMG_9658.JPG",
       "imageThumb": "thumb-IMG_9658.webp",
       "altitude": 19,
@@ -699,7 +871,7 @@
       "distance": 3665
     },
     {
-      "id": 91,
+      "id": 99,
       "image": "IMG_9653.JPG",
       "imageThumb": "thumb-IMG_9653.webp",
       "altitude": 22,
@@ -720,7 +892,7 @@
       "distance": 3664
     },
     {
-      "id": 83,
+      "id": 91,
       "image": "IMG_8224.JPG",
       "imageThumb": "thumb-IMG_8224.webp",
       "altitude": 10,
@@ -741,7 +913,7 @@
       "distance": 111
     },
     {
-      "id": 82,
+      "id": 90,
       "image": "IMG_8209.JPG",
       "imageThumb": "thumb-IMG_8209.webp",
       "altitude": 10,
@@ -765,7 +937,7 @@
       "id": 46,
       "image": "IMG_0884.jpeg",
       "imageThumb": "thumb-IMG_0884.webp",
-      "timestamp": "2023-11-24T15:30:24.000Z",
+      "timestamp": "2023-11-24T14:30:24.000Z",
       "speed": 0,
       "make": "Apple",
       "model": "iPhone 12 Pro",
@@ -784,7 +956,7 @@
       "id": 45,
       "image": "IMG_0858.jpeg",
       "imageThumb": "thumb-IMG_0858.webp",
-      "timestamp": "2023-11-22T18:19:22.000Z",
+      "timestamp": "2023-11-22T17:19:22.000Z",
       "speed": 0,
       "make": "Apple",
       "model": "iPhone 12 Pro",
@@ -803,7 +975,7 @@
       "id": 44,
       "image": "IMG_0835.jpeg",
       "imageThumb": "thumb-IMG_0835.webp",
-      "timestamp": "2023-11-22T17:30:06.000Z",
+      "timestamp": "2023-11-22T16:30:06.000Z",
       "speed": 0,
       "make": "Apple",
       "model": "iPhone 12 Pro",
@@ -819,7 +991,7 @@
       "distance": 3381
     },
     {
-      "id": 79,
+      "id": 87,
       "image": "IMG_3486.jpeg",
       "imageThumb": "thumb-IMG_3486.webp",
       "altitude": 370,
@@ -840,7 +1012,7 @@
       "distance": 2070
     },
     {
-      "id": 78,
+      "id": 86,
       "image": "IMG_3275.jpeg",
       "imageThumb": "thumb-IMG_3275.webp",
       "altitude": 4530,
@@ -861,7 +1033,7 @@
       "distance": 1945
     },
     {
-      "id": 77,
+      "id": 85,
       "image": "IMG_3196.jpeg",
       "imageThumb": "thumb-IMG_3196.webp",
       "altitude": 5293,
@@ -882,7 +1054,7 @@
       "distance": 1946
     },
     {
-      "id": 76,
+      "id": 84,
       "image": "IMG_2982.jpeg",
       "imageThumb": "thumb-IMG_2982.webp",
       "altitude": 1253,
@@ -903,7 +1075,7 @@
       "distance": 2064
     },
     {
-      "id": 75,
+      "id": 83,
       "image": "IMG_2973.jpeg",
       "imageThumb": "thumb-IMG_2973.webp",
       "altitude": 1284,
@@ -924,7 +1096,7 @@
       "distance": 2064
     },
     {
-      "id": 74,
+      "id": 82,
       "image": "IMG_2521.jpeg",
       "imageThumb": "thumb-IMG_2521.webp",
       "altitude": 407,
@@ -945,7 +1117,7 @@
       "distance": 3822
     },
     {
-      "id": 73,
+      "id": 81,
       "image": "IMG_2484.jpeg",
       "imageThumb": "thumb-IMG_2484.webp",
       "altitude": 379,
@@ -966,7 +1138,7 @@
       "distance": 3821
     },
     {
-      "id": 72,
+      "id": 80,
       "image": "IMG_2458.jpeg",
       "imageThumb": "thumb-IMG_2458.webp",
       "altitude": 422,
@@ -987,7 +1159,7 @@
       "distance": 3822
     },
     {
-      "id": 71,
+      "id": 79,
       "image": "IMG_1944.jpeg",
       "imageThumb": "thumb-IMG_1944.webp",
       "altitude": 242,
@@ -1008,7 +1180,7 @@
       "distance": 3830
     },
     {
-      "id": 69,
+      "id": 77,
       "image": "IMG_1889.jpeg",
       "imageThumb": "thumb-IMG_1889.webp",
       "altitude": 96,
@@ -1029,7 +1201,7 @@
       "distance": 3828
     },
     {
-      "id": 68,
+      "id": 70,
       "image": "IMG_1712.jpeg",
       "imageThumb": "thumb-IMG_1712.webp",
       "altitude": 190,
@@ -1154,7 +1326,7 @@
       "distance": 3829
     },
     {
-      "id": 70,
+      "id": 78,
       "image": "IMG_1929.JPG",
       "imageThumb": "thumb-IMG_1929.webp",
       "altitude": 389,
@@ -1670,7 +1842,7 @@
       "distance": 3863
     },
     {
-      "id": 88,
+      "id": 96,
       "image": "IMG_8841.jpeg",
       "imageThumb": "thumb-IMG_8841.webp",
       "altitude": 8,
@@ -1691,7 +1863,7 @@
       "distance": 360
     },
     {
-      "id": 87,
+      "id": 95,
       "image": "IMG_8829.jpeg",
       "imageThumb": "thumb-IMG_8829.webp",
       "altitude": 21,
@@ -1712,7 +1884,7 @@
       "distance": 360
     },
     {
-      "id": 86,
+      "id": 94,
       "image": "IMG_8822.jpeg",
       "imageThumb": "thumb-IMG_8822.webp",
       "altitude": 16,
@@ -1722,17 +1894,18 @@
       "model": "iPhone 11 Pro",
       "latitude": 33.83748333333334,
       "longitude": -78.610925,
-      "geoName": "Unknown",
-      "formattedName": "Unknown, Unknown",
-      "countryCode": "XX",
-      "countryName": "Unknown",
-      "flag": "🏳️",
-      "adminName1": "",
+      "geoName": "North Myrtle Beach",
+      "formattedName": "North Myrtle Beach, South Carolina",
+      "countryCode": "US",
+      "countryName": "United States",
+      "flag": "🇺🇸",
+      "adminName1": "South Carolina",
+      "adminName2": "Horry County",
       "geoDistance": 0,
       "distance": 360
     },
     {
-      "id": 85,
+      "id": 93,
       "image": "IMG_8654.jpg",
       "imageThumb": "thumb-IMG_8654.webp",
       "altitude": 18,
@@ -1753,7 +1926,7 @@
       "distance": 105
     },
     {
-      "id": 84,
+      "id": 92,
       "image": "IMG_8642.jpg",
       "imageThumb": "thumb-IMG_8642.webp",
       "altitude": 25,
@@ -2026,7 +2199,7 @@
       "distance": 259
     },
     {
-      "id": 81,
+      "id": 89,
       "image": "IMG_5684.jpeg",
       "imageThumb": "thumb-IMG_5684.webp",
       "timestamp": "2023-05-28T00:24:21.000Z",
@@ -2046,7 +2219,7 @@
       "distance": 195
     },
     {
-      "id": 80,
+      "id": 88,
       "image": "IMG_5682.jpeg",
       "imageThumb": "thumb-IMG_5682.webp",
       "timestamp": "2023-05-28T00:19:40.000Z",
@@ -2085,6 +2258,126 @@
   "imagesPoints": {
     "type": "FeatureCollection",
     "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.6997,
+            19.80230277777778
+          ]
+        },
+        "properties": {
+          "title": "Puerto Plata, Dominican Republic",
+          "id": 76,
+          "image": "IMG_1833.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.69883611111112,
+            19.798405555555558
+          ]
+        },
+        "properties": {
+          "title": "Puerto Plata, Dominican Republic",
+          "id": 75,
+          "image": "IMG_1816.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.6931,
+            19.79782777777778
+          ]
+        },
+        "properties": {
+          "title": "Puerto Plata, Dominican Republic",
+          "id": 74,
+          "image": "IMG_1802.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.69564166666667,
+            19.80507777777778
+          ]
+        },
+        "properties": {
+          "title": "Puerto Plata, Dominican Republic",
+          "id": 73,
+          "image": "IMG_1783.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.6933138888889,
+            19.798033333333336
+          ]
+        },
+        "properties": {
+          "title": "Puerto Plata, Dominican Republic",
+          "id": 72,
+          "image": "IMG_1753.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.69111666666667,
+            19.799366666666668
+          ]
+        },
+        "properties": {
+          "title": "Puerto Plata, Dominican Republic",
+          "id": 71,
+          "image": "IMG_1745.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.69361944444445,
+            19.798619444444448
+          ]
+        },
+        "properties": {
+          "title": "Puerto Plata, Dominican Republic",
+          "id": 69,
+          "image": "IMG_1700.jpeg"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -70.69425833333334,
+            19.798536111111112
+          ]
+        },
+        "properties": {
+          "title": "Puerto Plata, Dominican Republic",
+          "id": 68,
+          "image": "IMG_1688.jpeg"
+        }
+      },
       {
         "type": "Feature",
         "geometry": {
@@ -2306,7 +2599,7 @@
         },
         "properties": {
           "title": "Abilene, Texas",
-          "id": 96,
+          "id": 104,
           "image": "Resized_20251128_141459.jpeg"
         }
       },
@@ -2321,7 +2614,7 @@
         },
         "properties": {
           "title": "Abilene, Texas",
-          "id": 97,
+          "id": 105,
           "image": "Resized_PSX_20251128_144434.jpeg"
         }
       },
@@ -2336,7 +2629,7 @@
         },
         "properties": {
           "title": "Abilene, Texas",
-          "id": 95,
+          "id": 103,
           "image": "PSX_20251128_143811.jpg"
         }
       },
@@ -2441,7 +2734,7 @@
         },
         "properties": {
           "title": "Central Lombok Regency, Indonesia",
-          "id": 90,
+          "id": 98,
           "image": "IMG_9213.jpeg"
         }
       },
@@ -2456,7 +2749,7 @@
         },
         "properties": {
           "title": "Central Lombok Regency, Indonesia",
-          "id": 89,
+          "id": 97,
           "image": "IMG_9109.jpeg"
         }
       },
@@ -2531,7 +2824,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 94,
+          "id": 102,
           "image": "IMG_9666.JPG"
         }
       },
@@ -2546,7 +2839,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 93,
+          "id": 101,
           "image": "IMG_9661.JPG"
         }
       },
@@ -2561,7 +2854,7 @@
         },
         "properties": {
           "title": "Greater London, United Kingdom",
-          "id": 92,
+          "id": 100,
           "image": "IMG_9658.JPG"
         }
       },
@@ -2576,7 +2869,7 @@
         },
         "properties": {
           "title": "The Power Station, United Kingdom",
-          "id": 91,
+          "id": 99,
           "image": "IMG_9653.JPG"
         }
       },
@@ -2591,7 +2884,7 @@
         },
         "properties": {
           "title": "Newark, Maryland",
-          "id": 83,
+          "id": 91,
           "image": "IMG_8224.JPG"
         }
       },
@@ -2606,7 +2899,7 @@
         },
         "properties": {
           "title": "Newark, Maryland",
-          "id": 82,
+          "id": 90,
           "image": "IMG_8209.JPG"
         }
       },
@@ -2666,7 +2959,7 @@
         },
         "properties": {
           "title": "Parker, Arizona",
-          "id": 79,
+          "id": 87,
           "image": "IMG_3486.jpeg"
         }
       },
@@ -2681,7 +2974,7 @@
         },
         "properties": {
           "title": "Springdale, Utah",
-          "id": 78,
+          "id": 86,
           "image": "IMG_3275.jpeg"
         }
       },
@@ -2696,7 +2989,7 @@
         },
         "properties": {
           "title": "Springdale, Utah",
-          "id": 77,
+          "id": 85,
           "image": "IMG_3196.jpeg"
         }
       },
@@ -2711,7 +3004,7 @@
         },
         "properties": {
           "title": "Boulder City, Nevada",
-          "id": 76,
+          "id": 84,
           "image": "IMG_2982.jpeg"
         }
       },
@@ -2726,7 +3019,7 @@
         },
         "properties": {
           "title": "Boulder City, Nevada",
-          "id": 75,
+          "id": 83,
           "image": "IMG_2973.jpeg"
         }
       },
@@ -2741,7 +3034,7 @@
         },
         "properties": {
           "title": "Versailles, France",
-          "id": 74,
+          "id": 82,
           "image": "IMG_2521.jpeg"
         }
       },
@@ -2756,7 +3049,7 @@
         },
         "properties": {
           "title": "Versailles, France",
-          "id": 73,
+          "id": 81,
           "image": "IMG_2484.jpeg"
         }
       },
@@ -2771,7 +3064,7 @@
         },
         "properties": {
           "title": "Versailles, France",
-          "id": 72,
+          "id": 80,
           "image": "IMG_2458.jpeg"
         }
       },
@@ -2786,7 +3079,7 @@
         },
         "properties": {
           "title": "Panthéon, France",
-          "id": 71,
+          "id": 79,
           "image": "IMG_1944.jpeg"
         }
       },
@@ -2801,7 +3094,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 69,
+          "id": 77,
           "image": "IMG_1889.jpeg"
         }
       },
@@ -2816,7 +3109,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 68,
+          "id": 70,
           "image": "IMG_1712.jpeg"
         }
       },
@@ -2906,7 +3199,7 @@
         },
         "properties": {
           "title": "Paris, France",
-          "id": 70,
+          "id": 78,
           "image": "IMG_1929.JPG"
         }
       },
@@ -3281,7 +3574,7 @@
         },
         "properties": {
           "title": "North Myrtle Beach, South Carolina",
-          "id": 88,
+          "id": 96,
           "image": "IMG_8841.jpeg"
         }
       },
@@ -3296,7 +3589,7 @@
         },
         "properties": {
           "title": "North Myrtle Beach, South Carolina",
-          "id": 87,
+          "id": 95,
           "image": "IMG_8829.jpeg"
         }
       },
@@ -3310,8 +3603,8 @@
           ]
         },
         "properties": {
-          "title": "Unknown, Unknown",
-          "id": 86,
+          "title": "North Myrtle Beach, South Carolina",
+          "id": 94,
           "image": "IMG_8822.jpeg"
         }
       },
@@ -3326,7 +3619,7 @@
         },
         "properties": {
           "title": "Rehoboth Beach, Delaware",
-          "id": 85,
+          "id": 93,
           "image": "IMG_8654.jpg"
         }
       },
@@ -3341,7 +3634,7 @@
         },
         "properties": {
           "title": "Rehoboth Beach, Delaware",
-          "id": 84,
+          "id": 92,
           "image": "IMG_8642.jpg"
         }
       },
@@ -3536,7 +3829,7 @@
         },
         "properties": {
           "title": "Wellsboro, Pennsylvania",
-          "id": 81,
+          "id": 89,
           "image": "IMG_5684.jpeg"
         }
       },
@@ -3551,11 +3844,11 @@
         },
         "properties": {
           "title": "Wellsboro, Pennsylvania",
-          "id": 80,
+          "id": 88,
           "image": "IMG_5682.jpeg"
         }
       }
     ]
   },
-  "distanceTraveled": 53082
+  "distanceTraveled": 53412
 }
