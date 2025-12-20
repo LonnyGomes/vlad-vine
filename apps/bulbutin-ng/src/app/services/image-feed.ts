@@ -2,7 +2,7 @@ import { Injectable, signal } from '@angular/core';
 import { Feature, FeatureCollection } from 'geojson';
 // Import directly from parse-photos static JSON export
 import { imageDataResultsJSON, genGeoJSONPoints, genGeoJSONRoute } from 'parse-photos/shared';
-import { ImageDataResults, ImageResult, Stats } from 'parse-photos/types';
+import { CountryInfo, ImageDataResults, ImageResult, Stats } from 'parse-photos/types';
 
 @Injectable({
   providedIn: 'root',
@@ -76,6 +76,8 @@ export class ImageFeed {
       imageThumb: `${this.photosPath}/${curImg.imageThumb}`,
       timestamp: new Date(curImg.timestamp).toLocaleString(),
     })) as ImageResult[];
+    const filerUnknownCountries = (countries: CountryInfo[]) =>
+      countries.filter((ctry) => ctry.countryCode !== 'XX');
 
     const imagesPoints = genGeoJSONPoints(rawImages);
     this.images.set(processedImages);
@@ -92,7 +94,7 @@ export class ImageFeed {
       },
       totals: {
         images: rawImages.length,
-        countries: jsonResults.countryTotals.length,
+        countries: filerUnknownCountries(jsonResults.countryTotals).length,
         us: jsonResults.usTotals.length,
       },
       countries: jsonResults.countryTotals,
